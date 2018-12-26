@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68D567C9-AD49-48E8-BE37-44541AFF1B99}"
+	ProjectSection(SolutionItems) = preProject
+		solution items\GimErrorHandling.dll = solution items\GimErrorHandling.dll
+		solution items\GimErrorHandling.pdb = solution items\GimErrorHandling.pdb
+		solution items\fr-BE\GimErrorHandling.resources.dll = solution items\fr-BE\GimErrorHandling.resources.dll
+		solution items\GimErrorHandling.xml = solution items\GimErrorHandling.xml
+		solution items\MapinfoDotNetWrapper.dll = solution items\MapinfoDotNetWrapper.dll
+		solution items\MapinfoDotNetWrapper.pdb = solution items\MapinfoDotNetWrapper.pdb
+		solution items\MapinfoDotNetWrapper.XML = solution items\MapinfoDotNetWrapper.XML
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Police-GIS main", "Police-GIS main\Police-GIS main.vbproj", "{9C0B40D2-582E-4A61-A083-9C1FA6C95839}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Police-GIS Core", "Police-GIS Core\Police-GIS Core.vbproj", "{6822F62D-8567-4470-870B-86D813CDC975}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup PoliceGIS", "Setup PoliceGIS\Setup PoliceGIS.vdproj", "{D489D07D-6BDF-4E82-BBAF-63821FF09C4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0B40D2-582E-4A61-A083-9C1FA6C95839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0B40D2-582E-4A61-A083-9C1FA6C95839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0B40D2-582E-4A61-A083-9C1FA6C95839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0B40D2-582E-4A61-A083-9C1FA6C95839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6822F62D-8567-4470-870B-86D813CDC975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6822F62D-8567-4470-870B-86D813CDC975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6822F62D-8567-4470-870B-86D813CDC975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6822F62D-8567-4470-870B-86D813CDC975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D489D07D-6BDF-4E82-BBAF-63821FF09C4E}.Debug|Any CPU.ActiveCfg = Release
+		{D489D07D-6BDF-4E82-BBAF-63821FF09C4E}.Release|Any CPU.ActiveCfg = Release
+		{D489D07D-6BDF-4E82-BBAF-63821FF09C4E}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

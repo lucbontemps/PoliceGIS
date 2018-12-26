@@ -1,0 +1,49 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  File "c:\politie-gis\nol\data\politiegis\islp bestanden\2005.xls"
+  Type XLS Titles
+  Fields 41
+    A Char (17) ;
+    B Char (29) ;
+    C Char (10) ;
+    D Char (8) ;
+    E Char (10) ;
+    F Char (10) ;
+    G Char (25) ;
+    H Char (24) ;
+    I Char (13) ;
+    J Char (7) ;
+    K Char (6) ;
+    L Char (13) ;
+    M Char (7) ;
+    N Char (6) ;
+    O Char (13) ;
+    P Char (7) ;
+    Q Char (6) ;
+    R Char (6) ;
+    S Char (7) ;
+    T Char (6) ;
+    U Char (29) ;
+    V Char (30) ;
+    W Char (6) ;
+    X Char (20) ;
+    Y Char (1) ;
+    Z Char (1) ;
+    AA Char (1) ;
+    AB Char (1) ;
+    AC Char (1) ;
+    AD Char (1) ;
+    AE Char (1) ;
+    AF Char (1) ;
+    AG Char (1) ;
+    AH Char (1) ;
+    AI Char (1) ;
+    AJ Char (1) ;
+    AK Char (1) ;
+    AL Char (1) ;
+    AM Char (1) ;
+    AN Char (1) ;
+    AO Char (1) ;

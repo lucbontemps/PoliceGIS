@@ -1,0 +1,16 @@
+!table
+!version 410
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 9
+    lineID Integer ;
+    voertuig Char (50) ;
+    gevolg Char (50) ;
+    Lichtgesteldheid Char (50) ;
+    Omstandigheden_van_het_voertui Char (50) ;
+    pedestrian Logical ;
+    outcome Integer ;
+    light_cond Integer ;
+    motion_state Integer ;

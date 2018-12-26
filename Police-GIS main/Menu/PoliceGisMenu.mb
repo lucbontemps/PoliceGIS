@@ -1,0 +1,443 @@
+'******************************************************************************
+' File: PoliceGisMenu.mb - menu in MapInfo Professional for Police GIS
+' Project: Politie GIS - OP06023B
+' Authors: Michael Vanderhoydonk (original author)
+'          Johan Schreurs (maintenance)
+'          Peter Nuyts (maintenance)
+' Company: GIM Geographic Information Management nv
+' Date of last update:
+' $Date: 2008/08/18 17:04:57 $
+' $Revision: 1.81 $
+' $Id: MapGeneratorGUI.mb,v 1.81 2008/08/18 17:04:57 johans Exp $
+'******************************************************************************
+Include "ICONS.DEF"
+
+Declare Sub Main()
+Declare Sub AddApplMenu()
+Declare Sub ExitApplication()
+Declare Sub EndHandler
+
+Declare Method ShowAboutBox
+	Class "Gim.PoliceGis.ShowAboutBoxAction"
+	lib "PoliceGis.dll" ()
+	
+Declare Method ShowStartAboutBox
+	Class "Gim.PoliceGis.ShowAboutBoxAction"
+	lib "PoliceGis.dll" ()
+	
+Declare Method CloseAboutBox
+	Class "Gim.PoliceGis.ShowAboutBoxAction"
+	lib "PoliceGis.dll" ()
+	
+		
+Declare Method StartTrafficAnalysis
+	Class "Gim.PoliceGis.StartAnalysisAction"
+	lib "PoliceGis.dll" ()
+		
+Declare Method StartCrimeAnalysis
+	Class "Gim.PoliceGis.StartAnalysisAction"
+	lib "PoliceGis.dll" ()
+	
+Declare Method StartGrouping
+	Class "Gim.PoliceGis.StartGroupingAction"
+	lib "PoliceGis.dll" ()
+
+Declare Method StartGeoCoding
+	Class "Gim.PoliceGis.StartGeoCodingAction"
+	lib "PoliceGis.dll" ()
+	
+Declare Method BlackPointToolHandler
+	Class "Gim.PoliceGis.StartBlackPointAnalysis"
+	lib "PoliceGis.dll" ()	
+
+Declare Method ChangeBuffer
+	Class "Gim.PoliceGis.StartBlackPointAnalysis"
+	lib "PoliceGis.dll" ()	
+	
+Declare Method SaveTable
+	Class "Gim.PoliceGis.StartBlackPointAnalysis"
+	lib "PoliceGis.dll" ()	
+	
+Declare Method DrawPieChartsOnCrossRoads
+	Class "Gim.PoliceGis.StartBlackPointAnalysis"
+	lib "PoliceGis.dll" ()	
+	
+Declare Sub SetWindowText Lib "User32" Alias "SetWindowTextA"
+    (ByVal hWnd as Integer, ByVal Str as string)
+    
+Declare Method StartConfiguration
+	Class "Gim.PoliceGis.StartConfiguration"
+	lib "PoliceGis.dll" () 
+
+Declare Method GetLanguage
+	Class "Gim.PoliceGis.StartConfiguration"
+	lib "PoliceGis.dll" () as string
+
+Declare function GetActiveWindow Lib "User32" () as Integer
+
+Declare Sub Wait(byVal iSeconds as Integer)
+Declare Sub OpenGUIGeocode
+Declare Sub OpenGUIGrouping
+Declare Sub OpenGUIMapGeneratorTraffic	
+Declare Sub OpenGUIMapGeneratorCrime
+Declare Sub OpenGUIConfiguration	
+Declare Sub OpenAboutBox
+Declare Sub BlackPointHandler
+Declare Sub DrawPiesOnBlackPoints
+Declare Sub ChangeBufferPoint
+Declare Sub SaveBlackPointTable
+Declare Sub GimErrorHandler(ByVal msg As String)
+Declare Sub SetMIWinText
+
+'''=================================================================================================
+''' Defines for internal use of module
+'''=================================================================================================
+
+DEFINE LIBRARY_NAME "Menu"
+
+''' Application version 
+''' updated via makefile
+Define PGIS_APPL_VERSION "2.5.0"
+
+''' Application version 
+''' updated via makefile
+Define PGIS_RELEASE_DATE "18-08-2009"
+
+
+' Items in the menu for Police GIS
+DEFINE MENUITEM_LOADISLP		1
+DEFINE MENUITEM_GROUPING		2
+DEFINE MENUITEM_ANALYSIS		3
+DEFINE MENUITEM_TRAFFIC			4
+DEFINE MENUITEM_CRIME			5
+DEFINE BUTTON_BLACKPOINT        6
+DEFINE BUTTON_DRAWPIES          7
+DEFINE BUTTON_CHANGEBP          8
+DEFINE BUTTON_SAVEBP            9
+'''=================================================================================================
+''' Implementation of routines and functions
+'''=================================================================================================
+
+'''------------------------------------------------------------------------------
+''' Application startup, menu items and initialization.
+'''------------------------------------------------------------------------------
+Sub Main()
+
+	OnError GOTO ERROR_TRAP
+	call SetMIWinText
+	' Check the platform before you try anything else.
+	' Some code needs ini files and win32 functions to initialize.
+	' If SystemInfo(SYS_INFO_PLATFORM) <> PLATFORM_WIN Then
+		
+		' '''
+		' ''' ATTENTION:
+		' '''
+		' ''' This error message is NOT translatable. It MUST remain hard coded so we can 
+		' ''' ALWAYS show it, even when the program can't read any configuration files.
+		' '''
+		' Call GimErrorHandler("Police GIS only supports Microsoft Windows. This machine runs an operating system we don't support.")
+		
+	' End If
+	
+	Call ShowStartAboutBox
+	
+	call Wait(5)
+	
+	
+	'--------------------------------------------------------
+	'Add application menu to the menu Bar.
+	'--------------------------------------------------------
+	Call AddApplMenu()
+	
+	Call CloseAboutBox
+
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+
+'------------------------------------------------------------------------------
+' Create the menu item for this application.
+'------------------------------------------------------------------------------
+Sub AddApplMenu
+
+	OnError GOTO ERROR_TRAP
+	
+	Dim menuNamePoliceGIS as String
+	Dim menuNameAnalysis as String
+	Dim menuItemLoadISLP as String 
+	Dim menuItemGrouping as String
+	Dim menuItemAnalyse as String
+	Dim menuItemTrafficAnalysis as String
+	Dim menuItemCrimeAnalysis as String
+	Dim menuItemAbout as String
+	Dim menuItemExit as String
+	Dim buttonhelpMsgBlackPoint as string
+	Dim buttonhelpMsgChangeBuffer as string
+	Dim buttonhelpMsgSavePoints as string
+	Dim buttonPadTitleBlackPoint as string
+	Dim buttonhelpMsgDrawPies as string
+	Dim menuItemConfiguration as string
+	dim language as string
+	
+	if 	GetLanguage () = "nl" Then
+	
+	menuNamePoliceGIS="PolitieGI&S" 
+	menuNameAnalysis="&Analyse..."
+	
+	menuItemLoadISLP="&Inladen ISLP gegevens"
+	menuItemGrouping="&Groeperen feiten..."
+	menuItemTrafficAnalysis="&Verkeersanalyse"
+	menuItemCrimeAnalysis="&Criminaliteitsanalyse"
+	menuItemConfiguration = "Configuratie..."
+	menuItemAbout="A&bout..."
+	menuItemExit="&Exit"
+	buttonhelpMsgBlackPoint="Voeg een zwart punt toe\nToevoegen zwart punt" 
+	buttonhelpMsgDrawPies ="Maak taart diagram aan\nUitvoeren analyse" 
+	buttonhelpMsgChangeBuffer="Wijzig buffer afstand\nWijzig buffer afstand"
+	buttonhelpMsgSavePoints ="Bewaar punten\nBewaar punten"
+	buttonPadTitleBlackPoint = "Zwarte Punten"
+	
+	Else
+	
+	menuNamePoliceGIS="PoliceGI&S" 
+	menuNameAnalysis="&Analyse..."
+	
+	menuItemLoadISLP="&Chargement des données ISLP"
+	menuItemGrouping="&Grouper des faits..."
+	menuItemTrafficAnalysis="&Analyse du trafic"
+	menuItemCrimeAnalysis="&Analyse de la criminalité"
+	menuItemConfiguration = "Configuration..."
+	menuItemAbout="A propos de..."
+	menuItemExit="&Quitter"
+	buttonhelpMsgBlackPoint="Ajouter un point noir\nAjouter un point noir" 
+	buttonhelpMsgChangeBuffer="Change zone tampon\nChange zone tampon"
+	buttonhelpMsgDrawPies ="Créer un diagramme\nEffectuer l'analyse" 
+	buttonhelpMsgSavePoints ="Sauvegarder points\nSauvegarder points"
+	buttonPadTitleBlackPoint = "Points noirs"
+	
+	End If
+	
+
+	
+	Create Menu menuNameAnalysis  as 
+		menuItemTrafficAnalysis ID MENUITEM_TRAFFIC Calling OpenGUIMapGeneratorTraffic,
+		menuItemCrimeAnalysis   ID MENUITEM_CRIME   Calling OpenGUIMapGeneratorCrime
+		
+	Create Menu menuNamePoliceGIS as 
+		menuItemLoadISLP ID MENUITEM_LOADISLP Calling OpenGUIGeocode,
+		menuItemGrouping ID  MENUITEM_GROUPING Calling OpenGUIGrouping,
+		menuItemAnalyse  as menuNameAnalysis,
+		"(-" ,
+		menuItemConfiguration Calling OpenGUIConfiguration,
+		menuItemAbout Calling OpenAboutBox,
+		menuItemExit  Calling ExitApplication
+		
+	Alter Menu Item OpenGUIGeocode 
+	Alter Menu Bar Add menuNamePoliceGIS
+		
+
+	Create ButtonPad buttonPadTitleBlackPoint As 	
+
+		ToolButton ID BUTTON_BLACKPOINT
+			Calling BlackPointHandler
+			HelpMsg buttonhelpMsgBlackPoint 
+			Icon MI_ICON_CROSSHAIR
+			Cursor MI_CURSOR_CROSSHAIR
+			Enable 	
+		PushButton ID BUTTON_DRAWPIES 
+			Calling DrawPiesOnBlackPoints 
+			Icon MI_ICON_SIGNS_1 
+			HelpMsg buttonhelpMsgDrawPies 
+			Disable		
+		PushButton ID BUTTON_CHANGEBP
+			Calling ChangeBufferPoint
+			HelpMsg buttonhelpMsgChangeBuffer
+			Icon MI_ICON_SEARCH_RADIUS 
+			Enable 	
+		PushButton ID BUTTON_SAVEBP
+			Calling SaveBlackPointTable
+			HelpMsg buttonhelpMsgSavePoints
+			Icon MI_ICON_MB_2 
+			Enable 	
+		Width 4
+		Float
+
+		ToolbarPosition(0,100) Show Fixed
+
+
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub Wait(byVal iSeconds as Integer)
+Dim iEnd as Integer
+
+iEnd = Timer() + iSeconds
+
+Do while Timer() < iEnd
+'whatever
+Loop
+
+End Sub
+
+  Sub SetMIWinText
+  
+  	OnError Goto ERROR_TRAP
+  	
+    Dim Win As Integer
+    
+    Win = GetActiveWindow()
+   if 	GetLanguage () = "nl" Then
+    Call SetWindowText(Win,"GIM PolitieGIS")
+	else
+	 Call SetWindowText(Win,"GIM PoliceGIS")
+	end if
+    DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+  End Sub
+
+
+
+Sub OpenGUIGeocode				
+
+	OnError Goto ERROR_TRAP
+	
+	Call StartGeocoding
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub OpenGUIGrouping
+
+	OnError Goto ERROR_TRAP
+	
+	Call StartGrouping
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub OpenGUIMapGeneratorTraffic	
+
+	OnError Goto ERROR_TRAP
+	
+	Call StartTrafficAnalysis
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub OpenGUIMapGeneratorCrime	
+
+	OnError Goto ERROR_TRAP
+	Call StartCrimeAnalysis
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub OpenGUIConfiguration		
+
+	OnError Goto ERROR_TRAP
+	Call StartConfiguration
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub OpenAboutBox			
+
+	OnError Goto ERROR_TRAP
+	Call ShowAboutBox
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub BlackPointHandler			
+
+	OnError Goto ERROR_TRAP
+	Call BlackPointToolHandler
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub ChangeBufferPoint			
+
+	OnError Goto ERROR_TRAP
+	Call ChangeBuffer
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub SaveBlackPointTable			
+
+	OnError Goto ERROR_TRAP
+	Call SaveTable
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+Sub DrawPiesOnBlackPoints			
+
+	OnError Goto ERROR_TRAP
+	Call DrawPieChartsOnCrossRoads
+	
+DONE:
+	Exit Sub
+ERROR_TRAP:
+	Call GimErrorHandler(Error$())
+End Sub
+
+
+
+Sub GimErrorHandler(ByVal msg As String)
+
+	Note msg
+	Print "Error: " & Chr$(10) & msg
+	End Program
+	
+End Sub
+
+'------------------------------------------------------------------------------
+' Exit the application. 
+' Mapinfo will stay open but PolitieGIS will not be availabe for 
+' the rest of this session
+'------------------------------------------------------------------------------
+Sub ExitApplication
+	End Program
+End Sub
+
+
+Sub EndHandler
+	Call ExitApplication
+End Sub

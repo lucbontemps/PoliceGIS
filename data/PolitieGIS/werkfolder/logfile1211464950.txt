@@ -1,0 +1,2146 @@
+
+===================================================
+Log opened at time (dd/mm/yyyy hh:mm:ss) 22/05/2008 16:02:29
+===================================================
+
+Gemeente: m_columnTypes(1) = Char(17)
+Straat: m_columnTypes(2) = Char(29)
+Datum: m_columnTypes(3) = Char(10)
+Tijd: m_columnTypes(4) = Char(8)
+Nr.: m_columnTypes(5) = Char(10)
+Hecto: m_columnTypes(6) = Char(10)
+Kruispunt met: m_columnTypes(7) = Char(25)
+Info: m_columnTypes(8) = Char(24)
+Best.1: m_columnTypes(9) = Char(13)
+Leeft.1: m_columnTypes(10) = Char(7)
+Gesl.1: m_columnTypes(11) = Char(6)
+Best.2: m_columnTypes(12) = Char(13)
+Leeft.2: m_columnTypes(13) = Char(7)
+Gesl.2: m_columnTypes(14) = Char(6)
+Best.3: m_columnTypes(15) = Char(13)
+Leeft.3: m_columnTypes(16) = Char(7)
+Gesl.3: m_columnTypes(17) = Char(6)
+Best.4: m_columnTypes(18) = Char(6)
+Leeft.4: m_columnTypes(19) = Char(7)
+Gesl.4: m_columnTypes(20) = Char(6)
+Ongevalsfactoren: m_columnTypes(21) = Char(29)
+Type aanrijding: m_columnTypes(22) = Char(30)
+Gevolg: m_columnTypes(23) = Char(6)
+PV nr.: m_columnTypes(24) = Char(20)
+_: m_columnTypes(25) = Char(1)
+_: m_columnTypes(26) = Char(1)
+_: m_columnTypes(27) = Char(1)
+_: m_columnTypes(28) = Char(1)
+_: m_columnTypes(29) = Char(1)
+_: m_columnTypes(30) = Char(1)
+_: m_columnTypes(31) = Char(1)
+_: m_columnTypes(32) = Char(1)
+_: m_columnTypes(33) = Char(1)
+_: m_columnTypes(34) = Char(1)
+_: m_columnTypes(35) = Char(1)
+_: m_columnTypes(36) = Char(1)
+_: m_columnTypes(37) = Char(1)
+_: m_columnTypes(38) = Char(1)
+_: m_columnTypes(39) = Char(1)
+_: m_columnTypes(40) = Char(1)
+_: m_columnTypes(41) = Char(1)
+Enter GetColumnPosition(straat)
+  geocodingSettings.ExcelColumnNames(1) = Gemeente
+  geocodingSettings.ExcelColumnNames(2) = Straat
+  result = 2
+Enter GetColumnPosition(nr.)
+  geocodingSettings.ExcelColumnNames(1) = Gemeente
+  geocodingSettings.ExcelColumnNames(2) = Straat
+  geocodingSettings.ExcelColumnNames(3) = Datum
+  geocodingSettings.ExcelColumnNames(4) = Tijd
+  geocodingSettings.ExcelColumnNames(5) = Nr.
+  result = 5
+Enter GetColumnPosition(kruispunt met)
+  geocodingSettings.ExcelColumnNames(1) = Gemeente
+  geocodingSettings.ExcelColumnNames(2) = Straat
+  geocodingSettings.ExcelColumnNames(3) = Datum
+  geocodingSettings.ExcelColumnNames(4) = Tijd
+  geocodingSettings.ExcelColumnNames(5) = Nr.
+  geocodingSettings.ExcelColumnNames(6) = Hecto
+  geocodingSettings.ExcelColumnNames(7) = Kruispunt met
+  result = 7
+Enter GetColumnPosition(hecto)
+  geocodingSettings.ExcelColumnNames(1) = Gemeente
+  geocodingSettings.ExcelColumnNames(2) = Straat
+  geocodingSettings.ExcelColumnNames(3) = Datum
+  geocodingSettings.ExcelColumnNames(4) = Tijd
+  geocodingSettings.ExcelColumnNames(5) = Nr.
+  geocodingSettings.ExcelColumnNames(6) = Hecto
+  result = 6
+Enter GetColumnPosition(gemeente)
+  geocodingSettings.ExcelColumnNames(1) = Gemeente
+  result = 1
+
+In GIM_lib.TableIsOpen(test_new_folder_struct)
+Exit GIM_lib.TableIsOpen, result = F
+
+
+In GIM_lib.TableIsOpen(test_new_folder_struct)
+Exit GIM_lib.TableIsOpen, result = F
+
+
+========================== 
+In StartGeocoding: 
+========================== 
+Parameters:
+------------------------------------------
+theFileSettings: 
+iniFile:      C:\Politie-GIS\NOL\config\config.ini
+dataFolder:   C:\Politie-GIS\NOL\data\PolitieGIS
+inputFolder:  C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden
+outputFolder: C:\Politie-GIS\NOL\data\PolitieGIS\resultaat
+workFolder:   C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder
+exportFolder: C:\Politie-GIS\NOL\data\PolitieGIS\resultaat
+
+geocSettings: 
+enableModule: T
+workspace: C:\Politie-GIS\NOL\data\PolitieGIS\workspaces\Noordoost Limburg.wor
+locStreetGeocoding: C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\NOL_gc.TAB
+locAdminBorders: C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\NOL_a8.TAB
+locStreetlength: C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\NOL_gc.TAB
+locAddressPoints: 
+locHectoMeterPoles: 
+addressPointsEnabled: F
+hectoMeterPolesEnabled: F
+addressNotFoundtable: Niet_gevonden_ongevallen
+addressPtsStreetCol: 
+addressPtsNumberCol: 
+addressPtsCommuneCol: 
+hmpHectoMeterCol: 
+hmpRouteCol: 
+streetNameField: FULLNAME
+adminBordersNameCol: NAME
+inputFile: C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden\2005.xls
+outputTable: test_new_folder_struct
+colIndexStreet: 2
+colNameStreet: straat
+colIndexHouseNumber: 5
+colNameHouseNumberDefault: nr.
+colIndexStreet: 7
+colNameStreet: kruispunt met
+searchIntersections: T
+colIndexHectometer: -1
+colNameHectometerDefault: hecto
+searchHectormeterPoles: F
+colIndexCommune: 1
+colNameCommuneDefault: gemeente
+markerOffset: 1
+markerOffsetDefault: 1
+maxStreetLength: -1
+maxStreetLengthDefault: -1
+streetCommuneFields: 
+   1: L_AXON
+   1: Gemeente
+   2: Straat
+   3: Datum
+   4: Tijd
+   5: Nr.
+   6: Hecto
+   7: Kruispunt met
+   8: Info
+   9: Best.1
+   10: Leeft.1
+   11: Gesl.1
+   12: Best.2
+   13: Leeft.2
+   14: Gesl.2
+   15: Best.3
+   16: Leeft.3
+   17: Gesl.3
+   18: Best.4
+   19: Leeft.4
+   20: Gesl.4
+   21: Ongevalsfactoren
+   22: Type aanrijding
+   23: Gevolg
+   24: PV nr.
+   25: _
+   26: _
+   27: _
+   28: _
+   29: _
+   30: _
+   31: _
+   32: _
+   33: _
+   34: _
+   35: _
+   36: _
+   37: _
+   38: _
+   39: _
+   40: _
+   41: _
+   1: Char(17)
+   2: Char(29)
+   3: Char(10)
+   4: Char(8)
+   5: Char(10)
+   6: Char(10)
+   7: Char(25)
+   8: Char(24)
+   9: Char(13)
+   10: Char(7)
+   11: Char(6)
+   12: Char(13)
+   13: Char(7)
+   14: Char(6)
+   15: Char(13)
+   16: Char(7)
+   17: Char(6)
+   18: Char(6)
+   19: Char(7)
+   20: Char(6)
+   21: Char(29)
+   22: Char(30)
+   23: Char(6)
+   24: Char(20)
+   25: Char(1)
+   26: Char(1)
+   27: Char(1)
+   28: Char(1)
+   29: Char(1)
+   30: Char(1)
+   31: Char(1)
+   32: Char(1)
+   33: Char(1)
+   34: Char(1)
+   35: Char(1)
+   36: Char(1)
+   37: Char(1)
+   38: Char(1)
+   39: Char(1)
+   40: Char(1)
+   41: Char(1)
+
+------------------------------------------
+opening workspace 'C:\Politie-GIS\NOL\data\PolitieGIS\workspaces\Noordoost Limburg.wor'
+
+In RegisterInputFile
+registerCmd = Register Table "C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden\2005.xls" TYPE "XLS" Into "C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder\TEMPMAP.TAB"
+table registered
+commitCmd = Commit Table "TEMPMAP" as "C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden\test_new_folder_struct.TAB"
+Opening Table C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden\test_new_folder_struct.TAB
+In NumValuesInColumn(test_new_folder_struct, COL1, tempNumValues)
+Exit NumValuesInColumn, result = 5
+colName = A, numVals = 5
+In NumValuesInColumn(test_new_folder_struct, COL2, tempNumValues)
+Exit NumValuesInColumn, result = 198
+colName = B, numVals = 198
+In NumValuesInColumn(test_new_folder_struct, COL3, tempNumValues)
+Exit NumValuesInColumn, result = 309
+colName = C, numVals = 309
+In NumValuesInColumn(test_new_folder_struct, COL4, tempNumValues)
+Exit NumValuesInColumn, result = 245
+colName = D, numVals = 245
+In NumValuesInColumn(test_new_folder_struct, COL5, tempNumValues)
+Exit NumValuesInColumn, result = 126
+colName = E, numVals = 126
+In NumValuesInColumn(test_new_folder_struct, COL6, tempNumValues)
+Exit NumValuesInColumn, result = 71
+colName = F, numVals = 71
+In NumValuesInColumn(test_new_folder_struct, COL7, tempNumValues)
+Exit NumValuesInColumn, result = 144
+colName = G, numVals = 144
+In NumValuesInColumn(test_new_folder_struct, COL8, tempNumValues)
+Exit NumValuesInColumn, result = 85
+colName = H, numVals = 85
+In NumValuesInColumn(test_new_folder_struct, COL9, tempNumValues)
+Exit NumValuesInColumn, result = 12
+colName = I, numVals = 12
+In NumValuesInColumn(test_new_folder_struct, COL10, tempNumValues)
+Exit NumValuesInColumn, result = 8
+colName = J, numVals = 8
+In NumValuesInColumn(test_new_folder_struct, COL11, tempNumValues)
+Exit NumValuesInColumn, result = 4
+colName = K, numVals = 4
+In NumValuesInColumn(test_new_folder_struct, COL12, tempNumValues)
+Exit NumValuesInColumn, result = 10
+colName = L, numVals = 10
+In NumValuesInColumn(test_new_folder_struct, COL13, tempNumValues)
+Exit NumValuesInColumn, result = 8
+colName = M, numVals = 8
+In NumValuesInColumn(test_new_folder_struct, COL14, tempNumValues)
+Exit NumValuesInColumn, result = 4
+colName = N, numVals = 4
+In NumValuesInColumn(test_new_folder_struct, COL15, tempNumValues)
+Exit NumValuesInColumn, result = 5
+colName = O, numVals = 5
+In NumValuesInColumn(test_new_folder_struct, COL16, tempNumValues)
+Exit NumValuesInColumn, result = 5
+colName = P, numVals = 5
+In NumValuesInColumn(test_new_folder_struct, COL17, tempNumValues)
+Exit NumValuesInColumn, result = 3
+colName = Q, numVals = 3
+In NumValuesInColumn(test_new_folder_struct, COL18, tempNumValues)
+Exit NumValuesInColumn, result = 2
+colName = R, numVals = 2
+In NumValuesInColumn(test_new_folder_struct, COL19, tempNumValues)
+Exit NumValuesInColumn, result = 2
+colName = S, numVals = 2
+In NumValuesInColumn(test_new_folder_struct, COL20, tempNumValues)
+Exit NumValuesInColumn, result = 2
+colName = T, numVals = 2
+In NumValuesInColumn(test_new_folder_struct, COL21, tempNumValues)
+Exit NumValuesInColumn, result = 27
+colName = U, numVals = 27
+In NumValuesInColumn(test_new_folder_struct, COL22, tempNumValues)
+Exit NumValuesInColumn, result = 17
+colName = V, numVals = 17
+In NumValuesInColumn(test_new_folder_struct, COL23, tempNumValues)
+Exit NumValuesInColumn, result = 4
+colName = W, numVals = 4
+In NumValuesInColumn(test_new_folder_struct, COL24, tempNumValues)
+Exit NumValuesInColumn, result = 302
+colName = X, numVals = 302
+In NumValuesInColumn(test_new_folder_struct, COL25, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = Y, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL26, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = Z, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL27, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AA, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL28, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AB, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL29, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AC, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL30, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AD, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL31, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AE, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL32, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AF, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL33, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AG, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL34, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AH, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL35, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AI, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL36, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AJ, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL37, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AK, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL38, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AL, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL39, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AM, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL40, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AN, numVals = 0
+In NumValuesInColumn(test_new_folder_struct, COL41, tempNumValues)
+Exit NumValuesInColumn, result = 0
+colName = AO, numVals = 0
+emptyColumns after removing trailing ',' = Y,Z,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK,AL,AM,AN,AO
+running dropCommand: Alter Table test_new_folder_struct(drop Y,Z,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK,AL,AM,AN,AO ) Interactive
+Commit Table test_new_folder_struct
+finished RegisterInputFile
+
+
+In RestructureTableForGeocoding
+as_columnTypes(1) = Char(17)
+as_columnTypes(2) = Char(29)
+as_columnTypes(3) = Char(10)
+as_columnTypes(4) = Char(8)
+as_columnTypes(5) = Char(10)
+as_columnTypes(6) = Char(10)
+as_columnTypes(7) = Char(25)
+as_columnTypes(8) = Char(24)
+as_columnTypes(9) = Char(13)
+as_columnTypes(10) = Char(7)
+as_columnTypes(11) = Char(6)
+as_columnTypes(12) = Char(13)
+as_columnTypes(13) = Char(7)
+as_columnTypes(14) = Char(6)
+as_columnTypes(15) = Char(13)
+as_columnTypes(16) = Char(7)
+as_columnTypes(17) = Char(6)
+as_columnTypes(18) = Char(6)
+as_columnTypes(19) = Char(7)
+as_columnTypes(20) = Char(6)
+as_columnTypes(21) = Char(29)
+as_columnTypes(22) = Char(30)
+as_columnTypes(23) = Char(6)
+as_columnTypes(24) = Char(20)
+
+In RenameColumnNamesByFirstRow
+RenameColumnNamesByFirstRow: 
+s_newColName = Gemeente
+s_oldColName = A
+
+Alter Table s_tableName ( rename A Gemeente) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Straat
+s_oldColName = B
+
+Alter Table s_tableName ( rename B Straat) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Datum
+s_oldColName = C
+
+Alter Table s_tableName ( rename C Datum) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Tijd
+s_oldColName = D
+
+Alter Table s_tableName ( rename D Tijd) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Nr_
+s_oldColName = E
+
+Alter Table s_tableName ( rename E Nr_) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Hecto
+s_oldColName = F
+
+Alter Table s_tableName ( rename F Hecto) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Kruispunt_met
+s_oldColName = G
+
+Alter Table s_tableName ( rename G Kruispunt_met) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Info
+s_oldColName = H
+
+Alter Table s_tableName ( rename H Info) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Best_1
+s_oldColName = I
+
+Alter Table s_tableName ( rename I Best_1) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Leeft_1
+s_oldColName = J
+
+Alter Table s_tableName ( rename J Leeft_1) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Gesl_1
+s_oldColName = K
+
+Alter Table s_tableName ( rename K Gesl_1) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Best_2
+s_oldColName = L
+
+Alter Table s_tableName ( rename L Best_2) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Leeft_2
+s_oldColName = M
+
+Alter Table s_tableName ( rename M Leeft_2) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Gesl_2
+s_oldColName = N
+
+Alter Table s_tableName ( rename N Gesl_2) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Best_3
+s_oldColName = O
+
+Alter Table s_tableName ( rename O Best_3) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Leeft_3
+s_oldColName = P
+
+Alter Table s_tableName ( rename P Leeft_3) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Gesl_3
+s_oldColName = Q
+
+Alter Table s_tableName ( rename Q Gesl_3) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Best_4
+s_oldColName = R
+
+Alter Table s_tableName ( rename R Best_4) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Leeft_4
+s_oldColName = S
+
+Alter Table s_tableName ( rename S Leeft_4) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Gesl_4
+s_oldColName = T
+
+Alter Table s_tableName ( rename T Gesl_4) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Ongevalsfactoren
+s_oldColName = U
+
+Alter Table s_tableName ( rename U Ongevalsfactoren) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Type_aanrijding
+s_oldColName = V
+
+Alter Table s_tableName ( rename V Type_aanrijding) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = Gevolg
+s_oldColName = W
+
+Alter Table s_tableName ( rename W Gevolg) Interactive
+RenameColumnNamesByFirstRow: 
+s_newColName = PV_nr_
+s_oldColName = X
+
+Alter Table s_tableName ( rename X PV_nr_) Interactive
+Finished RenameColumnNamesByFirstRow
+
+Description of table test_new_folder_struct: 
+column nr 1, name: Gemeente type: Char(17)
+column nr 2, name: Straat type: Char(29)
+column nr 3, name: Datum type: Char(10)
+column nr 4, name: Tijd type: Char(8)
+column nr 5, name: Nr_ type: Char(10)
+column nr 6, name: Hecto type: Char(10)
+column nr 7, name: Kruispunt_met type: Char(25)
+column nr 8, name: Info type: Char(24)
+column nr 9, name: Best_1 type: Char(13)
+column nr 10, name: Leeft_1 type: Char(7)
+column nr 11, name: Gesl_1 type: Char(6)
+column nr 12, name: Best_2 type: Char(13)
+column nr 13, name: Leeft_2 type: Char(7)
+column nr 14, name: Gesl_2 type: Char(6)
+column nr 15, name: Best_3 type: Char(13)
+column nr 16, name: Leeft_3 type: Char(7)
+column nr 17, name: Gesl_3 type: Char(6)
+column nr 18, name: Best_4 type: Char(6)
+column nr 19, name: Leeft_4 type: Char(7)
+column nr 20, name: Gesl_4 type: Char(6)
+column nr 21, name: Ongevalsfactoren type: Char(29)
+column nr 22, name: Type_aanrijding type: Char(30)
+column nr 23, name: Gevolg type: Char(6)
+column nr 24, name: PV_nr_ type: Char(20)
+column nr 25, name: xcoord type: Float
+column nr 26, name: ycoord type: Float
+column nr 27, name: adres type: Char(254)
+column nr 28, name: geocodeStatus type: Char(20)
+
+Saving table test_new_folder_struct.
+Going to update contents of time columns
+
+In GIM_lib.TableIsOpen(IllegalHours)
+Exit GIM_lib.TableIsOpen, result = F
+
+illegalHoursTable: IllegalHours
+
+In GIM_lib.TableIsOpen(IllegalHoursTemp)
+Exit GIM_lib.TableIsOpen, result = F
+
+illegalHoursTempTable: IllegalHoursTemp
+Entering SaveAndOpenAsBaseTable(C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder, IllegalHoursTemp)
+s_destinationFile = C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder\IllegalHoursTemp.TAB
+s_sourceFile      = 
+Exiting SaveAndOpenAsBaseTable(C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder, IllegalHoursTemp)
+Finished updating contents of time columns
+updating column types to type set by user.
+tp = 1
+Going to update type of column 1
+Running command Alter Table test_new_folder_struct ( Modify Gemeente Char(17) ) 
+type of column 1 updated
+tp = 2
+Going to update type of column 2
+Running command Alter Table test_new_folder_struct ( Modify Straat Char(29) ) 
+type of column 2 updated
+tp = 3
+Going to update type of column 3
+Running command Alter Table test_new_folder_struct ( Modify Datum Char(10) ) 
+type of column 3 updated
+tp = 4
+Going to update type of column 4
+Running command Alter Table test_new_folder_struct ( Modify Tijd Char(8) ) 
+type of column 4 updated
+tp = 5
+Going to update type of column 5
+Running command Alter Table test_new_folder_struct ( Modify Nr_ Char(10) ) 
+type of column 5 updated
+tp = 6
+Going to update type of column 6
+Running command Alter Table test_new_folder_struct ( Modify Hecto Char(10) ) 
+type of column 6 updated
+tp = 7
+Going to update type of column 7
+Running command Alter Table test_new_folder_struct ( Modify Kruispunt_met Char(25) ) 
+type of column 7 updated
+tp = 8
+Going to update type of column 8
+Running command Alter Table test_new_folder_struct ( Modify Info Char(24) ) 
+type of column 8 updated
+tp = 9
+Going to update type of column 9
+Running command Alter Table test_new_folder_struct ( Modify Best_1 Char(13) ) 
+type of column 9 updated
+tp = 10
+Going to update type of column 10
+Running command Alter Table test_new_folder_struct ( Modify Leeft_1 Char(7) ) 
+type of column 10 updated
+tp = 11
+Going to update type of column 11
+Running command Alter Table test_new_folder_struct ( Modify Gesl_1 Char(6) ) 
+type of column 11 updated
+tp = 12
+Going to update type of column 12
+Running command Alter Table test_new_folder_struct ( Modify Best_2 Char(13) ) 
+type of column 12 updated
+tp = 13
+Going to update type of column 13
+Running command Alter Table test_new_folder_struct ( Modify Leeft_2 Char(7) ) 
+type of column 13 updated
+tp = 14
+Going to update type of column 14
+Running command Alter Table test_new_folder_struct ( Modify Gesl_2 Char(6) ) 
+type of column 14 updated
+tp = 15
+Going to update type of column 15
+Running command Alter Table test_new_folder_struct ( Modify Best_3 Char(13) ) 
+type of column 15 updated
+tp = 16
+Going to update type of column 16
+Running command Alter Table test_new_folder_struct ( Modify Leeft_3 Char(7) ) 
+type of column 16 updated
+tp = 17
+Going to update type of column 17
+Running command Alter Table test_new_folder_struct ( Modify Gesl_3 Char(6) ) 
+type of column 17 updated
+tp = 18
+Going to update type of column 18
+Running command Alter Table test_new_folder_struct ( Modify Best_4 Char(6) ) 
+type of column 18 updated
+tp = 19
+Going to update type of column 19
+Running command Alter Table test_new_folder_struct ( Modify Leeft_4 Char(7) ) 
+type of column 19 updated
+tp = 20
+Going to update type of column 20
+Running command Alter Table test_new_folder_struct ( Modify Gesl_4 Char(6) ) 
+type of column 20 updated
+tp = 21
+Going to update type of column 21
+Running command Alter Table test_new_folder_struct ( Modify Ongevalsfactoren Char(29) ) 
+type of column 21 updated
+tp = 22
+Going to update type of column 22
+Running command Alter Table test_new_folder_struct ( Modify Type_aanrijding Char(30) ) 
+type of column 22 updated
+tp = 23
+Going to update type of column 23
+Running command Alter Table test_new_folder_struct ( Modify Gevolg Char(6) ) 
+type of column 23 updated
+tp = 24
+Going to update type of column 24
+Running command Alter Table test_new_folder_struct ( Modify PV_nr_ Char(20) ) 
+type of column 24 updated
+Description of table test_new_folder_struct: 
+column nr 1, name: Gemeente type: Char(17)
+column nr 2, name: Straat type: Char(29)
+column nr 3, name: Datum type: Char(10)
+column nr 4, name: Tijd type: Char(8)
+column nr 5, name: Nr_ type: Char(10)
+column nr 6, name: Hecto type: Char(10)
+column nr 7, name: Kruispunt_met type: Char(25)
+column nr 8, name: Info type: Char(24)
+column nr 9, name: Best_1 type: Char(13)
+column nr 10, name: Leeft_1 type: Char(7)
+column nr 11, name: Gesl_1 type: Char(6)
+column nr 12, name: Best_2 type: Char(13)
+column nr 13, name: Leeft_2 type: Char(7)
+column nr 14, name: Gesl_2 type: Char(6)
+column nr 15, name: Best_3 type: Char(13)
+column nr 16, name: Leeft_3 type: Char(7)
+column nr 17, name: Gesl_3 type: Char(6)
+column nr 18, name: Best_4 type: Char(6)
+column nr 19, name: Leeft_4 type: Char(7)
+column nr 20, name: Gesl_4 type: Char(6)
+column nr 21, name: Ongevalsfactoren type: Char(29)
+column nr 22, name: Type_aanrijding type: Char(30)
+column nr 23, name: Gevolg type: Char(6)
+column nr 24, name: PV_nr_ type: Char(20)
+column nr 25, name: xcoord type: Float
+column nr 26, name: ycoord type: Float
+column nr 27, name: adres type: Char(254)
+column nr 28, name: geocodeStatus type: Char(20)
+
+Finished updating column types
+Exit RestructureTableForGeocoding
+
+RestructureTableForGeocoding done, going to geocode
+geocSettings.hectoMeterPolesEnabled : F
+geocSettings.searchIntersections : T
+geocSettings.addressPointsEnabled : F
+geocSettings.searchHectormeterPoles : F
+valueStreet2: Weg op Bree
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kerkhofstraat
+valueStreet2: 
+valueStreet2: Boshovenstraat
+valueStreet2: 
+valueStreet2: Weg naar Opoeteren
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Weg naar Opoeteren
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Weg op Bree
+valueStreet2: 
+valueStreet2: Weg nr. Helchteren
+valueStreet2: Weg op Bree
+valueStreet2: 
+valueStreet2: Gruitroderbaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kruisstraat
+valueStreet2: Vliegeneinde
+valueStreet2: Betonweg
+valueStreet2: 
+valueStreet2: Betonweg
+valueStreet2: 
+valueStreet2: Schutterslaan
+valueStreet2: 
+valueStreet2: Kruisstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Weg naar As
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Beemdstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Heuvelstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Breekiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Vliegeneinde
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Venstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Opstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Hellestraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Hensemstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Weg naar Opitter
+valueStreet2: Opstraat
+valueStreet2: 
+valueStreet2: Weg naar As
+valueStreet2: Pexhofweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Weg naar Opitter
+valueStreet2: 
+valueStreet2: Weg naar As
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Dampstraat
+valueStreet2: Dampstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Venstraat
+valueStreet2: Klein Heidestraat
+valueStreet2: Wijshagerkiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Wijshagerkiezel
+valueStreet2: Boendersstraat
+valueStreet2: Martinlaan
+valueStreet2: Dorpsstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Martinlaan
+valueStreet2: 
+valueStreet2: Manestraat
+valueStreet2: 
+valueStreet2: Vierstraat
+valueStreet2: Weertersteenweg
+valueStreet2: 
+valueStreet2: Weertersteenweg
+valueStreet2: 
+valueStreet2: Hoverstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Manestraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Breeërsteenweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Heikempstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Grootbroekstraat
+valueStreet2: Breivinstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Nagelstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Bekerstraat
+valueStreet2: 
+valueStreet2: Simpelstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Haansberg
+valueStreet2: 
+valueStreet2: Putstraatje
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Basdonkstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Slichtestraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Heinestraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Zielderveld
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Venlosesteenweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 't Meulke
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Breeërsteenweg
+valueStreet2: Toekomststraat
+valueStreet2: Veldstraat
+valueStreet2: Toekomststraat
+valueStreet2: 
+valueStreet2: Veldstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Breeërsteenweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Veldstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Natterveld
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Scheurestraat
+valueStreet2: 
+valueStreet2: Rozenstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Esserstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Truyenstraat
+valueStreet2: 
+valueStreet2: Heikempstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Onderdijkweg
+valueStreet2: Hamonterweg
+valueStreet2: Truyenhofstraat
+valueStreet2: Truyenhofstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Sportlaan
+valueStreet2: Graevestraat
+valueStreet2: Hamonterweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Sportlaan
+valueStreet2: Graevenstraat
+valueStreet2: Wolstraat
+valueStreet2: Kookshofstraat
+valueStreet2: Stift
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Riekskensstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Witte Torenwal
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Vaesstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Verlorenkoststraat
+valueStreet2: Muizendijkstraat
+valueStreet2: 
+valueStreet2: Luytenstraat
+valueStreet2: 
+valueStreet2: Kipdorpstraat
+valueStreet2: 
+valueStreet2: Rode Kruislaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Bocholterkiezel
+valueStreet2: 
+valueStreet2: Bocholterkiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Barrierstraat
+valueStreet2: Bocholterkiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Vrijheidslaan
+valueStreet2: LAG
+valueStreet2: 
+valueStreet2: Veeweidestraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Stadsplein
+valueStreet2: 
+valueStreet2: Gerdingerpoort
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Omselweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Toleikstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Boneputstraat
+valueStreet2: Hansweg
+valueStreet2: Gerkenbergstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Rode Kruislaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Regenboogstraat
+valueStreet2: Kanaallaan
+valueStreet2: 
+valueStreet2: Rode Kruislaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Rode Kruislaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Tongerlostraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Regenboogstraat
+valueStreet2: Regenboogstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Regenboogstraat
+valueStreet2: 
+valueStreet2: Roesstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Gruitroderkiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Eikenstraat
+valueStreet2: Nieshofstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Hamonterweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Gruitroderstraat
+valueStreet2: Opitterkiezel
+valueStreet2: 
+valueStreet2: Meeuwerkiezel
+valueStreet2: 
+valueStreet2: Millenstraat
+valueStreet2: Gruitroderstraat
+valueStreet2: Millenstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Gruitroderkiezel
+valueStreet2: Peerderbaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Gruitroderkiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Panhovenstraat
+valueStreet2: Opitterkiezel
+valueStreet2: Herenstraat
+valueStreet2: Meeuwerkiezel
+valueStreet2: Millenstraat
+valueStreet2: Herenstraat
+valueStreet2: Gruitroderkiezel
+valueStreet2: Gruitroderkiezel
+valueStreet2: 
+valueStreet2: Hulsbosstraat
+valueStreet2: Pater Neyenslaan
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Bocholterkiezel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kloosterpoort
+valueStreet2: 
+valueStreet2: Malta
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Witte Torenstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Straterhofweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Berkenbroekstraat
+valueStreet2: Processieweg
+valueStreet2: Beerselerdijk
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Roermonderstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kloosterstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Malta
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Itterplein
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Schutterijstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Malta
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Achelsedijk
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Langveld
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kaulillerweg
+valueStreet2: 
+valueStreet2: Goolderheideweg
+valueStreet2: 
+valueStreet2: Galgenbergstraat
+valueStreet2: Gelehoekstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Breeërweg
+valueStreet2: Fonteinstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kerkplein
+valueStreet2: 
+valueStreet2: Pastoorsdreef
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Raakstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Belgebergstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Brogelerweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Leemskuilenstraat
+valueStreet2: Sportlaan
+valueStreet2: Sportlaan
+valueStreet2: Sportlaan
+valueStreet2: Weerterweg
+valueStreet2: Weerterweg
+valueStreet2: Hoekstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Sportlaan
+valueStreet2: 
+valueStreet2: Hoogstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Fabriekstraat
+valueStreet2: Kallerstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Goosweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Dorpsstraat
+valueStreet2: Vinkstraat
+valueStreet2: 
+valueStreet2: Bloemenweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Vinkstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Bloemenstraat
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: commandant Leroystraat
+valueStreet2: Kerkhofstraat
+valueStreet2: Beukenstraat
+valueStreet2: 
+valueStreet2: Oude Hostieweg
+valueStreet2: Steenweg op Kleine Brogel
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Kerkplein
+valueStreet2: Fabriekstraat
+valueStreet2: 
+valueStreet2: Lozerheide
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Stramproyerweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Pastoorsdreef
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Zavelstraat
+valueStreet2: 
+valueStreet2: Zavelstraat
+valueStreet2: Winterdijkweg
+valueStreet2: Lillerbaan
+valueStreet2: Luysenweg
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: 
+valueStreet2: Smeetshofweg
+valueStreet2: 
+valueStreet2: Bosschelweg
+valueStreet2: 
+valueStreet2: 
+geocoding procedure finished, commiting table test_new_folder_struct
+Enter OnChangeRdgISLPFileOrTable
+Exit OnChangeRdgISLPFileOrTable
+In ProcessColumnNames
+
+In GIM_lib.TableIsOpen(test_new_folder_struct)
+Exit GIM_lib.TableIsOpen, result = T
+
+In SetConditionalTABColumnNames
+debugThresholdValue = 
+In NumValuesInColumn(test_new_folder_struct, COL1, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 4
+In NumValuesInColumn(test_new_folder_struct, COL1, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 1 = 4
+In NumValuesInColumn(test_new_folder_struct, COL2, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 197
+In NumValuesInColumn(test_new_folder_struct, COL2, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 197
+SetConditionalTABColumnNames: noUniqueColumnValues for column 2 = 197
+In NumValuesInColumn(test_new_folder_struct, COL3, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 308
+In NumValuesInColumn(test_new_folder_struct, COL3, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 308
+SetConditionalTABColumnNames: noUniqueColumnValues for column 3 = 308
+In NumValuesInColumn(test_new_folder_struct, COL4, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 244
+In NumValuesInColumn(test_new_folder_struct, COL4, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 244
+SetConditionalTABColumnNames: noUniqueColumnValues for column 4 = 244
+In NumValuesInColumn(test_new_folder_struct, COL5, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 125
+In NumValuesInColumn(test_new_folder_struct, COL5, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 125
+SetConditionalTABColumnNames: noUniqueColumnValues for column 5 = 125
+In NumValuesInColumn(test_new_folder_struct, COL6, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 70
+In NumValuesInColumn(test_new_folder_struct, COL6, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 70
+SetConditionalTABColumnNames: noUniqueColumnValues for column 6 = 70
+In NumValuesInColumn(test_new_folder_struct, COL7, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 143
+In NumValuesInColumn(test_new_folder_struct, COL7, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 143
+SetConditionalTABColumnNames: noUniqueColumnValues for column 7 = 143
+In NumValuesInColumn(test_new_folder_struct, COL8, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 84
+In NumValuesInColumn(test_new_folder_struct, COL8, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 84
+SetConditionalTABColumnNames: noUniqueColumnValues for column 8 = 84
+In NumValuesInColumn(test_new_folder_struct, COL9, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 11
+In NumValuesInColumn(test_new_folder_struct, COL9, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 11
+SetConditionalTABColumnNames: noUniqueColumnValues for column 9 = 11
+In NumValuesInColumn(test_new_folder_struct, COL10, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 7
+In NumValuesInColumn(test_new_folder_struct, COL10, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 7
+SetConditionalTABColumnNames: noUniqueColumnValues for column 10 = 7
+In NumValuesInColumn(test_new_folder_struct, COL11, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 3
+In NumValuesInColumn(test_new_folder_struct, COL11, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 11 = 3
+In NumValuesInColumn(test_new_folder_struct, COL12, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 9
+In NumValuesInColumn(test_new_folder_struct, COL12, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 9
+SetConditionalTABColumnNames: noUniqueColumnValues for column 12 = 9
+In NumValuesInColumn(test_new_folder_struct, COL13, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 7
+In NumValuesInColumn(test_new_folder_struct, COL13, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 7
+SetConditionalTABColumnNames: noUniqueColumnValues for column 13 = 7
+In NumValuesInColumn(test_new_folder_struct, COL14, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 3
+In NumValuesInColumn(test_new_folder_struct, COL14, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 14 = 3
+In NumValuesInColumn(test_new_folder_struct, COL15, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 4
+In NumValuesInColumn(test_new_folder_struct, COL15, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 15 = 4
+In NumValuesInColumn(test_new_folder_struct, COL16, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 4
+In NumValuesInColumn(test_new_folder_struct, COL16, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 16 = 4
+In NumValuesInColumn(test_new_folder_struct, COL17, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 2
+In NumValuesInColumn(test_new_folder_struct, COL17, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 2
+SetConditionalTABColumnNames: noUniqueColumnValues for column 17 = 2
+In NumValuesInColumn(test_new_folder_struct, COL18, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 1
+In NumValuesInColumn(test_new_folder_struct, COL18, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 18 = 1
+In NumValuesInColumn(test_new_folder_struct, COL19, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 1
+In NumValuesInColumn(test_new_folder_struct, COL19, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 19 = 1
+In NumValuesInColumn(test_new_folder_struct, COL20, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 1
+In NumValuesInColumn(test_new_folder_struct, COL20, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 20 = 1
+In NumValuesInColumn(test_new_folder_struct, COL21, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 26
+In NumValuesInColumn(test_new_folder_struct, COL21, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 26
+SetConditionalTABColumnNames: noUniqueColumnValues for column 21 = 26
+In NumValuesInColumn(test_new_folder_struct, COL22, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 16
+In NumValuesInColumn(test_new_folder_struct, COL22, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 16
+SetConditionalTABColumnNames: noUniqueColumnValues for column 22 = 16
+In NumValuesInColumn(test_new_folder_struct, COL23, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 3
+In NumValuesInColumn(test_new_folder_struct, COL23, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 23 = 3
+In NumValuesInColumn(test_new_folder_struct, COL24, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 301
+In NumValuesInColumn(test_new_folder_struct, COL24, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 301
+SetConditionalTABColumnNames: noUniqueColumnValues for column 24 = 301
+In NumValuesInColumn(test_new_folder_struct, COL27, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 401
+In NumValuesInColumn(test_new_folder_struct, COL27, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 401
+SetConditionalTABColumnNames: noUniqueColumnValues for column 27 = 401
+Exit SetConditionalTABColumnNames
+Exit ProcessColumnNames
+In ShowSelectionControls
+Exit ShowSelectionControls
+Weight field name = --- Kies een parameter ---
+In AllWeightsAreOne
+Exit AllWeightsAreOne, result = T
+
+In OpenTableChecked(test_new_folder_struct, C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden\test_new_folder_struct.TAB)
+
+In GIM_lib.TableIsOpen(test_new_folder_struct)
+Exit GIM_lib.TableIsOpen, result = T
+
+Exit OpenTableChecked
+
+In UseColumnForPieChart
+ReadControlValue(rdgThemFArea) = THEMF_COLUMN = F
+ReadControlValue(rdgThemFBlackPoints) = THEMF_COLUMN = F
+l_result = F
+Exit UseColumnForPieChart
+In UseColumnForPieChart
+ReadControlValue(rdgThemFArea) = THEMF_COLUMN = F
+ReadControlValue(rdgThemFBlackPoints) = THEMF_COLUMN = F
+l_result = F
+Exit UseColumnForPieChart
+
+========================== 
+In MapGenerator.InitMapGeneratorMessages: 
+========================== 
+Parameters:
+------------------------------------------
+si_analysisMode = 1
+s_IslpTable = test_new_folder_struct
+si_AreaMapType = 2
+l_UseColumnForPie = F
+UBound(as_uniqueColumnValuesForTheme)   = 401
+UBound(as_uniqueColumnValuesForWeights) = 0
+UBound(ai_weights) = 0
+s_weightFieldName  = --- Kies een parameter ---
+s_DateLowColumn  = 
+s_DateHighColumn = 
+s_TimeLowColumn  = 
+s_TimeHighColumn = 
+f_maxDistanceMeters  = 500
+i_maxTimeSpanMinutes = 720
+i_maxGapMinutes = 120
+mgArea  = Gemeente Meeuwen-Gruitrode
+mgAnalysis  = 3
+theFileSettings: 
+iniFile:      C:\Politie-GIS\NOL\config\config.ini
+dataFolder:   C:\Politie-GIS\NOL\data\PolitieGIS
+inputFolder:  C:\Politie-GIS\NOL\data\PolitieGIS\ISLP bestanden
+outputFolder: C:\Politie-GIS\NOL\data\PolitieGIS\resultaat
+workFolder:   C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder
+exportFolder: C:\Politie-GIS\NOL\data\PolitieGIS\resultaat
+
+theAnalysisSettings: 
+enableModule: T
+defaultArea: Politiezone Noordoost Limburg
+selectedArea: Gemeente Meeuwen-Gruitrode
+analysisMethod: 3
+pointAnalysisThematicField: -1
+selectedAggregationLevel: 3
+areaThematicField: -1
+blackpointThematicField: -1
+lowestValueBrush: Brush (2, 65280, 16777215)
+highestValueBrush: Brush (2, 16711680, 16777215)
+streetIDField: ID
+useColumnForPie: F
+weightFieldName: --- Kies een parameter ---
+dateLowColumn: 
+dateHighColumn: 
+timeLowColumn: 
+timeHighColumn: 
+maxDistanceMeters: 500
+maxTimeSpanMinutes: 720
+maxGapMinutes: 120
+availableAreas: 
+   1: Politiezone Noordoost Limburg
+   2: Gemeente Bree
+   3: Gemeente Bocholt
+   4: Gemeente Kinrooi
+   5: Gemeente Meeuwen-Gruitrode
+aggregationLevels: 
+   1: Fusiegemeenten
+   2: Deelgemeenten
+   3: NIS-buurten
+ISLPcolNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Straat
+   4: Datum
+   5: Tijd
+   6: Nr_
+   7: Hecto
+   8: Kruispunt_met
+   9: Info
+   10: Best_1
+   11: Leeft_1
+   12: Gesl_1
+   13: Best_2
+   14: Leeft_2
+   15: Gesl_2
+   16: Best_3
+   17: Leeft_3
+   18: Gesl_3
+   19: Best_4
+   20: Leeft_4
+   21: Gesl_4
+   22: Ongevalsfactoren
+   23: Type_aanrijding
+   24: Gevolg
+   25: PV_nr_
+   26: adres
+conditionalColNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Leeft_1
+   4: Gesl_1
+   5: Best_2
+   6: Leeft_2
+   7: Gesl_2
+   8: Best_3
+   9: Leeft_3
+   10: Gesl_3
+   11: Best_4
+   12: Leeft_4
+   13: Gesl_4
+   14: Gevolg
+copiedISLPcolIDs: 
+originalISLPColumnIDs: 
+   1: 
+   2: 1
+   3: 2
+   4: 3
+   5: 4
+   6: 5
+   7: 6
+   8: 7
+   9: 8
+   10: 9
+   11: 10
+   12: 11
+   13: 12
+   14: 13
+   15: 14
+   16: 15
+   17: 16
+   18: 17
+   19: 18
+   20: 19
+   21: 20
+   22: 21
+   23: 22
+   24: 23
+   25: 24
+   26: 27
+uniqueColumnValuesForTheme: 
+   1: Arkstraat
+   2: Arkstraat 72
+   3: Beemdstraat
+   4: Beemdstraat 62
+   5: Betonweg 219
+   6: Blauwe-Keistraat 3
+   7: Boendersstraat
+   8: Bosstraat
+   9: Breekiezel 137
+   10: Breekiezel
+   11: Weg naar As
+   12: Breekiezel 21
+   13: Broekkantstraat 75
+   14: Dampstraat 32
+   15: Dampstraat
+   16: Dorpsstraat
+   17: Fietsroutenetwerk
+   18: Genitsstraat 46
+   19: Genkerbaan
+   20: Genkerbaan 48
+   21: Genkerbaan 14
+   22: Hoogstraat
+   23: Plockroy
+   24: Grote Baan
+   25: Heidestraat
+   26: Heikantstraat
+   27: Hoogstraat 48
+   28: Hoogstraat 13
+   29: Hoogstraat 57
+   30: Kabienstraat
+   31: Kerkplein 2
+   32: Kerkplein 10
+   33: Kiëstraat 9
+   34: Klein Gestel
+   35: Klein Heidestraat
+   36: Kruisstraat
+   37: Leemakkerstraat
+   38: Martinlaan 3
+   39: Muisvenstraat 128
+   40: Muisvenstraat
+   41: Muisvenstraat 148
+   42: Ophovenstraat
+   43: Ophovenstraat 8
+   44: Ophovenstraat 6
+   45: Ophovenstraat 171
+   46: Opstraat
+   47: Pastoriestraat 2
+   48: Peerderbaan 45
+   49: Peerderbaan 52
+   50: Peerderbaan 70
+   51: Peerderbaan 1
+   52: Populierenstraat
+   53: Roesstraat 1
+   54: Roesstraat 28
+   55: Roesstraat
+   56: Weg op Bree
+   57: Soetebeek 23
+   58: Soetebeek
+   59: Sparstraat
+   60: Taelstraat
+   61: Torenstraat
+   62: Turfstraat 13
+   63: Vliegeneinde 17
+   64: Weg naar As 112
+   65: Weg naar As 71
+   66: Weg naar As 122
+   67: Weg naar As 10
+   68: Weg naar As 31
+   69: Weg nr Ellikom
+   70: Weg nr Ellikom 219
+   71: Weg nr Helchteren 12
+   72: Weg nr Helchteren 34
+   73: Weg nr Helchteren
+   74: Weg nr Helchteren 61
+   75: Weg naar Opitter
+   76: Weg naar Opoeteren 21
+   77: Weg naar Opoeteren
+   78: Weg nr. Zwartberg
+   79: Weg op Bree 37
+   80: Weg op Bree 23
+   81: Weg op Bree 47
+   82: Weg op Bree 129
+   83: Weg op Bree 74
+   84: Wijshagerkiezel
+   85: Belestraat 66
+   86: Breeërsteenweg
+   87: Breeërsteenweg 306
+   88: Breeërsteenweg 268
+   89: Breivinstraat 4
+   90: De Belder
+   91: Dolenweg
+   92: Dorpsplein
+   93: Dorpsplein 4
+   94: Drietak
+   95: Dwarsstraat 10
+   96: Fosheistraat
+   97: Grootbroekstraat
+   98: Grote Kerkstraat
+   99: Grote Kerkstraat 6
+   100: Heggestraat
+   101: Heikempstraat
+   102: Hoogveldstraat
+   103: Hurkenstraat
+   104: Itterstraat 9
+   105: Kasteelstraat
+   106: Kasteelstraat 17
+   107: Kessenicherweg
+   108: Keyersstraat
+   109: Kloosterstraat 8
+   110: Lakerweg
+   111: Leustraat 47
+   112: Maasstraat
+   113: Maasstraat 14
+   114: Meierstraat
+   115: Merrenhofstraat 18
+   116: Neeroetersesteenweg
+   117: Neeroetersesteenweg 3
+   118: Oude Kerkstraat
+   119: Pastorijstraat 3
+   120: Pekstraatje
+   121: Raam
+   122: Raamdijk 1
+   123: Raamdijk
+   124: Rozenstraat
+   125: Schansstraat 7
+   126: Schoolstraat 24
+   127: Truyenstraat
+   128: Veldstraat
+   129: Veldstraat 39
+   130: Venderstraat 32
+   131: Venlosesteenweg
+   132: Venlosesteenweg 373
+   133: Venlosesteenweg 48
+   134: Venlosesteenweg 364
+   135: Venlosesteenweg 158
+   136: Venlosesteenweg 95
+   137: Venlosesteenweg 334
+   138: Venlosesteenweg 138
+   139: Venlosesteenweg 16
+   140: Venlosesteenweg 71
+   141: Venlosesteenweg 358
+   142: Venlosesteenweg 68
+   143: Venlosesteenweg 23
+   144: Venlosesteenweg 50
+   145: Vennerweg
+   146: Vroenhof 2
+   147: Vroenhof 23
+   148: Weertersteenweg 277
+   149: Weertersteenweg 260
+   150: Weertersteenweg 580
+   151: Weertersteenweg 259
+   152: Weertersteenweg 480
+   153: Weertersteenweg 320
+   154: Weertersteenweg 362
+   155: Weertersteenweg
+   156: Weertersteenweg 4
+   157: Weertersteenweg 106
+   158: Weertersteenweg 364
+   159: Weertersteenweg 22
+   160: Weertersteenweg 36
+   161: Weertersteenweg 370
+   162: Weertersteenweg 235
+   163: Weertersteenweg 1
+   164: Weertersteenweg 6
+   165: Zandveldstraat
+   166: Zandveldstraat 5
+   167: Abroxweg
+   168: Barrierstraat
+   169: Beerselerdijk
+   170: Bocholterkiezel 25a
+   171: Bocholterkiezel
+   172: Bocholterkiezel 87
+   173: Bocholterkiezel 77
+   174: Bocholterkiezel 45
+   175: Bocholterkiezel 142
+   176: Bocholterstraat 2
+   177: Boneputstraat
+   178: Boneputterveld
+   179: Boogschuttersstraat 58
+   180: Boogschuttersstraat
+   181: Boogschuttersstraat 40
+   182: Bosstraat 82
+   183: Conenstraat 4
+   184: fietspad langs kanaal
+   185: Fietspad Opitter
+   186: Filterstraat 10
+   187: Filterstraat
+   188: Genastraat
+   189: Gerdingerpoort 9
+   190: Gerdingerpoort
+   191: Gerkenbergstraat 7
+   192: Geussensstraat
+   193: Grauwe Torenwal
+   194: Grauwe Torenwal 16
+   195: Grauwe Torenwal 15
+   196: Gruitroderkiezel 227
+   197: Gruitroderkiezel 39
+   198: Gruitroderkiezel 41
+   199: Gruitroderkiezel
+   200: Gruitroderkiezel 173
+   201: Gruitroderkiezel 247
+   202: Gruitroderkiezel 223
+   203: Gruitroderkiezel 20
+   204: Hamonterweg
+   205: Heuvelstraat 4
+   206: Industrieterrein Kanaal-Noord 1126
+   207: Industrieterrein Kanaal-Noord
+   208: Industrieterrein Kanaal-Noord 1167
+   209: Itterplein
+   210: Jef Van Hoofstraat 4
+   211: Kanaallaan 54
+   212: Kanaallaan
+   213: Kanaallaan 33
+   214: Kempstraat 10
+   215: Kerkstraat 39
+   216: Kerkstraat
+   217: Keyartstraat
+   218: Kloosterpoort
+   219: Kloosterpoort 19
+   220: Kloosterstraat 13
+   221: Kloosterstraat
+   222: Kruittorenwal 9
+   223: Kruittorenwal 1
+   224: Kruittorenwal
+   225: Kuilenstraat
+   226: Leeuwerikstraat 34
+   227: Luytenstraat
+   228: Maaseikerbaan 79
+   229: Maaseikerbaan
+   230: Maaseikerbaan 47
+   231: Malta
+   232: Markt
+   233: Meeuwerkiezel
+   234: Meeuwerkiezel 118
+   235: Meeuwerkiezel 58
+   236: Meeuwerkiezel 76
+   237: Meeuwerkiezel 120
+   238: Meeuwerkiezel 207
+   239: Meeuwerkiezel 116
+   240: Meeuwerkiezel 77
+   241: Meeuwerkiezel 39
+   242: Millenstraat
+   243: Millenstraat 43
+   244: Nieuwstadstraat
+   245: Opitterkiezel 140
+   246: Opitterkiezel
+   247: Opitterkiezel 75
+   248: Opitterkiezel 78
+   249: Opitterkiezel 236
+   250: Opitterkiezel 122
+   251: Opitterkiezel 9
+   252: Opitterpoort 18
+   253: Opitterpoort
+   254: Opitterpoort 66
+   255: Oudestraat 36
+   256: Pater Coninxlaan
+   257: Pater Neyenslaan 1
+   258: Peerderbaan
+   259: Peerderbaan 115
+   260: Peerderbaan 1014
+   261: Peerderbaan 106
+   262: Peerderbaan 68
+   263: Regenboogstraat 12
+   264: Reppelerweg 7
+   265: Riekskensstraat 46
+   266: Rode Kruislaan
+   267: Rode Kruislaan 23
+   268: Rode Kruislaan 55
+   269: Rode Kruislaan 41
+   270: Rode Kruislaan 40
+   271: Roermonderstraat
+   272: Rorenweg
+   273: Schoolstraat 81
+   274: Schutterijstraat 14
+   275: Schutterijstraat
+   276: Sint-Jacobstraat
+   277: Solterweg 49
+   278: Sportlaan 3
+   279: Sportlaan
+   280: Sportlaan 25
+   281: Sportlaan 4
+   282: Stadsplein
+   283: Stationswal
+   284: Stationswal 3
+   285: Steyvenstraat 40
+   286: Stift 48
+   287: Stift
+   288: Stift 79
+   289: Stift 2
+   290: 't Hasseltkiezel 9
+   291: 't Hasseltkiezel
+   292: 't Hasseltkiezel 41
+   293: 't Hasseltkiezel 14
+   294: 't Hasseltkiezel 32
+   295: 't Hasseltkiezel 15
+   296: Teelestraat 10
+   297: Ter Rivierenwal
+   298: Toleikstraat 28
+   299: Toleikstraat
+   300: Toleikstraat 13
+   301: Tongerlostraat
+   302: Velkuilenstraat
+   303: Voortbemdenstraat
+   304: Vrijheidslaan
+   305: Wiekersbeekstraat
+   306: Wijshagerstraat 12
+   307: Witte Torenstraat 5
+   308: Witte Torenstraat
+   309: Witte Torenwal
+   310: Witte Torenwal 15
+   311: Witte Torenwal 37
+   312: Witte Torenwal 11
+   313: Achelsedijk
+   314: Achelsedijk 3
+   315: Bosheidestraat
+   316: Bosschelweg
+   317: Breeërweg 15
+   318: Breeërweg
+   319: Bremstraat 11
+   320: Brogelerweg 123
+   321: Brogelerweg
+   322: Brugstraat 41
+   323: Commandant Leroystraat 20
+   324: Damburgstraat
+   325: Donkelstraatje 24
+   326: Dorpsstraat 53
+   327: Dorpsstraat 29
+   328: Dorpsstraat 14
+   329: Fabriekstraat
+   330: Fabriekstraat 117
+   331: Fabriekstraat 90
+   332: Fabriekstraat 11
+   333: Fabriekstraat 38
+   334: Fabriekstraat 2
+   335: Galgenbergstraat 37
+   336: Galgenbergstraat
+   337: Groenstraat
+   338: Grote Baan 10
+   339: Hamonterweg 125
+   340: Hamonterweg 104
+   341: Hamonterweg 29
+   342: Hamonterweg 34
+   343: Heuvelstraat
+   344: Hoekstraat 15
+   345: Hoogstraat 47
+   346: Hoogstraat 52
+   347: Jasperslaan
+   348: Kallerstraat 9
+   349: Kapelstraat
+   350: kaulillerdorp 51
+   351: kaulillerdorp
+   352: Kaulillerdorp 75
+   353: kaulillerdorp 17
+   354: Kaulillerweg
+   355: Kaulillerweg 8
+   356: Kaulillerweg 99
+   357: Kaulillerweg 147
+   358: Kaulillerweg 93
+   359: Kaulillerweg 3
+   360: Kaulillerweg 65
+   361: Kaulillerweg 107
+   362: Kaulillerweg 156
+   363: Kerkhofstraat 38
+   364: Kerkhofstraat 62
+   365: Kerkplein
+   366: Kettingbrugweg
+   367: Kettingbrugweg 40
+   368: Kleine Marsestraat 7
+   369: Kloosterstraat 3
+   370: Lemmenskuilstraat
+   371: Lillerbaan
+   372: Lillerbaan 65
+   373: Lozerheide
+   374: Lozerplein
+   375: Lozerstraat 2
+   376: Lozerstraat 24
+   377: Lozerstraat
+   378: Lozerstraat 1
+   379: Luysenweg
+   380: Marsestraat
+   381: Molenstraat
+   382: Napoleonsdijk
+   383: Reppelerweg 208
+   384: Reppelerweg 225
+   385: Reppelerweg 195
+   386: Reppelerweg 62
+   387: Schoolstraat
+   388: Snellewindstraat
+   389: Steenweg op Kleine Brogel 73
+   390: Steenweg op Kleine Brogel
+   391: Steenweg op Kleine Brogel 70
+   392: Steenweg op Kleine Brogel 1
+   393: Stramproyerweg
+   394: Stramproyerweg 76
+   395: Weerterweg
+   396: Weerterweg 17
+   397: Weerterweg 70
+   398: Wilgenweg 18
+   399: Winterdijkweg
+   400: Zandstraat
+   401: Zavelstraat
+uniqueColumnValuesForWeights: 
+weights: 
+
+------------------------------------------
+
+In GIM_lib.TableIsOpen(Meeuwen_Gr_a8)
+Exit GIM_lib.TableIsOpen, result = F
+
+
+In OpenTableChecked(Meeuwen_Gr_a8, C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\Meeuwen-Gruitrode\Meeuwen-Gr_a8.TAB)
+
+In GIM_lib.TableIsOpen(Meeuwen_Gr_a8)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+
+In MapGenerator.GenerateAnalysisPerArea
+l_UseColumnForPie = F
+m_legendWindowHandle = 0
+m_mapWindowHandle = 0
+
+UBound(as_uniqueColumnValuesForTheme) = 401
+
+UBound(as_uniqueColumnValuesForWeights) = 0
+
+UBound(ai_weights) = 0
+
+s_thematicFieldName = number_incidents
+
+In OpenTableChecked(Meeuwen_Gr_oa1, C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\Meeuwen-Gruitrode\Meeuwen-Gr_oa1.TAB)
+
+In GIM_lib.TableIsOpen(Meeuwen_Gr_oa1)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+
+In LimitIslpToArea
+areaSettings.areaIslpTable      = ong_meeuwen_gr_1211465024
+areaSettings.areaIslpFile       = C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder\ong_meeuwen-gr_1211465024.TAB
+areaSettings.s_areaBordersTable = Meeuwen_Gr_a8
+areaSettings.s_areaBordersFile  = C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\Meeuwen-Gruitrode\Meeuwen-Gr_a8.TAB
+si_analysisType = 3
+
+In LimitIslpToArea2
+s_islpTable        = test_new_folder_struct
+s_areaIslpTable    = ong_meeuwen_gr_1211465024
+s_areaIslpFile     = C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder\ong_meeuwen-gr_1211465024.TAB
+s_areaBordersTable = Meeuwen_Gr_a8
+s_areaBordersFile  = C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\Meeuwen-Gruitrode\Meeuwen-Gr_a8.TAB
+si_analysisType    = 3
+
+In OpenTableChecked(Meeuwen_Gr_a8, C:\Politie-GIS\NOL\data\PolitieGIS\basiskaarten\Meeuwen-Gruitrode\Meeuwen-Gr_a8.TAB)
+
+In GIM_lib.TableIsOpen(Meeuwen_Gr_a8)
+Exit GIM_lib.TableIsOpen, result = T
+
+Exit OpenTableChecked
+
+
+In OpenTableChecked(ong_meeuwen_gr_1211465024, C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder\ong_meeuwen-gr_1211465024.TAB)
+
+In GIM_lib.TableIsOpen(ong_meeuwen_gr_1211465024)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+Exit LimitIslpToArea2
+
+Exit LimitIslpToArea
+
+
+In OpenTableChecked(Meeuwen_Gr_oa1_1211465024_pie, C:\Politie-GIS\NOL\data\PolitieGIS\werkfolder\Meeuwen_Gr_oa1_1211465024_pie.TAB)
+
+In GIM_lib.TableIsOpen(Meeuwen_Gr_oa1_1211465024_pie)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+Running command: 
+Alter Table Meeuwen_Gr_oa1_1211465024_pie(Add number_incidents Integer) Interactive
+Running command: 
+Add Column Meeuwen_Gr_oa1_1211465024_pie(number_incidents) From ong_meeuwen_gr_1211465024 Set To Count(*) Where within 
+
+In MapGenerator.ShadeMapRegionsByRange
+i_mapWindowHandle = 186873560
+s_thematicFieldName = number_incidents
+s_tableName = Meeuwen_Gr_oa1_1211465024_pie
+Exit ShadeMapWithGraduatedValues
+
+
+In UpdateLegend
+Running set legend command: 
+Set Legend Window 186873560 Layer Prev Display on  Shades on  Symbols off  Lines off  Count off Title "Ongevallen naar  number_incidents" Font ("Arial",0,9,0) Subtitle auto Font ("Arial",0,8,0) Ascending on 
+Exit UpdateLegend
+Exit MapGenerator.GenerateAnalysisPerArea
+
+Exit StartMapGenerator 
+

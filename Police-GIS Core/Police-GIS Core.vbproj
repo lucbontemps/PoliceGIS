@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6822F62D-8567-4470-870B-86D813CDC975}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Gim.PoliceGis.Core</RootNamespace>
+    <AssemblyName>PoliceGisCore</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/PoliceGisCore/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PoliceGisCore.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningLevel>1</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>Migrated rules for Police-GIS Core.ruleset</CodeAnalysisRuleSet>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PoliceGisCore.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningLevel>1</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>Migrated rules for Police-GIS Core.ruleset</CodeAnalysisRuleSet>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GimErrorHandling, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\solution items\GimErrorHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="miadm">
+      <HintPath>C:\Program Files (x86)\MapInfo\Professional\miadm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analysis\AnalysisCommon.vb" />
+    <Compile Include="Analysis\AnalysisPerAreasController.vb" />
+    <Compile Include="Analysis\AnalysisPerStreetController.vb" />
+    <Compile Include="Analysis\AnalysisTypes.vb" />
+    <Compile Include="Analysis\BlackPointAnalysisController.vb" />
+    <Compile Include="Analysis\ControlAnalysisController.vb" />
+    <Compile Include="Analysis\CrimeSeriesController.vb" />
+    <Compile Include="Analysis\PointAnalysisController.vb" />
+    <Compile Include="BusinessEntities\Crime.vb" />
+    <Compile Include="BusinessEntities\CrimeSerieFields.vb" />
+    <Compile Include="BusinessEntities\GeoCodingFields.vb">
+    </Compile>
+    <Compile Include="BusinessEntities\InteresseGebied.vb" />
+    <Compile Include="BusinessEntities\PGISAreaSpecificSettings.vb" />
+    <Compile Include="BusinessEntities\PGISFileSettings.vb" />
+    <Compile Include="Configuration\PGISConfigurationManager.vb" />
+    <Compile Include="Configuration\ConfigurationReader.vb" />
+    <Compile Include="Configuration\InvalidConfigurationException.vb" />
+    <Compile Include="Configuration\PoliceGisConfiguration.vb">
+      <DependentUpon>PoliceGisConfiguration.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoreLibConstants.vb" />
+    <Compile Include="Custom Controls\AddRemoveList.Designer.vb">
+      <DependentUpon>AddRemoveList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\AddRemoveList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\ChangeDataTypesControl.Designer.vb">
+      <DependentUpon>ChangeDataTypesControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\ChangeDataTypesControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\PickCrimeSerieFields.Designer.vb">
+      <DependentUpon>PickCrimeSerieFields.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\PickCrimeSerieFields.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\PickGeocodingFieldsControl.Designer.vb">
+      <DependentUpon>PickGeocodingFieldsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\PickGeocodingFieldsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\PickMapInfoTableControl.Designer.vb">
+      <DependentUpon>PickMapInfoTableControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\PickMapInfoTableControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\SimpleQueryBuilder.Designer.vb">
+      <DependentUpon>SimpleQueryBuilder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\SimpleQueryBuilder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionProvider.vb" />
+    <Compile Include="Forms\FormAnalysis.Designer.vb">
+      <DependentUpon>FormAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAnalysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfiguration.Designer.vb">
+      <DependentUpon>FormConfiguration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfiguration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfigurationErrors.Designer.vb">
+      <DependentUpon>FormConfigurationErrors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfigurationErrors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCreateGroups.Designer.vb">
+      <DependentUpon>FormCreateGroups.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCreateGroups.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGeoCoding.Designer.vb">
+      <DependentUpon>FormGeoCoding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGeoCoding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGetBuffer.Designer.vb">
+      <DependentUpon>FormGetBuffer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGetBuffer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSaveTable.Designer.vb">
+      <DependentUpon>FormSaveTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSaveTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormShowGroups.Designer.vb">
+      <DependentUpon>FormShowGroups.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormShowGroups.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTableBrowser.Designer.vb">
+      <DependentUpon>FormTableBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTableBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geocoding\GeocodingController.vb" />
+    <Compile Include="BusinessEntities\PGISGeocodingSettings.vb" />
+    <Compile Include="Geocoding\GeocodingResult.vb" />
+    <Compile Include="Geocoding\GeocodingStatusCode.vb" />
+    <Compile Include="Geocoding\GeocodingStatusMessages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeocodingStatusMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GuiThemeProvider.vb" />
+    <Compile Include="MapInfo\ColumnTypeDescriptor.vb" />
+    <Compile Include="MapInfo\Proxy\MIButtonProxy.vb" />
+    <Compile Include="MapInfo\Proxy\MICommandInfo.vb" />
+    <Compile Include="MapInfo\Proxy\MIMapProxy.vb" />
+    <Compile Include="MapInfo\MapBasicConstants.vb" />
+    <Compile Include="MapInfo\MapBasicInterop.vb" />
+    <Compile Include="MapInfo\MapInfoEnumerations.vb" />
+    <Compile Include="MapInfo\Proxy\MIColumnProxy.vb" />
+    <Compile Include="MapInfo\Proxy\MILayerProxy.vb" />
+    <Compile Include="MapInfo\Proxy\MISelectionProxy.vb" />
+    <Compile Include="MapInfo\Proxy\MITableProxy.vb" />
+    <Compile Include="MapInfo\Proxy\MIWindowProxy.vb" />
+    <Compile Include="Messages\ExceptionMessages.Designer.vb">
+      <DependentUpon>ExceptionMessages.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Exceptions\PoliceGisException.vb" />
+    <Compile Include="ResourceProviders\Messages\GroupingIncidents.Designer.vb">
+      <DependentUpon>GroupingIncidents.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources.fr-BE.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.fr-BE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Validation\AbstractValidationRule.vb" />
+    <Compile Include="Validation\IValidatable.vb" />
+    <Compile Include="Validation\ValidationReport.vb" />
+    <Compile Include="Validation\XsdSchemaValidationRule.vb" />
+    <Compile Include="Validation\XsdSchemaValidator.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Custom Controls\AddRemoveList.resx">
+      <DependentUpon>AddRemoveList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\ChangeDataTypesControl.fr-BE.resx">
+      <DependentUpon>ChangeDataTypesControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\ChangeDataTypesControl.resx">
+      <DependentUpon>ChangeDataTypesControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\PickCrimeSerieFields.fr-BE.resx">
+      <DependentUpon>PickCrimeSerieFields.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\PickCrimeSerieFields.resx">
+      <DependentUpon>PickCrimeSerieFields.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\PickGeocodingFieldsControl.fr-BE.resx">
+      <DependentUpon>PickGeocodingFieldsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\PickGeocodingFieldsControl.resx">
+      <DependentUpon>PickGeocodingFieldsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\PickMapInfoTableControl.fr-BE.resx">
+      <DependentUpon>PickMapInfoTableControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\PickMapInfoTableControl.resx">
+      <DependentUpon>PickMapInfoTableControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\SimpleQueryBuilder.fr-BE.resx">
+      <DependentUpon>SimpleQueryBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\SimpleQueryBuilder.resx">
+      <DependentUpon>SimpleQueryBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAnalysis.fr-BE.resx">
+      <DependentUpon>FormAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAnalysis.resx">
+      <DependentUpon>FormAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfiguration.fr-BE.resx">
+      <DependentUpon>FormConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfiguration.resx">
+      <DependentUpon>FormConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfigurationErrors.fr-BE.resx">
+      <DependentUpon>FormConfigurationErrors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfigurationErrors.resx">
+      <DependentUpon>FormConfigurationErrors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCreateGroups.fr-BE.resx">
+      <DependentUpon>FormCreateGroups.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCreateGroups.resx">
+      <DependentUpon>FormCreateGroups.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGeoCoding.fr-BE.resx">
+      <DependentUpon>FormGeoCoding.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGeoCoding.resx">
+      <DependentUpon>FormGeoCoding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGetBuffer.fr-BE.resx">
+      <DependentUpon>FormGetBuffer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGetBuffer.resx">
+      <DependentUpon>FormGetBuffer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSaveTable.fr-BE.resx">
+      <DependentUpon>FormSaveTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSaveTable.resx">
+      <DependentUpon>FormSaveTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormShowGroups.fr-BE.resx">
+      <DependentUpon>FormShowGroups.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormShowGroups.resx">
+      <DependentUpon>FormShowGroups.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTableBrowser.resx">
+      <DependentUpon>FormTableBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geocoding\GeocodingStatusMessages.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GeocodingStatusMessages.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages\ExceptionMessages.fr-BE.resx" />
+    <EmbeddedResource Include="Messages\ExceptionMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExceptionMessages.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceProviders\Messages\GroupingIncidents.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GroupingIncidents.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources.Messages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.fr-BE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.fr-BE.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\PoliceGisConfiguration.xsd">
+    </None>
+    <None Include="Migrated rules for Police-GIS Core.ruleset" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\Add16x16.pngYellowMedium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\Add16x16GreenLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\DataContainer_MoveFirstHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\DataContainer_MoveLastHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\DataContainer_MoveNextHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\DataContainer_MovePreviousHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceProviders\images\DataContainer_NewRecordHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configuration\LanguagesResources.xml" />
+    <Content Include="Configuration\PoliceGISConfiguration.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ResourceProviders\images\Application.ico" />
+    <Content Include="ResourceProviders\images\logo politie klein.jpg" />
+    <Content Include="ResourceProviders\images\logo politie.jpg" />
+    <Content Include="ResourceProviders\images\logo_politie_vierkant.png" />
+    <Content Include="ResourceProviders\images\logo_politie_vierkant_klein.png" />
+    <None Include="Resources\PolitieGIS_favicon_16x16.ico" />
+    <None Include="Resources\PolitieGIS_desktop_32x32.ico" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\DataSources\PolitieZone.datasource" />
+    <None Include="ResourceProviders\images\openfolderHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

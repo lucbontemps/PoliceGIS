@@ -1,0 +1,1409 @@
+
+===================================================
+Log opened at time (dd/mm/yyyy hh:mm:ss) 14/12/2017 10:58:13
+===================================================
+
+
+In GIM_lib.TableIsOpen(test_tijd1)
+Exit GIM_lib.TableIsOpen, result = T
+
+SetConditionalTABColumnNames: noUniqueColumnValues for column 1 = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 2 = 197
+SetConditionalTABColumnNames: noUniqueColumnValues for column 3 = 308
+SetConditionalTABColumnNames: noUniqueColumnValues for column 4 = 242
+SetConditionalTABColumnNames: noUniqueColumnValues for column 5 = 0
+SetConditionalTABColumnNames: noUniqueColumnValues for column 6 = 125
+SetConditionalTABColumnNames: noUniqueColumnValues for column 7 = 70
+SetConditionalTABColumnNames: noUniqueColumnValues for column 8 = 143
+SetConditionalTABColumnNames: noUniqueColumnValues for column 9 = 84
+SetConditionalTABColumnNames: noUniqueColumnValues for column 10 = 11
+SetConditionalTABColumnNames: noUniqueColumnValues for column 11 = 7
+SetConditionalTABColumnNames: noUniqueColumnValues for column 12 = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 13 = 9
+SetConditionalTABColumnNames: noUniqueColumnValues for column 14 = 7
+SetConditionalTABColumnNames: noUniqueColumnValues for column 15 = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 16 = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 17 = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 18 = 2
+SetConditionalTABColumnNames: noUniqueColumnValues for column 19 = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 20 = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 21 = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 22 = 26
+SetConditionalTABColumnNames: noUniqueColumnValues for column 23 = 16
+SetConditionalTABColumnNames: noUniqueColumnValues for column 24 = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 25 = 301
+SetConditionalTABColumnNames: noUniqueColumnValues for column 28 = 495
+
+In OpenTableChecked(test_tijd1, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\ISLP bestanden\test_tijd1.TAB)
+
+In GIM_lib.TableIsOpen(test_tijd1)
+Exit GIM_lib.TableIsOpen, result = T
+
+Exit OpenTableChecked
+
+
+========================== 
+In MapGenerator.StartMapGenerator: 
+========================== 
+Parameters:
+------------------------------------------
+si_analysisMode = 1
+s_IslpTable = test_tijd1
+si_AreaMapType = 1
+l_UseColumnForPie = F
+UBound(as_uniqueColumnValuesForTheme)   = 495
+UBound(as_uniqueColumnValuesForWeights) = 0
+UBound(ai_weights) = 0
+s_weightFieldName  = 
+s_DateLowColumn  = 
+s_DateHighColumn = 
+s_TimeLowColumn  = 
+s_TimeHighColumn = 
+f_maxDistanceMeters  = 500
+i_maxTimeSpanMinutes = 720
+i_maxGapMinutes = 120
+mgAnalysis  = 2
+-> theFileSettings: 
+iniFile:      H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\config\config.ini
+dataFolder:   H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS
+inputFolder:  H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\ISLP bestanden
+outputFolder: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\resultaat
+workFolder:   H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder
+exportFolder: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\resultaat
+
+-> theAnalysisSettings: 
+enableModule: T
+defaultArea: Politiezone Noordoost Limburg
+selectedArea: Politiezone Noordoost Limburg
+analysisMethod: 2
+pointAnalysisThematicField: -1
+selectedAggregationLevel: -1
+areaThematicField: -1
+blackpointThematicField: -1
+lowestValueBrush: Brush (2, 65280, 16777215)
+highestValueBrush: Brush (2, 16711680, 16777215)
+streetIDField: ID
+useColumnForPie: F
+weightFieldName: 
+dateLowColumn: 
+dateHighColumn: 
+timeLowColumn: 
+timeHighColumn: 
+maxDistanceMeters: 500
+maxTimeSpanMinutes: 720
+maxGapMinutes: 120
+availableAreas: 
+   1: Politiezone Noordoost Limburg
+   2: Gemeente Bree
+   3: Gemeente Bocholt
+   4: Gemeente Kinrooi
+   5: Gemeente Meeuwen-Gruitrode
+aggregationLevels: 
+   1: Fusiegemeenten
+   2: Deelgemeenten
+   3: NIS-buurten
+ISLPcolNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Straat
+   4: Datum
+   5: Tijd_cleaned
+   6: Tijd
+   7: Nr_
+   8: Hecto
+   9: Kruispunt_met
+   10: Info
+   11: Best_1
+   12: Leeft_1
+   13: Gesl_1
+   14: Best_2
+   15: Leeft_2
+   16: Gesl_2
+   17: Best_3
+   18: Leeft_3
+   19: Gesl_3
+   20: Best_4
+   21: Leeft_4
+   22: Gesl_4
+   23: Ongevalsfactoren
+   24: Type_aanrijding
+   25: Gevolg
+   26: PV_nr_
+   27: adres
+conditionalColNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Leeft_1
+   4: Gesl_1
+   5: Best_2
+   6: Leeft_2
+   7: Gesl_2
+   8: Best_3
+   9: Leeft_3
+   10: Gesl_3
+   11: Best_4
+   12: Leeft_4
+   13: Gesl_4
+   14: Gevolg
+copiedISLPcolIDs: 
+originalISLPColumnIDs: 
+   1: 
+   2: 1
+   3: 2
+   4: 3
+   5: 4
+   6: 5
+   7: 6
+   8: 7
+   9: 8
+   10: 9
+   11: 10
+   12: 11
+   13: 12
+   14: 13
+   15: 14
+   16: 15
+   17: 16
+   18: 17
+   19: 18
+   20: 19
+   21: 20
+   22: 21
+   23: 22
+   24: 23
+   25: 24
+   26: 25
+   27: 28
+uniqueColumnValuesForTheme: 
+   1: Arkstraat && Weg op Bree
+   2: Arkstraat 72
+   3: Beemdstraat
+   4: Beemdstraat 62
+   5: Betonweg 219
+   6: Blauwe-Keistraat 3
+   7: Boendersstraat
+   8: Bosstraat && Kerkhofstraat
+   9: Breekiezel 137
+   10: Breekiezel && Boshovenstraat
+   11: Breekiezel
+   12: Weg naar As && Weg naar Opoeteren
+   13: Breekiezel 21
+   14: Broekkantstraat 75
+   15: Dampstraat 32
+   16: Dampstraat
+   17: Dorpsstraat && Weg op Bree
+   18: Dorpsstraat
+   19: Dorpsstraat && Weg nr. Helchteren
+   20: Fietsroutenetwerk
+   21: Genitsstraat && Gruitroderbaan
+   22: Genkerbaan
+   23: Genkerbaan 48
+   24: Genkerbaan 14
+   25: Hoogstraat && Kruisstraat
+   26: Plockroy && Vliegeneinde
+   27: Grote Baan && Betonweg
+   28: Grote Baan
+   29: Heidestraat
+   30: Heikantstraat && Schutterslaan
+   31: Hoogstraat 48
+   32: Hoogstraat
+   33: Hoogstraat 13
+   34: Hoogstraat 57
+   35: Kabienstraat && Weg naar As
+   36: Kerkplein 2
+   37: Kerkplein 10
+   38: Kiëstraat 9
+   39: Klein Gestel
+   40: Klein Heidestraat
+   41: Kruisstraat && Beemdstraat
+   42: Leemakkerstraat
+   43: Martinlaan 3
+   44: Muisvenstraat 128
+   45: Muisvenstraat
+   46: Muisvenstraat 148
+   47: Ophovenstraat && Heuvelstraat
+   48: Ophovenstraat 8
+   49: Ophovenstraat 6
+   50: Ophovenstraat
+   51: Ophovenstraat 171
+   52: Opstraat && Breekiezel
+   53: Pastoriestraat 2
+   54: Peerderbaan 45
+   55: Peerderbaan 52
+   56: Peerderbaan 70
+   57: Peerderbaan 1
+   58: Populierenstraat
+   59: Roesstraat 1
+   60: Roesstraat 28
+   61: Roesstraat
+   62: Weg op Bree && Venstraat
+   63: Soetebeek 23
+   64: Soetebeek
+   65: Sparstraat
+   66: Taelstraat && Opstraat
+   67: Torenstraat
+   68: Turfstraat 13
+   69: Vliegeneinde 17
+   70: Weg naar As 112
+   71: Weg naar As 71
+   72: Weg naar As
+   73: Weg naar As 122
+   74: Weg naar As 10
+   75: Weg naar As 31
+   76: Weg nr Ellikom
+   77: Weg nr Ellikom 219
+   78: Weg nr Helchteren 12
+   79: Weg nr Helchteren 34
+   80: Weg nr Helchteren
+   81: Weg nr Helchteren 61
+   82: Weg naar Opitter
+   83: Weg naar Opoeteren 21
+   84: Weg naar Opoeteren && Weg naar Opitter
+   85: Weg naar Opoeteren && Opstraat
+   86: Weg naar Opoeteren
+   87: Weg naar Opoeteren && Weg naar As
+   88: Weg naar Opoeteren && Pexhofweg
+   89: Weg nr. Zwartberg
+   90: Weg nr. Zwartberg && Dampstraat
+   91: Weg op Bree 37
+   92: Weg op Bree
+   93: Weg op Bree 23
+   94: Weg op Bree && Klein Heidestraat
+   95: Weg op Bree && Wijshagerkiezel
+   96: Weg op Bree 47
+   97: Weg op Bree 129
+   98: Weg op Bree 74
+   99: Weg op Bree && Boendersstraat
+   100: Weg op Bree && Martinlaan
+   101: Weg op Bree && Dorpsstraat
+   102: Wijshagerkiezel
+   103: Wijshagerkiezel && Martinlaan
+   104: Belestraat 66
+   105: Breeërsteenweg && Manestraat
+   106: Breeërsteenweg 306
+   107: Breeërsteenweg && Vierstraat
+   108: Breeërsteenweg && Weertersteenweg
+   109: Breeërsteenweg
+   110: Breeërsteenweg && Hoverstraat
+   111: Breeërsteenweg 268
+   112: Breivinstraat 4
+   113: De Belder
+   114: Dolenweg && Manestraat
+   115: Dorpsplein
+   116: Dorpsplein 4
+   117: Drietak
+   118: Dwarsstraat 10
+   119: Fosheistraat && Heikempstraat
+   120: Grootbroekstraat
+   121: Grote Kerkstraat
+   122: Grote Kerkstraat 6
+   123: Heggestraat && Grootbroekstraat
+   124: Heikempstraat && Breivinstraat
+   125: Hoogveldstraat
+   126: Hurkenstraat
+   127: Itterstraat && Nagelstraat
+   128: Kasteelstraat
+   129: Kasteelstraat 17
+   130: Kessenicherweg
+   131: Keyersstraat && Bekerstraat
+   132: Kloosterstraat 8
+   133: Kruisstraat && Simpelstraat
+   134: Lakerweg
+   135: Leustraat 47
+   136: Maasstraat && Haansberg
+   137: Maasstraat 14
+   138: Maasstraat && Putstraatje
+   139: Meierstraat
+   140: Merrenhofstraat 18
+   141: Neeroetersesteenweg && Basdonkstraat
+   142: Neeroetersesteenweg
+   143: Neeroetersesteenweg 3
+   144: Oude Kerkstraat
+   145: Pastorijstraat 3
+   146: Pekstraatje
+   147: Raam && Heinestraat
+   148: Raamdijk 1
+   149: Raamdijk
+   150: Rozenstraat
+   151: Schansstraat 7
+   152: Schoolstraat 24
+   153: Truyenstraat
+   154: Veldstraat && Venlosesteenweg
+   155: Veldstraat 39
+   156: Venderstraat 32
+   157: Venlosesteenweg && 't Meulke
+   158: Venlosesteenweg
+   159: Venlosesteenweg 373
+   160: Venlosesteenweg && Breeërsteenweg
+   161: Venlosesteenweg && Toekomststraat
+   162: Venlosesteenweg && Veldstraat
+   163: Venlosesteenweg 48
+   164: Venlosesteenweg 158
+   165: Venlosesteenweg 95
+   166: Venlosesteenweg 334
+   167: Venlosesteenweg 138
+   168: Venlosesteenweg 16
+   169: Venlosesteenweg 71
+   170: Venlosesteenweg 68
+   171: Venlosesteenweg 23
+   172: Venlosesteenweg 50
+   173: Vennerweg
+   174: Vroenhof 2
+   175: Vroenhof 23
+   176: Weertersteenweg 277
+   177: Weertersteenweg 260
+   178: Weertersteenweg && Natterveld
+   179: Weertersteenweg 259
+   180: Weertersteenweg 480
+   181: Weertersteenweg 320
+   182: Weertersteenweg 362
+   183: Weertersteenweg && Scheurestraat
+   184: Weertersteenweg 4
+   185: Weertersteenweg && Rozenstraat
+   186: Weertersteenweg 106
+   187: Weertersteenweg 364
+   188: Weertersteenweg 22
+   189: Weertersteenweg
+   190: Weertersteenweg 36
+   191: Weertersteenweg 370
+   192: Weertersteenweg && Esserstraat
+   193: Weertersteenweg 235
+   194: Weertersteenweg 1
+   195: Weertersteenweg && Truyenstraat
+   196: Weertersteenweg 6
+   197: Weertersteenweg && Heikempstraat
+   198: Zandveldstraat
+   199: Zandveldstraat 5
+   200: Abroxweg
+   201: Barrierstraat && Hamonterweg
+   202: Barrierstraat && Truyenhofstraat
+   203: Beerselerdijk
+   204: Bocholterkiezel 25a
+   205: Bocholterkiezel && Sportlaan
+   206: Bocholterkiezel 87
+   207: Bocholterkiezel
+   208: Bocholterkiezel 77
+   209: Bocholterkiezel 45
+   210: Bocholterkiezel 142
+   211: Bocholterkiezel && Graevenstraat
+   212: Bocholterkiezel && Wolstraat
+   213: Bocholterkiezel && Kookshofstraat
+   214: Bocholterstraat && Stift
+   215: Boneputstraat
+   216: Boneputterveld
+   217: Boogschuttersstraat 58
+   218: Boogschuttersstraat
+   219: Boogschuttersstraat 40
+   220: Bosstraat
+   221: Bosstraat 82
+   222: Conenstraat 4
+   223: fietspad langs kanaal
+   224: Fietspad Opitter
+   225: Filterstraat 10
+   226: Filterstraat && Riekskensstraat
+   227: Genastraat
+   228: Gerdingerpoort 9
+   229: Gerdingerpoort && Witte Torenwal
+   230: Gerkenbergstraat 7
+   231: Geussensstraat
+   232: Grauwe Torenwal
+   233: Grauwe Torenwal 16
+   234: Grauwe Torenwal 15
+   235: Gruitroderkiezel 227
+   236: Gruitroderkiezel 39
+   237: Gruitroderkiezel && Verlorenkoststraat
+   238: Gruitroderkiezel && Muizendijkstraat
+   239: Gruitroderkiezel 173
+   240: Gruitroderkiezel && Luytenstraat
+   241: Gruitroderkiezel
+   242: Gruitroderkiezel && Kipdorpstraat
+   243: Gruitroderkiezel 247
+   244: Gruitroderkiezel && Rode Kruislaan
+   245: Gruitroderkiezel 223
+   246: Gruitroderkiezel 20
+   247: Hamonterweg
+   248: Hamonterweg && Barrierstraat
+   249: Heuvelstraat 4
+   250: Industrieterrein Kanaal-Noord 1126
+   251: Industrieterrein Kanaal-Noord
+   252: Industrieterrein Kanaal-Noord 1167
+   253: Itterplein
+   254: Jef Van Hoofstraat 4
+   255: Kanaallaan 54
+   256: Kanaallaan
+   257: Kanaallaan 33
+   258: Kempstraat 10
+   259: Kerkstraat 39
+   260: Kerkstraat
+   261: Keyartstraat
+   262: Kloosterpoort
+   263: Kloosterpoort 19
+   264: Kloosterstraat 13
+   265: Kloosterstraat && Stadsplein
+   266: Kruittorenwal 9
+   267: Kruittorenwal && Gerdingerpoort
+   268: Kruittorenwal
+   269: Kuilenstraat
+   270: Leeuwerikstraat 34
+   271: Luytenstraat
+   272: Maaseikerbaan 79
+   273: Maaseikerbaan && Omselweg
+   274: Maaseikerbaan 47
+   275: Malta
+   276: Malta && Toleikstraat
+   277: Markt
+   278: Meeuwerkiezel && Boneputstraat
+   279: Meeuwerkiezel && Hansweg
+   280: Meeuwerkiezel && Gerkenbergstraat
+   281: Meeuwerkiezel 58
+   282: Meeuwerkiezel 76
+   283: Meeuwerkiezel 120
+   284: Meeuwerkiezel
+   285: Meeuwerkiezel 207
+   286: Meeuwerkiezel 116
+   287: Meeuwerkiezel && Rode Kruislaan
+   288: Meeuwerkiezel 77
+   289: Meeuwerkiezel 39
+   290: Millenstraat && Regenboogstraat
+   291: Millenstraat && Kanaallaan
+   292: Millenstraat 43
+   293: Millenstraat && Rode Kruislaan
+   294: Millenstraat
+   295: Nieuwstadstraat
+   296: Opitterkiezel 140
+   297: Opitterkiezel && Rode Kruislaan
+   298: Opitterkiezel
+   299: Opitterkiezel 75
+   300: Opitterkiezel 78
+   301: Opitterkiezel && Tongerlostraat
+   302: Opitterkiezel 236
+   303: Opitterkiezel 122
+   304: Opitterkiezel 9
+   305: Opitterpoort 18
+   306: Opitterpoort && Regenboogstraat
+   307: Opitterpoort
+   308: Opitterpoort 66
+   309: Opstraat
+   310: Oudestraat 36
+   311: Pater Coninxlaan && Gruitroderkiezel
+   312: Pater Neyenslaan 1
+   313: Peerderbaan
+   314: Peerderbaan 115
+   315: Peerderbaan 1014
+   316: Peerderbaan 106
+   317: Peerderbaan && Nieshofstraat
+   318: Peerderbaan 68
+   319: Peerderbaan && Hamonterweg
+   320: Regenboogstraat 12
+   321: Reppelerweg 7
+   322: Riekskensstraat 46
+   323: Rode Kruislaan && Gruitroderstraat
+   324: Rode Kruislaan && Opitterkiezel
+   325: Rode Kruislaan 23
+   326: Rode Kruislaan && Meeuwerkiezel
+   327: Rode Kruislaan
+   328: Rode Kruislaan && Millenstraat
+   329: Rode Kruislaan 55
+   330: Rode Kruislaan 41
+   331: Rode Kruislaan && Gruitroderkiezel
+   332: Rode Kruislaan && Peerderbaan
+   333: Rode Kruislaan 40
+   334: Rode Kruislaan && Panhovenstraat
+   335: Rode Kruislaan && Herenstraat
+   336: Roermonderstraat && Hulsbosstraat
+   337: Rorenweg && Pater Neyenslaan
+   338: Schoolstraat 81
+   339: Schutterijstraat 14
+   340: Schutterijstraat && Bocholterkiezel
+   341: Sint-Jacobstraat
+   342: Solterweg 49
+   343: Sportlaan 3
+   344: Sportlaan
+   345: Sportlaan 25
+   346: Sportlaan 4
+   347: Stadsplein && Kloosterpoort
+   348: Stationswal
+   349: Stationswal && Malta
+   350: Stationswal 3
+   351: Steyvenstraat 40
+   352: Stift 48
+   353: Stift && Witte Torenstraat
+   354: Stift 79
+   355: Stift 2
+   356: 't Hasseltkiezel 9
+   357: 't Hasseltkiezel && Straterhofweg
+   358: 't Hasseltkiezel 41
+   359: 't Hasseltkiezel 14
+   360: 't Hasseltkiezel 32
+   361: 't Hasseltkiezel && Berkenbroekstraat
+   362: 't Hasseltkiezel && Processieweg
+   363: 't Hasseltkiezel && Beerselerdijk
+   364: 't Hasseltkiezel
+   365: 't Hasseltkiezel 15
+   366: 't Hasseltkiezel && Roermonderstraat
+   367: Teelestraat 10
+   368: Ter Rivierenwal
+   369: Ter Rivierenwal && Kloosterstraat
+   370: Toleikstraat 28
+   371: Toleikstraat && Malta
+   372: Toleikstraat 13
+   373: Toleikstraat
+   374: Tongerlostraat && Itterplein
+   375: Velkuilenstraat
+   376: Voortbemdenstraat
+   377: Vrijheidslaan && Schutterijstraat
+   378: Wiekersbeekstraat
+   379: Wijshagerstraat 12
+   380: Witte Torenstraat 5
+   381: Witte Torenstraat
+   382: Witte Torenwal && Malta
+   383: Witte Torenwal
+   384: Witte Torenwal 15
+   385: Witte Torenwal 37
+   386: Witte Torenwal 11
+   387: Achelsedijk
+   388: Achelsedijk 3
+   389: Bosheidestraat && Achelsedijk
+   390: Bosschelweg
+   391: Bosschelweg && Langveld
+   392: Breeërweg 15
+   393: Breeërweg
+   394: Bremstraat && Kaulillerweg
+   395: Brogelerweg 123
+   396: Brogelerweg
+   397: Brogelerweg && Galgenbergstraat
+   398: Brogelerweg && Gelehoekstraat
+   399: Brugstraat 41
+   400: Commandant Leroystraat 20
+   401: Damburgstraat
+   402: Damburgstraat && Breeërweg
+   403: Donkelstraatje && Fonteinstraat
+   404: Dorpsstraat 53
+   405: Dorpsstraat 29
+   406: Dorpsstraat && Pastoorsdreef
+   407: Dorpsstraat 14
+   408: Fabriekstraat
+   409: Fabriekstraat 117
+   410: Fabriekstraat && Raakstraat
+   411: Fabriekstraat 90
+   412: Fabriekstraat 11
+   413: Fabriekstraat 38
+   414: Fabriekstraat && Belgebergstraat
+   415: Fabriekstraat 2
+   416: Galgenbergstraat 37
+   417: Galgenbergstraat && Brogelerweg
+   418: Galgenbergstraat
+   419: Groenstraat
+   420: Grote Baan 10
+   421: Hamonterweg 125
+   422: Hamonterweg && Leemskuilenstraat
+   423: Hamonterweg && Sportlaan
+   424: Hamonterweg && Weerterweg
+   425: Hamonterweg && Hoekstraat
+   426: Hamonterweg 34
+   427: Heuvelstraat && Hoogstraat
+   428: Hoekstraat 15
+   429: Hoogstraat 47
+   430: Hoogstraat 52
+   431: Jasperslaan
+   432: Kallerstraat 9
+   433: Kapelstraat
+   434: kaulillerdorp 51
+   435: kaulillerdorp
+   436: Kaulillerdorp 75
+   437: kaulillerdorp 17
+   438: kaulillerdorp && Fabriekstraat
+   439: Kaulillerweg && Kallerstraat
+   440: Kaulillerweg 8
+   441: Kaulillerweg 99
+   442: Kaulillerweg 147
+   443: Kaulillerweg && Goosweg
+   444: Kaulillerweg 93
+   445: Kaulillerweg 3
+   446: Kaulillerweg
+   447: Kaulillerweg && Vinkstraat
+   448: Kaulillerweg && Bloemenweg
+   449: Kaulillerweg 65
+   450: Kaulillerweg 107
+   451: Kaulillerweg 156
+   452: Kerkhofstraat 38
+   453: Kerkhofstraat 62
+   454: Kerkplein
+   455: Kettingbrugweg
+   456: Kettingbrugweg 40
+   457: Kleine Marsestraat && commandant Leroystraat
+   458: Kloosterstraat && Kerkhofstraat
+   459: Kloosterstraat && Beukenstraat
+   460: Lemmenskuilstraat
+   461: Lillerbaan && Oude Hostieweg
+   462: Lillerbaan && Steenweg op Kleine Brogel
+   463: Lillerbaan 65
+   464: Lozerheide
+   465: Lozerplein
+   466: Lozerstraat && Fabriekstraat
+   467: Lozerstraat 24
+   468: Lozerstraat && Lozerheide
+   469: Lozerstraat
+   470: Lozerstraat 1
+   471: Luysenweg && Stramproyerweg
+   472: Marsestraat
+   473: Molenstraat
+   474: Napoleonsdijk
+   475: Reppelerweg 208
+   476: Reppelerweg 225
+   477: Reppelerweg 195
+   478: Reppelerweg 62
+   479: Schoolstraat && Pastoorsdreef
+   480: Snellewindstraat
+   481: Steenweg op Kleine Brogel 73
+   482: Steenweg op Kleine Brogel && Zavelstraat
+   483: Steenweg op Kleine Brogel 70
+   484: Steenweg op Kleine Brogel && Winterdijkweg
+   485: Steenweg op Kleine Brogel && Lillerbaan
+   486: Stramproyerweg && Luysenweg
+   487: Stramproyerweg 76
+   488: Weerterweg
+   489: Weerterweg 17
+   490: Weerterweg 70
+   491: Weerterweg && Smeetshofweg
+   492: Wilgenweg 18
+   493: Winterdijkweg && Bosschelweg
+   494: Zandstraat
+   495: Zavelstraat
+uniqueColumnValuesForWeights: 
+weights: 
+
+------------------------------------------
+In PGISSettings.ReadAreaSpecificSettings
+geocodedPointsTable: test_tijd1
+s_timestamp: 1513249200
+-> flSettings: 
+iniFile:      H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\config\config.ini
+dataFolder:   H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS
+inputFolder:  H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\ISLP bestanden
+outputFolder: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\resultaat
+workFolder:   H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder
+exportFolder: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\resultaat
+
+-> anSettings: 
+enableModule: T
+defaultArea: Politiezone Noordoost Limburg
+selectedArea: Politiezone Noordoost Limburg
+analysisMethod: 2
+pointAnalysisThematicField: -1
+selectedAggregationLevel: -1
+areaThematicField: -1
+blackpointThematicField: -1
+lowestValueBrush: Brush (2, 65280, 16777215)
+highestValueBrush: Brush (2, 16711680, 16777215)
+streetIDField: ID
+useColumnForPie: F
+weightFieldName: 
+dateLowColumn: 
+dateHighColumn: 
+timeLowColumn: 
+timeHighColumn: 
+maxDistanceMeters: 500
+maxTimeSpanMinutes: 720
+maxGapMinutes: 120
+availableAreas: 
+   1: Politiezone Noordoost Limburg
+   2: Gemeente Bree
+   3: Gemeente Bocholt
+   4: Gemeente Kinrooi
+   5: Gemeente Meeuwen-Gruitrode
+aggregationLevels: 
+   1: Fusiegemeenten
+   2: Deelgemeenten
+   3: NIS-buurten
+ISLPcolNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Straat
+   4: Datum
+   5: Tijd_cleaned
+   6: Tijd
+   7: Nr_
+   8: Hecto
+   9: Kruispunt_met
+   10: Info
+   11: Best_1
+   12: Leeft_1
+   13: Gesl_1
+   14: Best_2
+   15: Leeft_2
+   16: Gesl_2
+   17: Best_3
+   18: Leeft_3
+   19: Gesl_3
+   20: Best_4
+   21: Leeft_4
+   22: Gesl_4
+   23: Ongevalsfactoren
+   24: Type_aanrijding
+   25: Gevolg
+   26: PV_nr_
+   27: adres
+conditionalColNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Leeft_1
+   4: Gesl_1
+   5: Best_2
+   6: Leeft_2
+   7: Gesl_2
+   8: Best_3
+   9: Leeft_3
+   10: Gesl_3
+   11: Best_4
+   12: Leeft_4
+   13: Gesl_4
+   14: Gevolg
+copiedISLPcolIDs: 
+originalISLPColumnIDs: 
+   1: 
+   2: 1
+   3: 2
+   4: 3
+   5: 4
+   6: 5
+   7: 6
+   8: 7
+   9: 8
+   10: 9
+   11: 10
+   12: 11
+   13: 12
+   14: 13
+   15: 14
+   16: 15
+   17: 16
+   18: 17
+   19: 18
+   20: 19
+   21: 20
+   22: 21
+   23: 22
+   24: 23
+   25: 24
+   26: 25
+   27: 28
+uniqueColumnValuesForTheme: 
+   1: Arkstraat && Weg op Bree
+   2: Arkstraat 72
+   3: Beemdstraat
+   4: Beemdstraat 62
+   5: Betonweg 219
+   6: Blauwe-Keistraat 3
+   7: Boendersstraat
+   8: Bosstraat && Kerkhofstraat
+   9: Breekiezel 137
+   10: Breekiezel && Boshovenstraat
+   11: Breekiezel
+   12: Weg naar As && Weg naar Opoeteren
+   13: Breekiezel 21
+   14: Broekkantstraat 75
+   15: Dampstraat 32
+   16: Dampstraat
+   17: Dorpsstraat && Weg op Bree
+   18: Dorpsstraat
+   19: Dorpsstraat && Weg nr. Helchteren
+   20: Fietsroutenetwerk
+   21: Genitsstraat && Gruitroderbaan
+   22: Genkerbaan
+   23: Genkerbaan 48
+   24: Genkerbaan 14
+   25: Hoogstraat && Kruisstraat
+   26: Plockroy && Vliegeneinde
+   27: Grote Baan && Betonweg
+   28: Grote Baan
+   29: Heidestraat
+   30: Heikantstraat && Schutterslaan
+   31: Hoogstraat 48
+   32: Hoogstraat
+   33: Hoogstraat 13
+   34: Hoogstraat 57
+   35: Kabienstraat && Weg naar As
+   36: Kerkplein 2
+   37: Kerkplein 10
+   38: Kiëstraat 9
+   39: Klein Gestel
+   40: Klein Heidestraat
+   41: Kruisstraat && Beemdstraat
+   42: Leemakkerstraat
+   43: Martinlaan 3
+   44: Muisvenstraat 128
+   45: Muisvenstraat
+   46: Muisvenstraat 148
+   47: Ophovenstraat && Heuvelstraat
+   48: Ophovenstraat 8
+   49: Ophovenstraat 6
+   50: Ophovenstraat
+   51: Ophovenstraat 171
+   52: Opstraat && Breekiezel
+   53: Pastoriestraat 2
+   54: Peerderbaan 45
+   55: Peerderbaan 52
+   56: Peerderbaan 70
+   57: Peerderbaan 1
+   58: Populierenstraat
+   59: Roesstraat 1
+   60: Roesstraat 28
+   61: Roesstraat
+   62: Weg op Bree && Venstraat
+   63: Soetebeek 23
+   64: Soetebeek
+   65: Sparstraat
+   66: Taelstraat && Opstraat
+   67: Torenstraat
+   68: Turfstraat 13
+   69: Vliegeneinde 17
+   70: Weg naar As 112
+   71: Weg naar As 71
+   72: Weg naar As
+   73: Weg naar As 122
+   74: Weg naar As 10
+   75: Weg naar As 31
+   76: Weg nr Ellikom
+   77: Weg nr Ellikom 219
+   78: Weg nr Helchteren 12
+   79: Weg nr Helchteren 34
+   80: Weg nr Helchteren
+   81: Weg nr Helchteren 61
+   82: Weg naar Opitter
+   83: Weg naar Opoeteren 21
+   84: Weg naar Opoeteren && Weg naar Opitter
+   85: Weg naar Opoeteren && Opstraat
+   86: Weg naar Opoeteren
+   87: Weg naar Opoeteren && Weg naar As
+   88: Weg naar Opoeteren && Pexhofweg
+   89: Weg nr. Zwartberg
+   90: Weg nr. Zwartberg && Dampstraat
+   91: Weg op Bree 37
+   92: Weg op Bree
+   93: Weg op Bree 23
+   94: Weg op Bree && Klein Heidestraat
+   95: Weg op Bree && Wijshagerkiezel
+   96: Weg op Bree 47
+   97: Weg op Bree 129
+   98: Weg op Bree 74
+   99: Weg op Bree && Boendersstraat
+   100: Weg op Bree && Martinlaan
+   101: Weg op Bree && Dorpsstraat
+   102: Wijshagerkiezel
+   103: Wijshagerkiezel && Martinlaan
+   104: Belestraat 66
+   105: Breeërsteenweg && Manestraat
+   106: Breeërsteenweg 306
+   107: Breeërsteenweg && Vierstraat
+   108: Breeërsteenweg && Weertersteenweg
+   109: Breeërsteenweg
+   110: Breeërsteenweg && Hoverstraat
+   111: Breeërsteenweg 268
+   112: Breivinstraat 4
+   113: De Belder
+   114: Dolenweg && Manestraat
+   115: Dorpsplein
+   116: Dorpsplein 4
+   117: Drietak
+   118: Dwarsstraat 10
+   119: Fosheistraat && Heikempstraat
+   120: Grootbroekstraat
+   121: Grote Kerkstraat
+   122: Grote Kerkstraat 6
+   123: Heggestraat && Grootbroekstraat
+   124: Heikempstraat && Breivinstraat
+   125: Hoogveldstraat
+   126: Hurkenstraat
+   127: Itterstraat && Nagelstraat
+   128: Kasteelstraat
+   129: Kasteelstraat 17
+   130: Kessenicherweg
+   131: Keyersstraat && Bekerstraat
+   132: Kloosterstraat 8
+   133: Kruisstraat && Simpelstraat
+   134: Lakerweg
+   135: Leustraat 47
+   136: Maasstraat && Haansberg
+   137: Maasstraat 14
+   138: Maasstraat && Putstraatje
+   139: Meierstraat
+   140: Merrenhofstraat 18
+   141: Neeroetersesteenweg && Basdonkstraat
+   142: Neeroetersesteenweg
+   143: Neeroetersesteenweg 3
+   144: Oude Kerkstraat
+   145: Pastorijstraat 3
+   146: Pekstraatje
+   147: Raam && Heinestraat
+   148: Raamdijk 1
+   149: Raamdijk
+   150: Rozenstraat
+   151: Schansstraat 7
+   152: Schoolstraat 24
+   153: Truyenstraat
+   154: Veldstraat && Venlosesteenweg
+   155: Veldstraat 39
+   156: Venderstraat 32
+   157: Venlosesteenweg && 't Meulke
+   158: Venlosesteenweg
+   159: Venlosesteenweg 373
+   160: Venlosesteenweg && Breeërsteenweg
+   161: Venlosesteenweg && Toekomststraat
+   162: Venlosesteenweg && Veldstraat
+   163: Venlosesteenweg 48
+   164: Venlosesteenweg 158
+   165: Venlosesteenweg 95
+   166: Venlosesteenweg 334
+   167: Venlosesteenweg 138
+   168: Venlosesteenweg 16
+   169: Venlosesteenweg 71
+   170: Venlosesteenweg 68
+   171: Venlosesteenweg 23
+   172: Venlosesteenweg 50
+   173: Vennerweg
+   174: Vroenhof 2
+   175: Vroenhof 23
+   176: Weertersteenweg 277
+   177: Weertersteenweg 260
+   178: Weertersteenweg && Natterveld
+   179: Weertersteenweg 259
+   180: Weertersteenweg 480
+   181: Weertersteenweg 320
+   182: Weertersteenweg 362
+   183: Weertersteenweg && Scheurestraat
+   184: Weertersteenweg 4
+   185: Weertersteenweg && Rozenstraat
+   186: Weertersteenweg 106
+   187: Weertersteenweg 364
+   188: Weertersteenweg 22
+   189: Weertersteenweg
+   190: Weertersteenweg 36
+   191: Weertersteenweg 370
+   192: Weertersteenweg && Esserstraat
+   193: Weertersteenweg 235
+   194: Weertersteenweg 1
+   195: Weertersteenweg && Truyenstraat
+   196: Weertersteenweg 6
+   197: Weertersteenweg && Heikempstraat
+   198: Zandveldstraat
+   199: Zandveldstraat 5
+   200: Abroxweg
+   201: Barrierstraat && Hamonterweg
+   202: Barrierstraat && Truyenhofstraat
+   203: Beerselerdijk
+   204: Bocholterkiezel 25a
+   205: Bocholterkiezel && Sportlaan
+   206: Bocholterkiezel 87
+   207: Bocholterkiezel
+   208: Bocholterkiezel 77
+   209: Bocholterkiezel 45
+   210: Bocholterkiezel 142
+   211: Bocholterkiezel && Graevenstraat
+   212: Bocholterkiezel && Wolstraat
+   213: Bocholterkiezel && Kookshofstraat
+   214: Bocholterstraat && Stift
+   215: Boneputstraat
+   216: Boneputterveld
+   217: Boogschuttersstraat 58
+   218: Boogschuttersstraat
+   219: Boogschuttersstraat 40
+   220: Bosstraat
+   221: Bosstraat 82
+   222: Conenstraat 4
+   223: fietspad langs kanaal
+   224: Fietspad Opitter
+   225: Filterstraat 10
+   226: Filterstraat && Riekskensstraat
+   227: Genastraat
+   228: Gerdingerpoort 9
+   229: Gerdingerpoort && Witte Torenwal
+   230: Gerkenbergstraat 7
+   231: Geussensstraat
+   232: Grauwe Torenwal
+   233: Grauwe Torenwal 16
+   234: Grauwe Torenwal 15
+   235: Gruitroderkiezel 227
+   236: Gruitroderkiezel 39
+   237: Gruitroderkiezel && Verlorenkoststraat
+   238: Gruitroderkiezel && Muizendijkstraat
+   239: Gruitroderkiezel 173
+   240: Gruitroderkiezel && Luytenstraat
+   241: Gruitroderkiezel
+   242: Gruitroderkiezel && Kipdorpstraat
+   243: Gruitroderkiezel 247
+   244: Gruitroderkiezel && Rode Kruislaan
+   245: Gruitroderkiezel 223
+   246: Gruitroderkiezel 20
+   247: Hamonterweg
+   248: Hamonterweg && Barrierstraat
+   249: Heuvelstraat 4
+   250: Industrieterrein Kanaal-Noord 1126
+   251: Industrieterrein Kanaal-Noord
+   252: Industrieterrein Kanaal-Noord 1167
+   253: Itterplein
+   254: Jef Van Hoofstraat 4
+   255: Kanaallaan 54
+   256: Kanaallaan
+   257: Kanaallaan 33
+   258: Kempstraat 10
+   259: Kerkstraat 39
+   260: Kerkstraat
+   261: Keyartstraat
+   262: Kloosterpoort
+   263: Kloosterpoort 19
+   264: Kloosterstraat 13
+   265: Kloosterstraat && Stadsplein
+   266: Kruittorenwal 9
+   267: Kruittorenwal && Gerdingerpoort
+   268: Kruittorenwal
+   269: Kuilenstraat
+   270: Leeuwerikstraat 34
+   271: Luytenstraat
+   272: Maaseikerbaan 79
+   273: Maaseikerbaan && Omselweg
+   274: Maaseikerbaan 47
+   275: Malta
+   276: Malta && Toleikstraat
+   277: Markt
+   278: Meeuwerkiezel && Boneputstraat
+   279: Meeuwerkiezel && Hansweg
+   280: Meeuwerkiezel && Gerkenbergstraat
+   281: Meeuwerkiezel 58
+   282: Meeuwerkiezel 76
+   283: Meeuwerkiezel 120
+   284: Meeuwerkiezel
+   285: Meeuwerkiezel 207
+   286: Meeuwerkiezel 116
+   287: Meeuwerkiezel && Rode Kruislaan
+   288: Meeuwerkiezel 77
+   289: Meeuwerkiezel 39
+   290: Millenstraat && Regenboogstraat
+   291: Millenstraat && Kanaallaan
+   292: Millenstraat 43
+   293: Millenstraat && Rode Kruislaan
+   294: Millenstraat
+   295: Nieuwstadstraat
+   296: Opitterkiezel 140
+   297: Opitterkiezel && Rode Kruislaan
+   298: Opitterkiezel
+   299: Opitterkiezel 75
+   300: Opitterkiezel 78
+   301: Opitterkiezel && Tongerlostraat
+   302: Opitterkiezel 236
+   303: Opitterkiezel 122
+   304: Opitterkiezel 9
+   305: Opitterpoort 18
+   306: Opitterpoort && Regenboogstraat
+   307: Opitterpoort
+   308: Opitterpoort 66
+   309: Opstraat
+   310: Oudestraat 36
+   311: Pater Coninxlaan && Gruitroderkiezel
+   312: Pater Neyenslaan 1
+   313: Peerderbaan
+   314: Peerderbaan 115
+   315: Peerderbaan 1014
+   316: Peerderbaan 106
+   317: Peerderbaan && Nieshofstraat
+   318: Peerderbaan 68
+   319: Peerderbaan && Hamonterweg
+   320: Regenboogstraat 12
+   321: Reppelerweg 7
+   322: Riekskensstraat 46
+   323: Rode Kruislaan && Gruitroderstraat
+   324: Rode Kruislaan && Opitterkiezel
+   325: Rode Kruislaan 23
+   326: Rode Kruislaan && Meeuwerkiezel
+   327: Rode Kruislaan
+   328: Rode Kruislaan && Millenstraat
+   329: Rode Kruislaan 55
+   330: Rode Kruislaan 41
+   331: Rode Kruislaan && Gruitroderkiezel
+   332: Rode Kruislaan && Peerderbaan
+   333: Rode Kruislaan 40
+   334: Rode Kruislaan && Panhovenstraat
+   335: Rode Kruislaan && Herenstraat
+   336: Roermonderstraat && Hulsbosstraat
+   337: Rorenweg && Pater Neyenslaan
+   338: Schoolstraat 81
+   339: Schutterijstraat 14
+   340: Schutterijstraat && Bocholterkiezel
+   341: Sint-Jacobstraat
+   342: Solterweg 49
+   343: Sportlaan 3
+   344: Sportlaan
+   345: Sportlaan 25
+   346: Sportlaan 4
+   347: Stadsplein && Kloosterpoort
+   348: Stationswal
+   349: Stationswal && Malta
+   350: Stationswal 3
+   351: Steyvenstraat 40
+   352: Stift 48
+   353: Stift && Witte Torenstraat
+   354: Stift 79
+   355: Stift 2
+   356: 't Hasseltkiezel 9
+   357: 't Hasseltkiezel && Straterhofweg
+   358: 't Hasseltkiezel 41
+   359: 't Hasseltkiezel 14
+   360: 't Hasseltkiezel 32
+   361: 't Hasseltkiezel && Berkenbroekstraat
+   362: 't Hasseltkiezel && Processieweg
+   363: 't Hasseltkiezel && Beerselerdijk
+   364: 't Hasseltkiezel
+   365: 't Hasseltkiezel 15
+   366: 't Hasseltkiezel && Roermonderstraat
+   367: Teelestraat 10
+   368: Ter Rivierenwal
+   369: Ter Rivierenwal && Kloosterstraat
+   370: Toleikstraat 28
+   371: Toleikstraat && Malta
+   372: Toleikstraat 13
+   373: Toleikstraat
+   374: Tongerlostraat && Itterplein
+   375: Velkuilenstraat
+   376: Voortbemdenstraat
+   377: Vrijheidslaan && Schutterijstraat
+   378: Wiekersbeekstraat
+   379: Wijshagerstraat 12
+   380: Witte Torenstraat 5
+   381: Witte Torenstraat
+   382: Witte Torenwal && Malta
+   383: Witte Torenwal
+   384: Witte Torenwal 15
+   385: Witte Torenwal 37
+   386: Witte Torenwal 11
+   387: Achelsedijk
+   388: Achelsedijk 3
+   389: Bosheidestraat && Achelsedijk
+   390: Bosschelweg
+   391: Bosschelweg && Langveld
+   392: Breeërweg 15
+   393: Breeërweg
+   394: Bremstraat && Kaulillerweg
+   395: Brogelerweg 123
+   396: Brogelerweg
+   397: Brogelerweg && Galgenbergstraat
+   398: Brogelerweg && Gelehoekstraat
+   399: Brugstraat 41
+   400: Commandant Leroystraat 20
+   401: Damburgstraat
+   402: Damburgstraat && Breeërweg
+   403: Donkelstraatje && Fonteinstraat
+   404: Dorpsstraat 53
+   405: Dorpsstraat 29
+   406: Dorpsstraat && Pastoorsdreef
+   407: Dorpsstraat 14
+   408: Fabriekstraat
+   409: Fabriekstraat 117
+   410: Fabriekstraat && Raakstraat
+   411: Fabriekstraat 90
+   412: Fabriekstraat 11
+   413: Fabriekstraat 38
+   414: Fabriekstraat && Belgebergstraat
+   415: Fabriekstraat 2
+   416: Galgenbergstraat 37
+   417: Galgenbergstraat && Brogelerweg
+   418: Galgenbergstraat
+   419: Groenstraat
+   420: Grote Baan 10
+   421: Hamonterweg 125
+   422: Hamonterweg && Leemskuilenstraat
+   423: Hamonterweg && Sportlaan
+   424: Hamonterweg && Weerterweg
+   425: Hamonterweg && Hoekstraat
+   426: Hamonterweg 34
+   427: Heuvelstraat && Hoogstraat
+   428: Hoekstraat 15
+   429: Hoogstraat 47
+   430: Hoogstraat 52
+   431: Jasperslaan
+   432: Kallerstraat 9
+   433: Kapelstraat
+   434: kaulillerdorp 51
+   435: kaulillerdorp
+   436: Kaulillerdorp 75
+   437: kaulillerdorp 17
+   438: kaulillerdorp && Fabriekstraat
+   439: Kaulillerweg && Kallerstraat
+   440: Kaulillerweg 8
+   441: Kaulillerweg 99
+   442: Kaulillerweg 147
+   443: Kaulillerweg && Goosweg
+   444: Kaulillerweg 93
+   445: Kaulillerweg 3
+   446: Kaulillerweg
+   447: Kaulillerweg && Vinkstraat
+   448: Kaulillerweg && Bloemenweg
+   449: Kaulillerweg 65
+   450: Kaulillerweg 107
+   451: Kaulillerweg 156
+   452: Kerkhofstraat 38
+   453: Kerkhofstraat 62
+   454: Kerkplein
+   455: Kettingbrugweg
+   456: Kettingbrugweg 40
+   457: Kleine Marsestraat && commandant Leroystraat
+   458: Kloosterstraat && Kerkhofstraat
+   459: Kloosterstraat && Beukenstraat
+   460: Lemmenskuilstraat
+   461: Lillerbaan && Oude Hostieweg
+   462: Lillerbaan && Steenweg op Kleine Brogel
+   463: Lillerbaan 65
+   464: Lozerheide
+   465: Lozerplein
+   466: Lozerstraat && Fabriekstraat
+   467: Lozerstraat 24
+   468: Lozerstraat && Lozerheide
+   469: Lozerstraat
+   470: Lozerstraat 1
+   471: Luysenweg && Stramproyerweg
+   472: Marsestraat
+   473: Molenstraat
+   474: Napoleonsdijk
+   475: Reppelerweg 208
+   476: Reppelerweg 225
+   477: Reppelerweg 195
+   478: Reppelerweg 62
+   479: Schoolstraat && Pastoorsdreef
+   480: Snellewindstraat
+   481: Steenweg op Kleine Brogel 73
+   482: Steenweg op Kleine Brogel && Zavelstraat
+   483: Steenweg op Kleine Brogel 70
+   484: Steenweg op Kleine Brogel && Winterdijkweg
+   485: Steenweg op Kleine Brogel && Lillerbaan
+   486: Stramproyerweg && Luysenweg
+   487: Stramproyerweg 76
+   488: Weerterweg
+   489: Weerterweg 17
+   490: Weerterweg 70
+   491: Weerterweg && Smeetshofweg
+   492: Wilgenweg 18
+   493: Winterdijkweg && Bosschelweg
+   494: Zandstraat
+   495: Zavelstraat
+uniqueColumnValuesForWeights: 
+weights: 
+
+
+In GIM_lib.TableIsOpen(NOL_a8)
+Exit GIM_lib.TableIsOpen, result = F
+
+
+In OpenTableChecked(NOL_a8, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_a8.TAB)
+
+In GIM_lib.TableIsOpen(NOL_a8)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+PGISSettings.ReadAreaSpecificSettings, areaSpecSettings: 
+islpFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\ISLP bestanden\test_tijd1.TAB
+islpTable: test_tijd1
+area: Politiezone Noordoost Limburg
+startupWorkspace: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\workspaces\Noordoost Limburg.wor
+islpFileRef: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\ong_nol
+areaIslpFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\ong_nol_1513249200.TAB
+areaIslpTable: ong_nol_1513249200
+s_areaBordersFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_a8.TAB
+s_areaBordersTable: NOL_a8
+roadNetworkFile : H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_nw.TAB
+s_roadBufferFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_gc_buffer.TAB
+s_roadBufferTable: NOL_gc_buffer
+s_roadBufferTempFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\NOL_gc_buffer_1513249200.TAB
+s_roadBufferTempTable: NOL_gc_buffer_1513249200
+s_roadAggrFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_gc_aggr.TAB
+s_roadAggrTable: NOL_gc_aggr
+s_roadAggrTempFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\NOL_gc_aggr_1513249200.TAB
+s_roadAggrTempTable: NOL_gc_aggr_1513249200
+pieAggregationFile: 
+pieAggregationTable: 
+pieTable: 
+pieFile: 
+s_crossRoadFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\kruispunt_1513249200.TAB
+s_crossRoadTable: kruispunt_1513249200
+s_crossRoadBufferFile: H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\kruispuntbuffer_1513249200.TAB
+s_crossRoadBufferTable: kruispuntbuffer_1513249200
+
+Exit PGISSettings.ReadAreaSpecificSettings
+
+In GenerateAnalysisPerStreet
+
+In OpenTableChecked(NOL_gc_buffer, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_gc_buffer.TAB)
+
+In GIM_lib.TableIsOpen(NOL_gc_buffer)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+
+In OpenTableChecked(NOL_gc_aggr, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_gc_aggr.TAB)
+
+In GIM_lib.TableIsOpen(NOL_gc_aggr)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+
+In OpenTableChecked(NOL_gc_buffer_1513249200, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\NOL_gc_buffer_1513249200.TAB)
+
+In GIM_lib.TableIsOpen(NOL_gc_buffer_1513249200)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+
+In OpenTableChecked(NOL_gc_aggr_1513249200, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\NOL_gc_aggr_1513249200.TAB)
+
+In GIM_lib.TableIsOpen(NOL_gc_aggr_1513249200)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+GenerateAnalysisPerStreet: columnIdNumIncidents = 28
+GenerateAnalysisPerStreet: colAliasNbAccidents = NOL_gc_aggr_1513249200.COL28
+Running command s_AddColumnStatement: 
+Add Column NOL_gc_aggr_1513249200(number_incidents) From NOL_gc_buffer_1513249200 Set To number_incidents  Where ID = ID
+
+In LimitIslpToArea
+areaSettings.areaIslpTable      = ong_nol_1513249200
+areaSettings.areaIslpFile       = H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\ong_nol_1513249200.TAB
+areaSettings.s_areaBordersTable = NOL_a8
+areaSettings.s_areaBordersFile  = H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_a8.TAB
+si_analysisType = 2
+
+In LimitIslpToArea2
+s_islpTable        = test_tijd1
+s_areaIslpTable    = ong_nol_1513249200
+s_areaIslpFile     = H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\ong_nol_1513249200.TAB
+s_areaBordersTable = NOL_a8
+s_areaBordersFile  = H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_a8.TAB
+si_analysisType    = 2
+
+In OpenTableChecked(NOL_a8, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\basiskaarten\NOL_a8.TAB)
+
+In GIM_lib.TableIsOpen(NOL_a8)
+Exit GIM_lib.TableIsOpen, result = T
+
+Exit OpenTableChecked
+
+
+In OpenTableChecked(ong_nol_1513249200, H:\Programmes\KNWH PolicieGIS\Politie-GIS_NOL_release_v2.4.2_DEV1_2008-06-20_13h30\NOL\data\PolitieGIS\werkfolder\ong_nol_1513249200.TAB)
+
+In GIM_lib.TableIsOpen(ong_nol_1513249200)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+Exit LimitIslpToArea2
+
+Exit LimitIslpToArea
+
+going to run Shade Window command: Shade Window 525297560 NOL_gc_aggr_1513249200  with number_incidents ignore 0 Ranges Apply All Use All Line (1,2, 16777215) 0: 5 Line (20,2,65280), 5: 10 Line (26,2,2150400), 10: 15 Line (31,2,5287936), 15: 20 Line (37,2,7372800), 20: 25 Line (42,2,9457664), 25: 30 Line (48,2,12595200), 30: 35 Line (53,2,14680064) default Style replace off
+going to run Set Legend command: set legend window 525297560 layer prev display on shades off symbols off lines on count on title "Wegen naar aantal ongevallen" Font ("Arial",0,9,0) subtitle auto Font ("Arial",0,8,0) ascending off ranges Font ("Arial",0,8,0) auto display off ,auto display on ,auto display on ,auto display on ,auto display on ,auto display on ,auto display on ,auto display on
+Exit GenerateAnalysisPerStreet 
+
+Exit MapGenerator.StartMapGenerator
+

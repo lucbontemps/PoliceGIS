@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GimErrorHandling
+</name>
+</assembly>
+<members>
+<member name="P:Gim.ErrorHandling.IGenericExceptionHandling.ApplicationName">
+	<summary>
+ Returns the name of the application in which the exception occurred. 
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ [JS] 2008-06-25 Created.
+ </history>
+</member><member name="P:Gim.ErrorHandling.IGenericExceptionHandling.TechnicalInfo">
+	<summary>
+ Returns more detailed technical info about the exception, for debugging.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ [JS] 2008-06-25 Created.
+ </history>
+</member><member name="T:Gim.ErrorHandling.IGenericExceptionHandling">
+	<summary>
+ Support handling exceptions in a generic way. 
+ 
+ Provides extra info about the exception you can show in a form
+ of type GenericExceptionHandlingForm.
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Gim.ErrorHandling.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Gim.ErrorHandling.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Gim.ErrorHandling.My.Resources.Resources.ErrorHandling">
+	<summary>
+  Looks up a localized string similar to Foutafhandeling {0}.
+</summary>
+</member><member name="P:Gim.ErrorHandling.My.Resources.Resources.HideDetails">
+	<summary>
+  Looks up a localized string similar to Verberg details.
+</summary>
+</member><member name="P:Gim.ErrorHandling.My.Resources.Resources.SelfExcdpion">
+	<summary>
+  Looks up a localized string similar to Kon info van exception exc niet tonen, er is een exception opgetreden in GenericExceptionHandlingForm zelf..
+</summary>
+</member><member name="P:Gim.ErrorHandling.My.Resources.Resources.ShowDetails">
+	<summary>
+  Looks up a localized string similar to Toon details.
+</summary>
+</member><member name="T:Gim.ErrorHandling.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Gim.ErrorHandling.GimBaseException">
+	<summary>
+ Base class of all exceptions for VB software written at GIM
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gim.ErrorHandling.ExceptionFormatter.StandardInfoString(System.Exception)">
+	<summary>
+ Provides standard details we can provide for all exception types.
+ Use this in the "details" panel.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gim.ErrorHandling.ExceptionFormatter.FormatSingleException(System.Exception)">
+	<summary>
+ Build a formatted string for the info of one sigle exception in the exception stack.
+ </summary>
+	<param name="exc"></param>
+	<returns></returns>
+	<remarks>
+ TODO: Maybe this would be cleaner if we overload it for different types. It would be more flexible and modular.
+ </remarks>
+</member><member name="M:Gim.ErrorHandling.GenericExceptionHandlingForm.ButtonClose_Click(System.Object,System.EventArgs)">
+	<summary>
+ Closes the form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Gim.ErrorHandling.GenericExceptionHandlingForm.ButtonDetails_Click(System.Object,System.EventArgs)">
+	<summary>
+ Show or hide the panel with detailed information.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Gim.ErrorHandling.GenericExceptionHandlingForm.HideDetails">
+	<summary>
+ Makes the form smaller and hides the lower panel. Also changes the label label of
+ ButtonDetails, because on the next click it will now show the details.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gim.ErrorHandling.GenericExceptionHandlingForm.ShowDetails">
+	<summary>
+ Makes the form larger and shows the lower panel. Also change the label of
+ ButtonDetails, because on the next click it will now hide the details.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gim.ErrorHandling.GenericExceptionHandlingForm.ButtonCopyToClipboard_Click(System.Object,System.EventArgs)">
+	<summary>
+ Copy the content of the detailed message panel to the clipboard
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Gim.ErrorHandling.GenericExceptionHandlingForm">
+	<summary>
+ Form that can show detialed information about an exception.
+ Amonst others it allows to show the class and method where the exception 
+ occurred. It is also possible to show customized technical information for
+ debugging, if the exception implements the IGenericExceptionHandling interface.
+ All this information can be copied to the clipboard with a single click on a button.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

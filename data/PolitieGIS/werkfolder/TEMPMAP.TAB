@@ -1,0 +1,27 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  File "h:\programmes\knwh policiegis\politie-gis_nol_release_v2.4.2_dev1_2008-06-20_13h30\nol\data\politiegis\islp bestanden\mei.xls"
+  Type XLS
+  Fields 14
+    A Char (10) ;
+    B Char (10) ;
+    C Char (10) ;
+    D Char (4) ;
+    E Char (10) ;
+    F Char (188) ;
+    G Char (10) ;
+    H Char (10) ;
+    I Char (33) ;
+    J Char (10) ;
+    K Char (10) ;
+    L Char (10) ;
+    M Char (8) ;
+    N Char (36) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "79c8c890-e816-44bd-acac-5b84ea74bed0"
+end_metadata

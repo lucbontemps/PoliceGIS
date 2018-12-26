@@ -1,0 +1,49 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 42
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    FT Decimal (1, 0) ;
+    F_JNCTID Decimal (15, 0) ;
+    F_JNCTTYP Decimal (1, 0) ;
+    T_JNCTID Decimal (15, 0) ;
+    T_JNCTTYP Decimal (1, 0) ;
+    PJ Decimal (1, 0) ;
+    METERS Decimal (17, 1) ;
+    FRC Decimal (2, 0) Index 1 ;
+    NETCLASS Decimal (1, 0) ;
+    NETBCLASS Decimal (1, 0) ;
+    NET2CLASS Decimal (2, 0) ;
+    NAME Char (70) ;
+    NAMELC Char (3) ;
+    SOL Decimal (1, 0) ;
+    NAMETYP Char (2) ;
+    CHARGE Char (2) ;
+    ROUTENUM Char (10) ;
+    RTETYP Decimal (2, 0) ;
+    RTEDIR Char (2) ;
+    RTEDIRVD Char (2) ;
+    PROCSTAT Decimal (1, 0) ;
+    FOW Decimal (2, 0) ;
+    SLIPRD Decimal (2, 0) ;
+    FREEWAY Decimal (1, 0) ;
+    BACKRD Decimal (1, 0) ;
+    TOLLRD Char (2) ;
+    RDCOND Decimal (1, 0) ;
+    STUBBLE Decimal (1, 0) ;
+    PRIVATERD Decimal (1, 0) ;
+    CONSTATUS Char (2) ;
+    ONEWAY Char (2) ;
+    F_BP Decimal (1, 0) ;
+    T_BP Decimal (1, 0) ;
+    F_ELEV Decimal (2, 0) ;
+    T_ELEV Decimal (2, 0) ;
+    KPH Decimal (3, 0) ;
+    MINUTES Decimal (11, 3) ;
+    POSACCUR Decimal (1, 0) ;
+    CARRIAGE Char (1) ;
+    LANES Decimal (2, 0) ;

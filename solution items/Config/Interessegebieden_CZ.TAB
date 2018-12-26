@@ -1,0 +1,31 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 19
+    NamePZ Char (25) ;
+    LevelINT Char (15) ;
+    NaamKORT Char (30) ;
+    NaamSPATIE Char (40) ;
+    NaamSTREEP Char (40) ;
+    NaamLABEL Char (40) ;
+    ParentID Char (30) ;
+    StatusPZ Char (15) ;
+    rr_empty Logical ;
+    sm_empty Logical ;
+    lu_empty Logical ;
+    lc_empty Logical ;
+    wa_empty Logical ;
+    Xcenter Float ;
+    Ycenter Float ;
+    MinY Float ;
+    MaxY Float ;
+    Zoomwidth Float ;
+    LinkToCSV Char (5) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "c878ba06-22c1-4162-a837-470eb4f6a9d8"
+end_metadata

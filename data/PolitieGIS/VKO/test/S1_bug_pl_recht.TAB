@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 6
+    pv_nummer Char (100) ;
+    id_object Char (100) ;
+    beschrijving_object Char (100) ;
+    beschrijving_opmeting Char (100) ;
+    transformedX Float ;
+    transformedY Float ;

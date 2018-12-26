@@ -1,0 +1,66 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 59
+    FULLNAME Char (70) Index 1 ;
+    FromLeft Integer ;
+    ToLeft Integer ;
+    FromRight Integer ;
+    ToRight Integer ;
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    NAMELC Char (3) ;
+    NAMETYP Char (2) ;
+    SOL Decimal (1, 0) ;
+    NAMEFORM Char (8) ;
+    NAME Char (70) ;
+    NAMEPREFIX Char (30) ;
+    NAMESUFFIX Char (20) ;
+    NAMEKEY Char (50) ;
+    SUFDIR Char (10) ;
+    PREDIR Char (10) ;
+    NAMERANK Decimal (2, 0) ;
+    PRETYPE Char (10) ;
+    SUFTYPE Char (10) ;
+    L_LAXORD Decimal (1, 0) ;
+    R_LAXORD Decimal (1, 0) ;
+    L_LAXONLC Char (3) ;
+    R_LAXONLC Char (3) ;
+    L_LAXON Char (70) ;
+    R_LAXON Char (70) ;
+    L_AXON Char (70) ;
+    R_AXON Char (70) ;
+    L_ORDER00 Char (3) ;
+    R_ORDER00 Char (3) ;
+    L_ORDER01 Char (11) ;
+    R_ORDER01 Char (11) ;
+    L_ORDER08 Char (11) ;
+    R_ORDER08 Char (11) ;
+    L_PC Char (6) ;
+    R_PC Char (6) ;
+    L_PCEXT Char (10) ;
+    R_PCEXT Char (10) ;
+    L_APNAME Char (70) ;
+    R_APNAME Char (70) ;
+    L_ADDRID Char (25) ;
+    R_ADDRID Char (25) ;
+    L_STRUCT Decimal (1, 0) ;
+    L_F_ADD Decimal (10, 0) ;
+    L_F_F_ADD Char (10) ;
+    L_F_I Decimal (1, 0) ;
+    L_T_ADD Decimal (10, 0) ;
+    L_T_F_ADD Char (10) ;
+    L_T_I Decimal (1, 0) ;
+    L_INTM Decimal (1, 0) ;
+    R_STRUCT Decimal (1, 0) ;
+    R_F_ADD Decimal (10, 0) ;
+    R_F_F_ADD Char (10) ;
+    R_F_I Decimal (1, 0) ;
+    R_T_ADD Decimal (10, 0) ;
+    R_T_F_ADD Char (10) ;
+    R_T_I Decimal (1, 0) ;
+    R_INTM Decimal (1, 0) ;
+    RECTYP Char (1) ;

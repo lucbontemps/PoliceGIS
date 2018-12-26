@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    FEATAREA Decimal (15, 0) ;
+    FEATPERIM Decimal (15, 0) ;
+    POSTCODE Char (10) ;

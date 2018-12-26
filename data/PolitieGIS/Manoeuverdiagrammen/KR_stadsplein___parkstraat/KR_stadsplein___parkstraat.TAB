@@ -1,0 +1,22 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 15
+    ongeval Integer ;
+    nr_betrokkene Integer ;
+    type_voertuig Char (100) ;
+    lichtgesteldheid Char (100) ;
+    toestand_wegdek Char (100) ;
+    gevolg Char (100) ;
+    omstandigheden Char (100) ;
+    rood_licht Logical ;
+    alcohol Logical ;
+    psych_stoffen Logical ;
+    stopteken Logical ;
+    lijnstijl Integer ;
+    label_boven Char (10) ;
+    label_op_lijn Char (10) ;
+    label_onder Char (10) ;

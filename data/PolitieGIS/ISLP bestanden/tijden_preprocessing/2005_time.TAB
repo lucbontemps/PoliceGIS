@@ -1,0 +1,49 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type XLS Titles Range "Blad1!A2:AP665"
+  Fields 42
+    Gemeente Char (17) ;
+    Straat Char (29) ;
+    Datum Date ;
+    Tijd_cleaned Char (0) ;
+    Tijd Char (8) ;
+    Nr_ Char (10) ;
+    Hecto Float ;
+    Kruispunt_met Char (25) ;
+    Info Char (24) ;
+    Best_1 Char (13) ;
+    Leeft_1 Char (5) ;
+    Gesl_1 Char (3) ;
+    Best_2 Char (13) ;
+    Leeft_2 Char (5) ;
+    Gesl_2 Char (3) ;
+    Best_3 Char (13) ;
+    Leeft_3 Char (5) ;
+    Gesl_3 Char (2) ;
+    Best_4 Char (4) ;
+    Leeft_4 Char (5) ;
+    Gesl_4 Char (2) ;
+    Ongevalsfactoren Char (29) ;
+    Type_aanrijding Char (30) ;
+    Gevolg Char (6) ;
+    PV_nr_ Char (20) ;
+    _ Char (1) ;
+    AA Char (1) ;
+    AB Char (1) ;
+    AC Char (1) ;
+    AD Char (1) ;
+    AE Char (1) ;
+    AF Char (1) ;
+    AG Char (1) ;
+    AH Char (1) ;
+    AI Char (1) ;
+    AJ Char (1) ;
+    AK Char (1) ;
+    AL Char (1) ;
+    AM Char (1) ;
+    AN Char (1) ;
+    AO Char (1) ;
+    AP Char (1) ;

@@ -1,0 +1,70 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 63
+    Gemeente Char (17) ;
+    Straat Char (29) ;
+    Datum Char (10) ;
+    Tijd_cleaned Char (5) ;
+    Tijd Char (8) ;
+    Nr Char (10) ;
+    Hecto Char (10) ;
+    Kruispunt_met Char (25) ;
+    Info Char (24) ;
+    Best1 Char (13) ;
+    Leeft1 Char (7) ;
+    Gesl1 Char (6) ;
+    Best2 Char (13) ;
+    Leeft2 Char (7) ;
+    Gesl2 Char (6) ;
+    Best3 Char (13) ;
+    Leeft3 Char (7) ;
+    Gesl3 Char (6) ;
+    Best4 Char (6) ;
+    Leeft4 Char (7) ;
+    Gesl4 Char (6) ;
+    Ongevalsfactoren Char (29) ;
+    Type_aanrijding Char (30) ;
+    Gevolg Char (6) ;
+    PV_nr Char (20) ;
+    xcoord Float ;
+    ycoord Float ;
+    adres Char (254) ;
+    geocodeStatus Char (20) ;
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    ORDER00 Char (3) Index 1 ;
+    ORDER01 Char (11) ;
+    ORDER02 Char (11) ;
+    ORDER03 Char (11) ;
+    ORDER04 Char (11) ;
+    ORDER05 Char (11) ;
+    ORDER06 Char (11) ;
+    ORDER07 Char (11) ;
+    ORDER08 Char (11) ;
+    FEATAREA Decimal (15, 0) ;
+    FEATPERIM Decimal (15, 0) ;
+    NAME Char (70) ;
+    NAMELC Char (3) ;
+    POPCLASS Decimal (1, 0) ;
+    POP Decimal (10, 0) ;
+    ID_2 Decimal (15, 0) ;
+    FEATTYP_2 Decimal (4, 0) ;
+    ORDER00_2 Char (3) Index 2 ;
+    ORDER01_2 Char (11) ;
+    ORDER02_2 Char (11) ;
+    ORDER03_2 Char (11) ;
+    ORDER04_2 Char (11) ;
+    ORDER05_2 Char (11) ;
+    ORDER06_2 Char (11) ;
+    ORDER07_2 Char (11) ;
+    ORDER08_2 Char (11) Index 3 ;
+    FEATAREA_2 Decimal (15, 0) ;
+    FEATPERIM_2 Decimal (15, 0) ;
+    NAME_2 Char (70) ;
+    NAMELC_2 Char (3) ;
+    POPCLASS_2 Decimal (1, 0) ;
+    POP_2 Decimal (10, 0) ;

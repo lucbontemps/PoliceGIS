@@ -1,0 +1,164 @@
+!Workspace
+!Version 800
+!Charset WindowsLatin1
+Open Table "C:\Politie-GIS\data\PolitieGIS\basiskaarten\NOL_a8" As NOL_a8 Interactive
+Open Table "C:\Politie-GIS\data\PolitieGIS\basiskaarten\Politiezone Noordoost Limburg" As Politiezone_NOL Interactive
+Open Table "C:\Politie-GIS\data\PolitieGIS\basiskaarten\NOL_a9" As NOL_a9 Interactive
+Open Table "C:\Politie-GIS\data\PolitieGIS\basiskaarten\NOL_gc" As NOL_gc Interactive
+Open Table "C:\Politie-GIS\data\PolitieGIS\basiskaarten\NOL_nw" As NOL_nw Interactive
+Open Table "C:\Politie-GIS\data\PolitieGIS\basiskaarten\NOL_oa1" As NOL_oa1 Interactive
+Map From Politiezone_NOL,NOL_nw,NOL_nw,NOL_gc,NOL_a8,NOL_a9,NOL_oa1 
+  Position (3.4375,0) Units "in"
+  Width 9.66667 Units "in" Height 8.10417 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 3, 1019, "m", 4.3674866667, 90, 49.8333339, 51.1666672333, 150000.01300000001, 5400088.4380000001
+  Center (231454.783,199203.3405)
+  Zoom 0.1964266667 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "m"
+shade 2 with FRC values 
+  -1 Line (1,1,16711680) ,
+  0 Line (3,194,16711680) ,
+  1 Line (3,193,16711680) ,
+  2 Line (2,193,16750640) ,
+  3 Line (2,193,16776960) ,
+  4 Line (2,193,16777215) ,
+  5 Line (2,193,16777215) ,
+  6 Line (2,193,16777215) ,
+  7 Line (1,2,12632256) ,
+  8 Line (1,2,12632256) 
+  default Line (1,2,0)   # color 0 # 
+Set Map
+  Layer 1
+    Display Global
+    Global Pen (4,2,8388736)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ORDER00
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",257,8,8421504,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 4
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,1,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",1,8,8421504,16777215) Pen (1,2,0) 
+      With ROUTENUM
+      Parallel On Auto On Overlap On Duplicates Off Offset 2
+      Visibility Zoom (5, 15) Units "km"
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With FULLNAME
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 6
+    Display Global
+    Global Pen (3,2,0)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ORDER00
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777168,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",259,8,0,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With CODE
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set CoordSys Earth Projection 3, 1019, "m", 4.3674866667, 90, 49.8333339, 51.1666672333, 150000.01300000001, 5400088.4380000001 Bounds (-128761666.217, -123511577.792) (129061666.243, 134311754.668)
+Set Map Layer 0 Editable
+Create Point (231454.8,199203.3)
+    Symbol (35,0,12) 
+Set Map Layer 0 Editable Off
+Set CoordSys Earth
+set legend 
+  layer 2 
+    display on 
+    shades off 
+    symbols off 
+    lines on 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display off ,
+      auto display off ,
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+Set Window FrontWindow() Title "Manoeuvrediagram kerkhofstr"
+Set Window FrontWindow() Printer
+ Name "HP LaserJet 4050 Series PCL 6" Orientation Portrait Copies 1
+ Papersize 9
+Create Cartographic Legend
+  Position (0,0) Units "in"
+  Width 3.35417 Units "in" Height 8.10417 Units "in" 
+  Window Title "Legende manoeuvrediagram kerkhofstr"
+  Portrait
+  Style Size Large
+  Frame From Layer 2
+    Border Pen (0,1,0) 
+Set Window FrontWindow() Printer
+ Name "HP LaserJet 4050 Series PCL 6" Orientation Portrait Copies 1
+ Papersize 9
+Layout
+  Position (0.0520833,0.0520833) Units "in"
+  Width 6.625 Units "in" Height 4.1875 Units "in" 
+  Dim uniqueStringName As String
+  uniqueStringName = "Set " + SessionInfo(1)
+  Set CoordSys Layout Units "in"
+  Create Rect (0.3937,0.3937) (11.8111,1.575)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+  Create Rect (12.2049,5.9451) (16.1417,11.2993)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+  Create Text
+    "Vul tekst met uitleg\n hier in."
+    (12.5986,6.3389) (15.9604,7.3792)
+    Font ("Times New Roman",259,30,0,16777215)
+    Justify Center
+
+  Create Frame (12.2049,0.3937) (16.1417,5.5514)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+    Title "Legende manoeuvrediagram kerkhofstr"
+    FillFrame Off
+  Create Frame (0.3937,1.9688) (11.8111,11.2993)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+    Title "Manoeuvrediagram kerkhofstr"
+    FillFrame On
+  Set Layout Ruler On Pagebreaks On Frame Contents Active
+  Zoom 32.4363 Center (9.52853,5.84479) Extents To Fit
+  Set Window FrontWindow() Autoscroll On
+  Run Command uniqueStringName
+  Undim uniqueStringName
+Set Window FrontWindow() Printer
+ Name "GeoPrinter" Orientation Landscape Copies 1
+ Papersize 8

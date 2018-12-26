@@ -1,0 +1,126 @@
+!Workspace
+!Version 800
+!Charset WindowsLatin1
+Open Table "..\basiskaarten\Bree\Bree_a8" As Bree_a8 Interactive
+Open Table "..\basiskaarten\Politiezone Noordoost Limburg" As Politiezone_NOL Interactive
+Open Table "..\basiskaarten\Bree\Bree_a9" As Bree_a9 Interactive
+Open Table "..\basiskaarten\Bree\Bree_gc" As Bree_gc Interactive
+Open Table "..\basiskaarten\Bree\Bree_nw" As Bree_nw Interactive
+Open Table "..\basiskaarten\Bree\Bree_oa1" As Bree_oa1 Interactive
+Map From Politiezone_NOL,Bree_nw,Bree_nw,Bree_gc,Bree_a8,Bree_a9,Bree_oa1 
+  Position (1.66667,0.947917) Units "in"
+  Width 7.25 Units "in" Height 4.51042 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 3, 1019, "m", 4.3674866667, 90, 49.8333339, 51.1666672333, 150000.01300000001, 5400088.4380000001
+  Center (238641.9051,204165.2322)
+  Zoom 16.44823266 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "m"
+shade 2 with FRC values 
+  -1 Line (1,1,16711680) ,
+  0 Line (3,194,16711680) ,
+  1 Line (3,193,16711680) ,
+  2 Line (2,193,16750640) ,
+  3 Line (2,193,16776960) ,
+  4 Line (2,193,16777215) ,
+  5 Line (2,193,16777215) ,
+  6 Line (2,193,16777215) ,
+  7 Line (1,2,12632256) ,
+  8 Line (1,2,12632256) 
+  default Line (1,2,0)   # color 0 # 
+Set Map
+  Layer 1
+    Display Global
+    Global Pen (4,2,8388736)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ORDER00
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",257,8,8421504,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 4
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,1,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",1,8,8421504,16777215) Pen (1,2,0) 
+      With ROUTENUM
+      Parallel On Auto On Overlap On Duplicates Off Offset 2
+      Visibility Zoom (5, 15) Units "km"
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With FULLNAME
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 6
+    Display Global
+    Global Pen (3,2,0)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ORDER00
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777168,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",259,8,0,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With CODE
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+set legend 
+  layer 2 
+    display on 
+    shades off 
+    symbols off 
+    lines on 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display off ,
+      auto display off ,
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+Set Window FrontWindow() Title "Analyse Bree"
+Set Window FrontWindow() Printer
+ Name "HP LaserJet 4050 Series PCL 6" Orientation Portrait Copies 1
+ Papersize 9
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Create Cartographic Legend
+  Position (11.4583,0.229167) Units "in"
+  Width 2.8125 Units "in" Height 5 Units "in" 
+  Window Title "Legende Bree"
+  Portrait
+  Style Size Large
+  Frame From Layer 2
+    Border Pen (0,1,0) 
+Set Window FrontWindow() Printer
+ Name "HP LaserJet 4050 Series PCL 6" Orientation Portrait Copies 1
+ Papersize 9
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

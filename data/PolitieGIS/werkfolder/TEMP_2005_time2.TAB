@@ -1,0 +1,33 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "c:\politie-gis\nol\data\politiegis\islp bestanden\2005_time2.xls"
+  Type XLS Titles
+  Fields 25
+    A Char (17) ;
+    B Char (29) ;
+    C Char (10) ;
+    D Char (12) ;
+    E Char (8) ;
+    F Char (10) ;
+    G Char (10) ;
+    H Char (25) ;
+    I Char (24) ;
+    J Char (13) ;
+    K Char (7) ;
+    L Char (6) ;
+    M Char (13) ;
+    N Char (7) ;
+    O Char (6) ;
+    P Char (13) ;
+    Q Char (7) ;
+    R Char (6) ;
+    S Char (6) ;
+    T Char (7) ;
+    U Char (6) ;
+    V Char (29) ;
+    W Char (30) ;
+    X Char (6) ;
+    Y Char (20) ;

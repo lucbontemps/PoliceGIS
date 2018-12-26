@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>645, 468</value>
+  </data>
+  <data name="ButtonSaveGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonSaveGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonSaveGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonSaveGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 438</value>
+  </data>
+  <data name="ButtonSaveGroups.Text" xml:space="preserve">
+    <value>Enregistrer table</value>
+  </data>
+  <data name="ButtonSaveGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PickMapInfoTableControl1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PickMapInfoTableControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PickMapInfoTableControl1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PickMapInfoTableControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 6</value>
+  </data>
+  <data name="PickMapInfoTableControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>546, 31</value>
+  </data>
+  <data name="PickMapInfoTableControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonShowGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonShowGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ButtonShowGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonShowGroups.Text" xml:space="preserve">
+    <value>Voir groupe distinct</value>
+  </data>
+  <data name="ButtonShowGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonExecuteGrouping.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonExecuteGrouping.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ButtonExecuteGrouping.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonExecuteGrouping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 438</value>
+  </data>
+  <data name="ButtonExecuteGrouping.Text" xml:space="preserve">
+    <value>Créer les groupes</value>
+  </data>
+  <data name="ButtonExecuteGrouping.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonUseExistingGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonUseExistingGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ButtonUseExistingGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonUseExistingGroups.Text" xml:space="preserve">
+    <value>Utiliser table existante</value>
+  </data>
+  <data name="ButtonUseExistingGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupDGColumn.HeaderText" xml:space="preserve">
+    <value>Groupe</value>
+  </data>
+  <data name="ValueDGColumn.HeaderText" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DataGridViewDefinedGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxDefinedGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxDefinedGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.Text" xml:space="preserve">
+    <value>Groupes définis</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelAvailableValue.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelAvailableValue.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LabelAvailableValue.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelAvailableValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="LabelAvailableValue.Text" xml:space="preserve">
+    <value>Les valeurs disponibles:</value>
+  </data>
+  <data name="LabelAvailableValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxAvailableValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxAvailableValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListBoxAvailableValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListBoxAvailableValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelGroupName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelGroupName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LabelGroupName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelGroupName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 136</value>
+  </data>
+  <data name="LabelGroupName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="LabelGroupName.Text" xml:space="preserve">
+    <value>Nom:</value>
+  </data>
+  <data name="LabelGroupName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBoxGroupName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBoxGroupName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TextBoxGroupName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TextBoxGroupName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonRemoveFromSelection.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonRemoveFromSelection.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddToSelection.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddToSelection.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ButtonAddToSelection.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonAddToSelection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddGroup.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddGroup.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ButtonAddGroup.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonAddGroup.Text" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="ButtonAddGroup.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxSelectedValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxSelectedValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListBoxSelectedValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListBoxSelectedValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelSelectedValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelSelectedValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LabelSelectedValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelSelectedValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="LabelSelectedValues.Text" xml:space="preserve">
+    <value>Les valeurs sélectionnées</value>
+  </data>
+  <data name="LabelSelectedValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="GroupBoxEditValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxEditValues.Text" xml:space="preserve">
+    <value>Nouveau groupe</value>
+  </data>
+  <data name="GroupBoxEditValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="GroupBoxEditGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxEditGroups.Text" xml:space="preserve">
+    <value>Modifier le groupe</value>
+  </data>
+  <data name="GroupBoxEditGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBoxOutputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBoxOutputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TextBoxOutputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TextBoxOutputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelOutputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelOutputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LabelOutputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelOutputField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 67</value>
+  </data>
+  <data name="LabelOutputField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="LabelOutputField.Text" xml:space="preserve">
+    <value>Champ de groupe:</value>
+  </data>
+  <data name="LabelOutputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBoxInputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBoxInputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ComboBoxInputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ComboBoxInputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///87////pPDr4v/NvZz/uZ9t/7qfav/Sv5r/8uzh/////6v///9CAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///998u7n/8Gviv+liVL/polO/7WbZ//Fr4P/spFU/7eXWv/PuI7/9O/l////
+        /4MAAAAAAAAAAAAAAAD///945+HU/6OLWP+egkn/ooVM/6aJTv/WyKz/+/r3/7maY/+1lFb/t5VX/76f
+        ZP/s49H/////ggAAAAD///9F7+zk/6CKWP+afkb/noJJ/6KFTP+miU7/1MWn//j17/+5m2P/tZRW/7eV
+        V/+5l1j/waFm//Pt4f////9L+Pf0/7Khe/+ql2r/8Ozk/7+th/+0nG7/wKuB//bz7f////9/3tC3/8Oo
+        dv/Gq3n/59zH/+XXvv/QuIv/////tNTMuP+Od0D/pY9g/+fg0/////+o/v7+//7+/v////9M////A///
+        /2z+/v3/////y/r38v/byab/vptc//Do2v+4qon/jXU+/5R6Qv+af0f/5d7P/////1f///8CAAAAAAAA
+        AAAAAAAA////A////7TOton/vJlZ/72aWv/WwZr/saJ//411Pv+UekL/mn9G/7ahdv/+/v7/////AgAA
+        AAAAAAAAAAAAAP///1Ho3sn/uZdY/7yZWf+9mlr/yq97/7Gif/+NdT7/lHpC/5p+Rv++q4X/////qwAA
+        AAAAAAAAAAAAAAAAAAD///8/7eXV/7qZW/+8mVn/vZpa/8qve/+3qYj/jXU+/5R6Qv+ljFr/7+vi////
+        /0L///8bAAAAAAAAAAD///8J////KP///5LYxqL/vJlZ/72aWv/VwJf/0sm0/411Pv+um3D/+/r4//j2
+        8v/v6uD/9vLs/////33///8r/Pv5//Pu5P/18Of/////lujbxf++m1z/7ubW//b18f+wnnj/ooxb/9vR
+        vf+slWT/ooVM/6+VX//w6t//////lNLAnP+1k1b/uJZY/9nGo//ax6P/z7WH/////7r///9K7eng/56H
+        Vf+afkb/noJJ/6KFTP+miU7/0cGg//fz7f+1l13/tZRW/7eVV/+5l1j/v55h//Hq3f////9RAAAAAP//
+        /33i3M3/oYhV/56CSf+ihUz/polO/9XGqP/49vH/t5pi/7WUVv+3lVf/vZ1h/+rfy/////+JAAAAAAAA
+        AAAAAAAA////gu7q4f+7qID/o4ZO/6aJTv+vkVj/t5tk/7GRVP+1lFf/yrKE//Lr3/////+IAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///9J////suvk2P/ItpL/uqFw/7yhbv/OuZL/7eXW/////v////9RAAAAAAAA
+        AAAAAAAA4AdOLMADAACAAU4sAACgEwAAixMAAHUTAcBgEwHAShMDwDQTAYAfEwAACRMAAPQSAADeEoAB
+        yBLAA7MS4AedEg==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Faire des groupes</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelInputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelInputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LabelInputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelInputField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 41</value>
+  </data>
+  <data name="LabelInputField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="LabelInputField.Text" xml:space="preserve">
+    <value>Champ des valeurs:</value>
+  </data>
+  <data name="LabelInputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

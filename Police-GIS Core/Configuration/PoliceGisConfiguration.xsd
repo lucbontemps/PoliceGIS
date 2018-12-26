@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://schemas.gim.be/PoliceGIS/PoliceGisConfiguration.xsd" xmlns:mstns="http://schemas.gim.be/PoliceGIS/PoliceGisConfiguration.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.gim.be/PoliceGIS/PoliceGisConfiguration.xsd" elementFormDefault="qualified" id="PoliceGisConfiguration">
+	<xs:annotation>
+		<xs:appinfo>
+      XSD schema for the configuration of the Police GIS application created by GIM NV Belgium.
+    </xs:appinfo>
+		<xs:documentation>
+      TODO: write documentation
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="policeGisConfig" type="PoliceGisConfiguration"/>
+	<xs:complexType name="PoliceGisConfiguration">
+		<xs:sequence>
+			<xs:element name="release" type="ApplicationVersion"/>
+			<xs:element name="language" type="xs:string"/>
+			<xs:element name="releaseDate" type="xs:date"/>
+			<xs:element name="directories" type="DirectorySettings"/>
+      <xs:element name ="geocoding" type ="GeocodingSettings"></xs:element>
+      <xs:element name ="analysis" type ="AnalysisSettings"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="schemaVersion" type="VersionNumber"/>
+	</xs:complexType>
+	<xs:simpleType name="VersionNumber">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d+\.\d+\.d+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ApplicationVersion">
+		<xs:sequence>
+			<xs:element name="majorVersion" type="xs:int"/>
+			<xs:element name="minorVersion" type="xs:int"/>
+			<xs:element name="implementationVersion" type="xs:int"/>
+			<xs:element name="buildNumber" type="xs:int" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DirectorySettings">
+		<xs:sequence>
+			<xs:element name="dataFolder" type="FilePath"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GeocodingSettings">
+		<xs:sequence>
+      <xs:element name="GeocodingColumns" type="GeocodingColumns" />
+      <xs:element name="MaximumStreetLength" type="xs:unsignedInt" default="200" minOccurs="0" />
+      <!--<xs:element name="workSpace" type="FilePath"/>-->
+      <xs:element name="addressNotFoundSelection" type="NonEmptyString" />
+      <xs:element name="outputCoordinateSystem" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+  
+  
+	<xs:complexType name="AnalysisSettings">
+		<xs:sequence>
+      <xs:element name ="aggregationLevels" type="aggregationLevels"/>
+      <xs:element name ="analyseTypes" type="analyseTypes"/>
+      <xs:element name="NumberIncidentsField" type="NonEmptyString" />
+      <xs:element name="NumberOfClasses" type="xs:short" />
+      <xs:element name="StreetIDField" type="xs:string"/>
+			<xs:element name="areas">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="area"   minOccurs="1" >
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Name" type="NonEmptyString" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            
+            <!--
+						<xs:element name="areaID" type="xs:ID"/>
+            -->
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<!--<xs:element name="geocodingTable" type="TableSpecification"/>-->
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TableSpecification">
+		<xs:sequence>
+			<xs:element name="tabFile" type="FilePath"/>
+      <xs:element name="mustExist" type="xs:boolean"/>
+      <xs:element name="knownColumns" type="ColumnMapping"  />
+      <!-- todo: field specification et cetera -->
+		</xs:sequence>
+	</xs:complexType>
+
+  <xs:complexType name="aggregationLevels">
+    <xs:sequence>
+      <xs:element name="zone" type="xs:string"/>
+      <xs:element name="commune" type="xs:string"/>
+      <xs:element name="quarter" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="GeocodingColumns">
+    <xs:sequence>
+      <xs:element name="AddressPtsMunicipalityField" type="xs:string"/>
+      <xs:element name="AddressPtsNumberField" type="xs:string"/>
+      <xs:element name="AddressPtsStreetField" type="xs:string"/>
+      <xs:element name="AdminBordersNameCol" type="xs:string"/>
+      <xs:element name="HectoRouteField" type="xs:string"/>
+      <xs:element name="HectoDistanceField" type="xs:string"/>
+      <xs:element name="HectoAlternativeNameField" type="xs:string"/>
+      <xs:element name="StreetLengthMunicipalityFields" type="PossibleColumns"/>
+      <xs:element name="Street1FieldCandidates" type="PossibleColumns"/>
+      <xs:element name="Street2FieldCandidates" type="PossibleColumns"/>
+      <xs:element name="NumberFieldCandidates" type="PossibleColumns"/>
+      <xs:element name="HectoMeterFieldCandidates" type="PossibleColumns"/>
+      <xs:element name="MunicipalityFieldCandidates" type="PossibleColumns"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="analyseTypes">
+    <xs:sequence>
+      <xs:element name="point" type="xs:string"/>
+      <xs:element name="street" type="xs:string"/>
+      <xs:element name="area" type="xs:string"/>
+      <xs:element name="black_points" type="xs:string"/>
+      <xs:element name="Controles" type="xs:string"/>
+      <xs:element name="crime_series" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="NonEmptyString" >
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="FilePath">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:whiteSpace value="preserve"/>
+		</xs:restriction>
+	</xs:simpleType>
+  <xs:complexType name="ColumnMapping">
+    <xs:sequence >
+      <xs:element name="column" type="ColumnSpecification" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>    
+  <xs:complexType name="ColumnSpecification">
+    <xs:sequence>
+      <xs:element name="role" type="NonEmptyString"></xs:element>
+      <!-- the names could be a list of columns, which have the same role in the application -->
+      <xs:element name="name" type="NonEmptyString" minOccurs="1" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PossibleColumns">
+    <xs:sequence>
+      <xs:element name="name" type="NonEmptyString" minOccurs="1" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

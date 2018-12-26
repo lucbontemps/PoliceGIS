@@ -1,0 +1,33 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 26
+    A Char (17) ;
+    B Char (29) ;
+    C Char (10) ;
+    D Char (8) ;
+    E Char (10) ;
+    F Char (10) ;
+    G Char (25) ;
+    H Char (24) ;
+    I Char (13) ;
+    J Char (7) ;
+    K Char (6) ;
+    L Char (13) ;
+    M Char (7) ;
+    N Char (6) ;
+    O Char (13) ;
+    P Char (7) ;
+    Q Char (6) ;
+    R Char (6) ;
+    S Char (7) ;
+    T Char (6) ;
+    U Char (29) ;
+    V Char (30) ;
+    W Char (6) ;
+    X Char (20) ;
+    xcoord Float ;
+    ycoord Float ;

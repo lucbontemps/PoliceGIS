@@ -1,0 +1,21 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 10
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    FEATAREA Decimal (15, 0) ;
+    FEATPERIM Decimal (15, 0) ;
+    CODE Char (30) ;
+    NAME Char (70) ;
+    NAMELC Char (3) ;
+    URBANAREA Decimal (1, 0) ;
+    INDORDER Decimal (2, 0) ;
+    number_incidents Integer ;
+ReadOnly
+begin_metadata
+"\IsReadOnly" = "FALSE"
+end_metadata

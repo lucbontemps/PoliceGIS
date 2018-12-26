@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policeGisConfig xmlns="http://schemas.gim.be/PoliceGIS/PoliceGisConfiguration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gim.be/PoliceGIS/PoliceGisConfiguration.xsd PoliceGisConfiguration.xsd">
+  <release>
+    <majorVersion>2</majorVersion>
+    <minorVersion>3</minorVersion>
+    <implementationVersion>1</implementationVersion>
+  </release>
+  <language>fr</language>
+  <releaseDate>2018-11-23</releaseDate>
+  <directories>
+    <dataFolder>C:\Projects\PolicieGIS\data\PolitieGIS</dataFolder>
+  </directories>
+  <geocoding>
+    <GeocodingColumns>
+      <AddressPtsMunicipalityField>Gemeente</AddressPtsMunicipalityField>
+      <AddressPtsNumberField>HUISNR</AddressPtsNumberField>
+      <AddressPtsStreetField>Name_CRAB</AddressPtsStreetField>
+      <AdminBordersNameCol>NAME</AdminBordersNameCol>
+      <HectoRouteField>wegnr_ISLP</HectoRouteField>
+      <HectoDistanceField>HM</HectoDistanceField>
+      <HectoAlternativeNameField></HectoAlternativeNameField>
+      <StreetLengthMunicipalityFields>
+        <name>gemeente</name>
+      </StreetLengthMunicipalityFields>
+      <Street1FieldCandidates>
+        <name>Rue</name>
+        <name>Straat</name>
+      </Street1FieldCandidates>
+      <Street2FieldCandidates>
+        <name>Intersection</name>
+        <name>Kruispunt met</name>
+      </Street2FieldCandidates>
+      <NumberFieldCandidates>
+        <name>Nr.</name>
+        <name>num</name>
+      </NumberFieldCandidates>
+      <HectoMeterFieldCandidates>
+        <name>Hecto</name>
+      </HectoMeterFieldCandidates>
+      <MunicipalityFieldCandidates>
+        <name>Commune</name>
+      </MunicipalityFieldCandidates>
+    </GeocodingColumns>
+    <MaximumStreetLength>200</MaximumStreetLength>
+    <addressNotFoundSelection>Niet_gevonden_incidenten</addressNotFoundSelection>
+    <outputCoordinateSystem>Earth Projection 3, 1019, ""m"", 4.3674866667, 90, 49.8333339, 51.1666672333, 150000.01300000001, 5400088.4380000001 Bounds (-128761666.217, -123511577.792) (129061666.243, 134311754.668)</outputCoordinateSystem>
+  </geocoding>
+  <analysis>
+    <aggregationLevels>
+      <zone>Zone de police</zone>
+      <commune>Commune</commune>
+      <quarter>Sous-commune</quarter>
+    </aggregationLevels>
+    <analyseTypes>
+      <point>Par points</point>
+      <street>Par rues </street>
+      <area>Par regions </area>
+      <black_points>Points noirs</black_points>
+      <Controles>Controles </Controles>
+      <crime_series>Incidents en serie</crime_series>
+    </analyseTypes>
+    <NumberIncidentsField>Aantal_Incidenten</NumberIncidentsField>
+    <NumberOfClasses>5</NumberOfClasses>
+    <StreetIDField>streetID</StreetIDField>
+    <areas>
+      <area>
+        <Name>01PZ_NOL</Name>
+      </area>
+    </areas>
+  </analysis>
+</policeGisConfig>

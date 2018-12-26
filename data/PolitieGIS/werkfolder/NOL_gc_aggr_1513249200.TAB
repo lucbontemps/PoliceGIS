@@ -1,0 +1,40 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 28
+    FULLNAME Char (70) Index 1 ;
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    NAMELC Char (3) ;
+    NAMETYP Char (2) ;
+    SOL Decimal (1, 0) ;
+    L_LAXORD Decimal (1, 0) ;
+    R_LAXORD Decimal (1, 0) ;
+    L_LAXONLC Char (3) ;
+    R_LAXONLC Char (3) ;
+    L_LAXON Char (70) ;
+    R_LAXON Char (70) ;
+    L_AXON Char (70) ;
+    R_AXON Char (70) ;
+    L_ORDER00 Char (3) ;
+    R_ORDER00 Char (3) ;
+    L_ORDER01 Char (11) ;
+    R_ORDER01 Char (11) ;
+    L_ORDER08 Char (11) ;
+    R_ORDER08 Char (11) ;
+    L_PC Char (6) ;
+    R_PC Char (6) ;
+    L_PCEXT Char (10) ;
+    R_PCEXT Char (10) ;
+    L_APNAME Char (70) ;
+    R_APNAME Char (70) ;
+    Field60 Char (100) ;
+    number_incidents Integer Index 2 ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "299dbd1e-0244-4e6c-8d5c-c53f337e24a9"
+end_metadata

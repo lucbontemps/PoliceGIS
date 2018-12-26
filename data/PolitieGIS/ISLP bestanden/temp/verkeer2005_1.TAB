@@ -1,0 +1,35 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 28
+    Gemeente Char (17) ;
+    Straat Char (29) ;
+    Datum Date ;
+    Tijd Char (5) ;
+    Nr_ Char (10) ;
+    Hecto Char (10) ;
+    Kruispunt_met Char (25) ;
+    Info Char (24) ;
+    Best_1 Char (13) ;
+    Leeft_1 Char (7) ;
+    Gesl_1 Char (6) ;
+    Best_2 Char (13) ;
+    Leeft_2 Char (7) ;
+    Gesl_2 Char (6) ;
+    Best_3 Char (13) ;
+    Leeft_3 Char (7) ;
+    Gesl_3 Char (6) ;
+    Best_4 Char (6) ;
+    Leeft_4 Char (7) ;
+    Gesl_4 Char (6) ;
+    Ongevalsfactoren Char (29) ;
+    Type_aanrijding Char (30) ;
+    Gevolg Char (6) ;
+    PV_nr_ Char (20) ;
+    xcoord Float ;
+    ycoord Float ;
+    adres Char (254) ;
+    geocodeStatus Char (20) ;

@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SelectionGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OutputTableTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="QueryOperatorComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 24</value>
+  </data>
+  <data name="&gt;&gt;ClearQueryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NameResulLabel.Text" xml:space="preserve">
+    <value>Naam query resultaat:</value>
+  </data>
+  <data name="NameResulLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryValueComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AddOperatorButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="DoQueryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AddFieldButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;QueryStartLabel.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="DoQueryButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AddValueButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="QueryValuesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 28</value>
+  </data>
+  <data name="&gt;&gt;OutputTableTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NameResulLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 17</value>
+  </data>
+  <data name="QueryValuesLabel.Text" xml:space="preserve">
+    <value>Waarden:</value>
+  </data>
+  <data name="AddValueButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;QueryFieldLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectionGroupBox.Name" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="&gt;&gt;PreviewButton.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SelectionParametersGroupBox.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="QueryValueComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SelectionGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items6" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;AddFieldButton.Name" xml:space="preserve">
+    <value>AddFieldButton</value>
+  </data>
+  <data name="&gt;&gt;OutputTableTextBox.Name" xml:space="preserve">
+    <value>OutputTableTextBox</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="AddFieldButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;QueryValuesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddOperatorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryOperatorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="&gt;&gt;QueryStringTextBox.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items9" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="QueryStartLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 17</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldLabel.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SelectionParametersGroupBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="QueryValueComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SelectionGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryFieldLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NameResulLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QueryValuesLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AddOperatorButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;QueryStartLabel.Name" xml:space="preserve">
+    <value>QueryStartLabel</value>
+  </data>
+  <data name="&gt;&gt;AddFieldButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="QueryFieldComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="QueryOperatorComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SelectionGroupBox.Text" xml:space="preserve">
+    <value>Selectie</value>
+  </data>
+  <data name="QueryFieldComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;SelectionGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SimpleQueryBuilder</value>
+  </data>
+  <data name="&gt;&gt;AddFieldButton.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;AddValueButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DoQueryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 399</value>
+  </data>
+  <data name="OutputTableTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NameResulLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;QueryValueComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="QueryFieldLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items7" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="DoQueryButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="QueryStringTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;QueryStringTextBox.Name" xml:space="preserve">
+    <value>QueryStringTextBox</value>
+  </data>
+  <data name="&gt;&gt;AddOperatorButton.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items8" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;QueryValueComboBox.Name" xml:space="preserve">
+    <value>QueryValueComboBox</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="QueryFieldComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 24</value>
+  </data>
+  <data name="DoQueryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="PreviewButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorComboBox.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="QueryOperatorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="QueryFieldLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 28</value>
+  </data>
+  <data name="QueryStartLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryOperatorComboBox.Items1" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items12" xml:space="preserve">
+    <value>IN (  )</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items13" xml:space="preserve">
+    <value>Like (  ) </value>
+  </data>
+  <data name="QueryOperatorComboBox.Items10" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items11" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="AddValueButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryStartLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryValuesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OutputTableTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items4" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryStringTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OutputTableTextBox.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="&gt;&gt;NameResulLabel.Name" xml:space="preserve">
+    <value>NameResulLabel</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldComboBox.Name" xml:space="preserve">
+    <value>QueryFieldComboBox</value>
+  </data>
+  <data name="QueryOperatorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QueryStringTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QueryStringTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OutputTableTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 401</value>
+  </data>
+  <data name="&gt;&gt;QueryStartLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NameResulLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="SelectionGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AddOperatorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 28</value>
+  </data>
+  <data name="ClearQueryButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryValueComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;QueryValueComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryStartLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryValueComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 55</value>
+  </data>
+  <data name="SelectionGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 433</value>
+  </data>
+  <data name="QueryOperatorLabel.Text" xml:space="preserve">
+    <value>Operator:</value>
+  </data>
+  <data name="AddValueButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="QueryStartLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 148</value>
+  </data>
+  <data name="NameResulLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 405</value>
+  </data>
+  <data name="QueryStringTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 180</value>
+  </data>
+  <data name="QueryFieldComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClearQueryButton.Text" xml:space="preserve">
+    <value>Query wissen</value>
+  </data>
+  <data name="AddValueButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="&gt;&gt;SelectionGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PreviewButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputTableTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddFieldButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DoQueryButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryOperatorComboBox.Items" xml:space="preserve">
+    <value>AND</value>
+  </data>
+  <data name="SelectionGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PreviewButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryStringTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>775, 150</value>
+  </data>
+  <data name="PreviewButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;QueryOperatorLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AddOperatorButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="QueryValueComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ClearQueryButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldComboBox.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="AddOperatorButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AddFieldButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;QueryValueComboBox.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;AddValueButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OutputTableTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DoQueryButton.Name" xml:space="preserve">
+    <value>DoQueryButton</value>
+  </data>
+  <data name="QueryOperatorComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 55</value>
+  </data>
+  <data name="&gt;&gt;QueryStringTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryOperatorComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="QueryValueComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 24</value>
+  </data>
+  <data name="&gt;&gt;MyErrorProvider.Name" xml:space="preserve">
+    <value>MyErrorProvider</value>
+  </data>
+  <data name="&gt;&gt;AddFieldButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryFieldLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="QueryValuesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items2" xml:space="preserve">
+    <value>NOT</value>
+  </data>
+  <data name="&gt;&gt;QueryStartLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DoQueryButton.Text" xml:space="preserve">
+    <value>Uitvoeren</value>
+  </data>
+  <data name="AddOperatorButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 55</value>
+  </data>
+  <data name="SelectionParametersGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="QueryOperatorLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="QueryOperatorLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ClearQueryButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorComboBox.Name" xml:space="preserve">
+    <value>QueryOperatorComboBox</value>
+  </data>
+  <data name="AddFieldButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 55</value>
+  </data>
+  <data name="&gt;&gt;QueryValuesLabel.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorLabel.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="PreviewButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClearQueryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 350</value>
+  </data>
+  <data name="&gt;&gt;AddOperatorButton.Name" xml:space="preserve">
+    <value>AddOperatorButton</value>
+  </data>
+  <data name="QueryStringTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;NameResulLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryFieldLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SelectionParametersGroupBox.Name" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SelectionParametersGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClearQueryButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;PreviewButton.Name" xml:space="preserve">
+    <value>PreviewButton</value>
+  </data>
+  <data name="&gt;&gt;PreviewButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="QueryFieldComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 55</value>
+  </data>
+  <data name="QueryFieldLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PreviewButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="QueryOperatorComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AddValueButton.Parent" xml:space="preserve">
+    <value>SelectionParametersGroupBox</value>
+  </data>
+  <data name="NameResulLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorLabel.Name" xml:space="preserve">
+    <value>QueryOperatorLabel</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldLabel.Name" xml:space="preserve">
+    <value>QueryFieldLabel</value>
+  </data>
+  <data name="QueryFieldComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items3" xml:space="preserve">
+    <value>(  )</value>
+  </data>
+  <data name="&gt;&gt;ClearQueryButton.Name" xml:space="preserve">
+    <value>ClearQueryButton</value>
+  </data>
+  <data name="&gt;&gt;NameResulLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="QueryFieldLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryValuesLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;SelectionGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AddValueButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SelectionGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="PreviewButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="&gt;&gt;PreviewButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QueryStartLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DoQueryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OutputTableTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ClearQueryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 28</value>
+  </data>
+  <data name="AddFieldButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 28</value>
+  </data>
+  <data name="QueryOperatorComboBox.Items5" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="PreviewButton.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="QueryValueComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="QueryValuesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="QueryOperatorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 28</value>
+  </data>
+  <data name="ClearQueryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>803, 105</value>
+  </data>
+  <data name="OutputTableTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 22</value>
+  </data>
+  <data name="AddOperatorButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryOperatorLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="QueryStartLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="SelectionGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="AddFieldButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClearQueryButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryStartLabel.Text" xml:space="preserve">
+    <value>Select * from &lt;tablename&gt; where:</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorComboBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="QueryFieldComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryOperatorLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryStringTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="AddOperatorButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryStringTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DoQueryButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryFieldLabel.Text" xml:space="preserve">
+    <value>Veld:</value>
+  </data>
+  <data name="&gt;&gt;DoQueryButton.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="AddValueButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 55</value>
+  </data>
+  <data name="SelectionParametersGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;ClearQueryButton.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DoQueryButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AddValueButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="QueryValuesLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;QueryStringTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DoQueryButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;QueryOperatorComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameResulLabel.Parent" xml:space="preserve">
+    <value>SelectionGroupBox</value>
+  </data>
+  <data name="QueryStringTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="QueryOperatorComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;AddValueButton.Name" xml:space="preserve">
+    <value>AddValueButton</value>
+  </data>
+  <data name="QueryStartLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QueryValuesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="SelectionParametersGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="QueryOperatorComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;QueryValuesLabel.Name" xml:space="preserve">
+    <value>QueryValuesLabel</value>
+  </data>
+  <data name="ClearQueryButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;QueryValuesLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MyErrorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PreviewButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 350</value>
+  </data>
+  <data name="SelectionParametersGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SelectionGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QueryFieldLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="NameResulLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NameResulLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="OutputTableTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;QueryFieldComboBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 433</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MyErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>French (Belgium)</value>
+  </metadata>
+</root>

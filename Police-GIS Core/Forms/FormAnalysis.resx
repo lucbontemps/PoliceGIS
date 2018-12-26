@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GenereerKaartButton.Text" xml:space="preserve">
+    <value>Genereer kaart</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GebiedenTabPage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabelTabPage.Name" xml:space="preserve">
+    <value>TabelTabPage</value>
+  </data>
+  <data name="MyQueryBuilderControl.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InkleurenRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBox2.Text" xml:space="preserve">
+    <value>Weging gebruiken</value>
+  </data>
+  <data name="PickCrimeSerieFields1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PuntenIntekenenButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 18</value>
+  </data>
+  <data name="AggregatieGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ParametersTabPage.Parent" xml:space="preserve">
+    <value>MainTabControl</value>
+  </data>
+  <data name="&gt;&gt;GebiedenTabPage.Parent" xml:space="preserve">
+    <value>MainTabControl</value>
+  </data>
+  <data name="Label11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PickCrimeSerieFields1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Niveau:</value>
+  </data>
+  <data name="RadioButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 43</value>
+  </data>
+  <data name="RadioButton11.Text" xml:space="preserve">
+    <value>o.b.v. kolom:</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CheckBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonUseExisitingBP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 26</value>
+  </data>
+  <data name="GebiedenTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PuntenIntekenenButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ParametersTabPage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="AreasListBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;AggregatieGroupBox.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="&gt;&gt;RadioButton12.Name" xml:space="preserve">
+    <value>RadioButton12</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;MainTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AggregationLevelListBox2.Parent" xml:space="preserve">
+    <value>AggregatieGroupBox</value>
+  </data>
+  <data name="CheckBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;PolitieZoneBindingSource.Name" xml:space="preserve">
+    <value>PolitieZoneBindingSource</value>
+  </data>
+  <data name="&gt;&gt;GebiedenTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabelTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PuntenIntekenenButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AnalysisAreaGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GebiedenTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;MyPickMapInfoTableControl.Parent" xml:space="preserve">
+    <value>TabelTabPage</value>
+  </data>
+  <data name="&gt;&gt;AggregationLevelListBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AnalysisTypeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 21</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>767, 530</value>
+  </data>
+  <data name="&gt;&gt;AggregatieGroupBox.Name" xml:space="preserve">
+    <value>AggregatieGroupBox</value>
+  </data>
+  <data name="AantalFeitenRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="PickCrimeSerieFields1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 262</value>
+  </data>
+  <data name="CheckBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MyQueryBuilderControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;RadioButton11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>o.b.v. kolom:</value>
+  </data>
+  <data name="RadioButton12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 46</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AnalysisAreaGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ComboBox10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PuntenIntekenenButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;PickCrimeSerieFields1.Type" xml:space="preserve">
+    <value>Gim.PoliceGis.Core.PickCrimeSerieFields, PoliceGisCore, Version=3.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormAnalysis</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ParametersTabPage.Text" xml:space="preserve">
+    <value>Types</value>
+  </data>
+  <data name="&gt;&gt;AggregationLevelListBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AnalysisAreaGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnalysisAreaGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabelTabPage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PickCrimeSerieFields1.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="Button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;AggregationLevelListBox2.Name" xml:space="preserve">
+    <value>AggregationLevelListBox2</value>
+  </data>
+  <data name="&gt;&gt;GenereerKaartButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ParameterGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 108</value>
+  </data>
+  <data name="CheckBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="InkleurenRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AantalFeitenRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AnalysisAreaGroupBox.Name" xml:space="preserve">
+    <value>AnalysisAreaGroupBox</value>
+  </data>
+  <data name="GroupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 80</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AantalFeitenRadioButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TabelTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>759, 504</value>
+  </data>
+  <data name="GroupBox6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ParameterGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExisitingBP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ParametersTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ParametersTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>759, 504</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Niveau:</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExisitingBP.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="&gt;&gt;MainTabControl.Name" xml:space="preserve">
+    <value>MainTabControl</value>
+  </data>
+  <data name="PickCrimeSerieFields1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PolitieZoneBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ParametersTabPage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="GenereerKaartButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 24</value>
+  </data>
+  <data name="AggregationLevelListBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AreasListBox.Name" xml:space="preserve">
+    <value>AreasListBox</value>
+  </data>
+  <data name="AggregationLevelListBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 82</value>
+  </data>
+  <data name="&gt;&gt;AnalysisTypeComboBox.Name" xml:space="preserve">
+    <value>AnalysisTypeComboBox</value>
+  </data>
+  <data name="InkleurenRadioButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainTabControl.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KolomRadioButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RadioButton12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PuntenIntekenenButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;ParameterGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Type analyse:</value>
+  </data>
+  <data name="&gt;&gt;ParamColumnListBox.Parent" xml:space="preserve">
+    <value>ParameterGroupBox</value>
+  </data>
+  <data name="ListBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RadioButton12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AnalysisAreaGroupBox.Text" xml:space="preserve">
+    <value>Gebied</value>
+  </data>
+  <data name="AnalysisTypeComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AnalysisAreaGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AantalFeitenRadioButton.Name" xml:space="preserve">
+    <value>AantalFeitenRadioButton</value>
+  </data>
+  <data name="AreasListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AnalysisAreaGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 350</value>
+  </data>
+  <data name="TabelTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GebiedenTabPage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ParamColumnListBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;GenereerKaartButton.Name" xml:space="preserve">
+    <value>GenereerKaartButton</value>
+  </data>
+  <data name="GenereerKaartButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 477</value>
+  </data>
+  <data name="&gt;&gt;InkleurenRadioButton.Parent" xml:space="preserve">
+    <value>ParameterGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ComboBox9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ParameterGroupBox.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="CheckBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="AreasListBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenereerKaartButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ParametersTabPage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MyPickMapInfoTableControl.Name" xml:space="preserve">
+    <value>MyPickMapInfoTableControl</value>
+  </data>
+  <data name="InkleurenRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="KolomRadioButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KolomRadioButton.Parent" xml:space="preserve">
+    <value>ParameterGroupBox</value>
+  </data>
+  <data name="KolomRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PuntenIntekenenButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabelTabPage.Parent" xml:space="preserve">
+    <value>MainTabControl</value>
+  </data>
+  <data name="ComboBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 21</value>
+  </data>
+  <data name="&gt;&gt;ComboBox9.Name" xml:space="preserve">
+    <value>ComboBox9</value>
+  </data>
+  <data name="&gt;&gt;MyQueryBuilderControl.Type" xml:space="preserve">
+    <value>Gim.PoliceGis.Core.SimpleQueryBuilder, PoliceGisCore, Version=3.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PickCrimeSerieFields1.Name" xml:space="preserve">
+    <value>PickCrimeSerieFields1</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 12</value>
+  </data>
+  <data name="Label12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ParameterGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="ParameterGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GebiedenTabPage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBox9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InkleurenRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="RadioButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="ComboBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 39</value>
+  </data>
+  <data name="PuntenIntekenenButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AantalFeitenRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBox10.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="&gt;&gt;AnalysisAreaGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AreasListBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AnalysisTypeComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RadioButton12.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>GroupBox6</value>
+  </data>
+  <data name="ParamColumnListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 66</value>
+  </data>
+  <data name="ButtonUseExisitingBP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MyPickMapInfoTableControl.Type" xml:space="preserve">
+    <value>Gim.PoliceGis.Core.PickMapInfoTableControl, PoliceGisCore, Version=3.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ParamColumnListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabelTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GenereerKaartButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Button1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RadioButton12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KolomRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 43</value>
+  </data>
+  <data name="&gt;&gt;ParamColumnListBox.Name" xml:space="preserve">
+    <value>ParamColumnListBox</value>
+  </data>
+  <data name="RadioButton12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AreasListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 225</value>
+  </data>
+  <data name="AggregationLevelListBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MainTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ComboBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GenereerKaartButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;MainTabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KolomRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButton11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ComboBox9.Parent" xml:space="preserve">
+    <value>GroupBox6</value>
+  </data>
+  <data name="&gt;&gt;ComboBox10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InkleurenRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InkleurenRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton11.Name" xml:space="preserve">
+    <value>RadioButton11</value>
+  </data>
+  <data name="PickCrimeSerieFields1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="KolomRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="RadioButton11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PuntenIntekenenButton.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="&gt;&gt;ParameterGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AantalFeitenRadioButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabelTabPage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonUseExisitingBP.Text" xml:space="preserve">
+    <value>bestaande puntenlaag gebruiken</value>
+  </data>
+  <data name="GenereerKaartButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MyPickMapInfoTableControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ComboBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AggregatieGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AggregatieGroupBox.Text" xml:space="preserve">
+    <value>Aggregatie</value>
+  </data>
+  <data name="AreasListBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AnalysisTypeComboBox.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.Parent" xml:space="preserve">
+    <value>GroupBox6</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="ButtonUseExisitingBP.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MyQueryBuilderControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;AnalysisAreaGroupBox.Parent" xml:space="preserve">
+    <value>GebiedenTabPage</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="&gt;&gt;MyQueryBuilderControl.Name" xml:space="preserve">
+    <value>MyQueryBuilderControl</value>
+  </data>
+  <data name="&gt;&gt;InkleurenRadioButton.Name" xml:space="preserve">
+    <value>InkleurenRadioButton</value>
+  </data>
+  <data name="AreasListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="MainTabControl.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBox7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AantalFeitenRadioButton.Text" xml:space="preserve">
+    <value>Aantal feiten</value>
+  </data>
+  <data name="RadioButton11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MyQueryBuilderControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadioButton11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ParameterGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 417</value>
+  </data>
+  <data name="ParamColumnListBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InkleurenRadioButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InkleurenRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="PuntenIntekenenButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PickCrimeSerieFields1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExisitingBP.Name" xml:space="preserve">
+    <value>ButtonUseExisitingBP</value>
+  </data>
+  <data name="ParamColumnListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 251</value>
+  </data>
+  <data name="ButtonUseExisitingBP.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PickCrimeSerieFields1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AnalyseErrorProvider.Name" xml:space="preserve">
+    <value>AnalyseErrorProvider</value>
+  </data>
+  <data name="RadioButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 26</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AantalFeitenRadioButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>TabelTabPage</value>
+  </data>
+  <data name="&gt;&gt;AggregatieGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KolomRadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AnalysisTypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="ComboBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 21</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 52</value>
+  </data>
+  <data name="&gt;&gt;ParametersTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AggregatieGroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ParameterGroupBox.Name" xml:space="preserve">
+    <value>ParameterGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ParametersTabPage.Name" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="CheckBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="MyQueryBuilderControl.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;RadioButton12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AantalFeitenRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TabelTabPage.Text" xml:space="preserve">
+    <value>Tabel</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="Label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.Name" xml:space="preserve">
+    <value>CheckBox2</value>
+  </data>
+  <data name="&gt;&gt;MainTabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PuntenIntekenenButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GebiedenTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="RadioButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="MyQueryBuilderControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///87////pPDr4v/NvZz/uZ9t/7qfav/Sv5r/8uzh/////6v///9CAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///998u7n/8Gviv+liVL/polO/7WbZ//Fr4P/spFU/7eXWv/PuI7/9O/l////
+        /4MAAAAAAAAAAAAAAAD///945+HU/6OLWP+egkn/ooVM/6aJTv/WyKz/+/r3/7maY/+1lFb/t5VX/76f
+        ZP/s49H/////ggAAAAD///9F7+zk/6CKWP+afkb/noJJ/6KFTP+miU7/1MWn//j17/+5m2P/tZRW/7eV
+        V/+5l1j/waFm//Pt4f////9L+Pf0/7Khe/+ql2r/8Ozk/7+th/+0nG7/wKuB//bz7f////9/3tC3/8Oo
+        dv/Gq3n/59zH/+XXvv/QuIv/////tNTMuP+Od0D/pY9g/+fg0/////+o/v7+//7+/v////9M////A///
+        /2z+/v3/////y/r38v/byab/vptc//Do2v+4qon/jXU+/5R6Qv+af0f/5d7P/////1f///8CAAAAAAAA
+        AAAAAAAA////A////7TOton/vJlZ/72aWv/WwZr/saJ//411Pv+UekL/mn9G/7ahdv/+/v7/////AgAA
+        AAAAAAAAAAAAAP///1Ho3sn/uZdY/7yZWf+9mlr/yq97/7Gif/+NdT7/lHpC/5p+Rv++q4X/////qwAA
+        AAAAAAAAAAAAAAAAAAD///8/7eXV/7qZW/+8mVn/vZpa/8qve/+3qYj/jXU+/5R6Qv+ljFr/7+vi////
+        /0L///8bAAAAAAAAAAD///8J////KP///5LYxqL/vJlZ/72aWv/VwJf/0sm0/411Pv+um3D/+/r4//j2
+        8v/v6uD/9vLs/////33///8r/Pv5//Pu5P/18Of/////lujbxf++m1z/7ubW//b18f+wnnj/ooxb/9vR
+        vf+slWT/ooVM/6+VX//w6t//////lNLAnP+1k1b/uJZY/9nGo//ax6P/z7WH/////7r///9K7eng/56H
+        Vf+afkb/noJJ/6KFTP+miU7/0cGg//fz7f+1l13/tZRW/7eVV/+5l1j/v55h//Hq3f////9RAAAAAP//
+        /33i3M3/oYhV/56CSf+ihUz/polO/9XGqP/49vH/t5pi/7WUVv+3lVf/vZ1h/+rfy/////+JAAAAAAAA
+        AAAAAAAA////gu7q4f+7qID/o4ZO/6aJTv+vkVj/t5tk/7GRVP+1lFf/yrKE//Lr3/////+IAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///9J////suvk2P/ItpL/uqFw/7yhbv/OuZL/7eXW/////v////9RAAAAAAAA
+        AAAAAAAA4AdOLMADAACAAU4sAACgEwAAixMAAHUTAcBgEwHAShMDwDQTAYAfEwAACRMAAPQSAADeEoAB
+        yBLAA7MS4AedEg==
+</value>
+  </data>
+  <data name="&gt;&gt;AantalFeitenRadioButton.Parent" xml:space="preserve">
+    <value>ParameterGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExisitingBP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MyQueryBuilderControl.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;AnalyseErrorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AggregationLevelListBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RadioButton12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AreasListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ComboBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GebiedenTabPage.Text" xml:space="preserve">
+    <value>Gebieden</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonUseExisitingBP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 18</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="InkleurenRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox7.Name" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ParamColumnListBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBox9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GebiedenTabPage.Name" xml:space="preserve">
+    <value>GebiedenTabPage</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;GroupBox6.Name" xml:space="preserve">
+    <value>GroupBox6</value>
+  </data>
+  <data name="&gt;&gt;PickCrimeSerieFields1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PuntenIntekenenButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MainTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AggregatieGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 63</value>
+  </data>
+  <data name="ParametersTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="GenereerKaartButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="Label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MyQueryBuilderControl.Parent" xml:space="preserve">
+    <value>TabelTabPage</value>
+  </data>
+  <data name="MainTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>767, 530</value>
+  </data>
+  <data name="PuntenIntekenenButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 26</value>
+  </data>
+  <data name="&gt;&gt;GenereerKaartButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AreasListBox.Parent" xml:space="preserve">
+    <value>AnalysisAreaGroupBox</value>
+  </data>
+  <data name="GebiedenTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>759, 504</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>AggregatieGroupBox</value>
+  </data>
+  <data name="AreasListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 18</value>
+  </data>
+  <data name="TabelTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="GroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 112</value>
+  </data>
+  <data name="&gt;&gt;ComboBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AnalysisTypeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AnalysisTypeComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InkleurenRadioButton.Text" xml:space="preserve">
+    <value>Gebied inkleuren</value>
+  </data>
+  <data name="AantalFeitenRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RadioButton11.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="KolomRadioButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AnalysisAreaGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="&gt;&gt;PuntenIntekenenButton.Name" xml:space="preserve">
+    <value>PuntenIntekenenButton</value>
+  </data>
+  <data name="TabelTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AnalysisTypeComboBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ComboBox9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ComboBox10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ComboBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 43</value>
+  </data>
+  <data name="Label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RadioButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GebiedenTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenereerKaartButton.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="GenereerKaartButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Button1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ParameterGroupBox.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="AggregationLevelListBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 45</value>
+  </data>
+  <data name="KolomRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ParametersTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ParameterGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 63</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="MainTabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GroupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AantalFeitenRadioButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Verkeersanalyse</value>
+  </data>
+  <data name="MainTabControl.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AnalysisAreaGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RadioButton11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PuntenIntekenenButton.Text" xml:space="preserve">
+    <value>Punten ingeven</value>
+  </data>
+  <data name="&gt;&gt;ParamColumnListBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;ComboBox10.Name" xml:space="preserve">
+    <value>ComboBox10</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Name" xml:space="preserve">
+    <value>ListBox1</value>
+  </data>
+  <data name="Label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParamColumnListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonUseExisitingBP.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CheckBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ComboBox10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>ParametersTabPage</value>
+  </data>
+  <data name="TabelTabPage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MyPickMapInfoTableControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 31</value>
+  </data>
+  <data name="CheckBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenereerKaartButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PickCrimeSerieFields1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 91</value>
+  </data>
+  <data name="GroupBox7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InkleurenRadioButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MyQueryBuilderControl.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KolomRadioButton.Text" xml:space="preserve">
+    <value>Op basis van kolom:</value>
+  </data>
+  <data name="MyQueryBuilderControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 366</value>
+  </data>
+  <data name="AggregatieGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="AantalFeitenRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="CheckBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AggregatieGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 155</value>
+  </data>
+  <data name="RadioButton12.Text" xml:space="preserve">
+    <value>aantal feiten</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AggregatieGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AggregationLevelListBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonUseExisitingBP.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;KolomRadioButton.Name" xml:space="preserve">
+    <value>KolomRadioButton</value>
+  </data>
+  <data name="ListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 45</value>
+  </data>
+  <data name="&gt;&gt;AnalysisTypeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 80</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="GroupBox6.Text" xml:space="preserve">
+    <value>Weging</value>
+  </data>
+  <data name="GroupBox6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KolomRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="PolitieZoneBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AnalyseErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>229, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>French (Belgium)</value>
+  </metadata>
+</root>

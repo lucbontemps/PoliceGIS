@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ButtonSaveGroups.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxEditGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonRemoveFromSelection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddGroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBoxGroupName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelOutputField.Name" xml:space="preserve">
+    <value>LabelOutputField</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ButtonExecuteGrouping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 23</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="ButtonShowGroups.Text" xml:space="preserve">
+    <value>Toon groepen apart</value>
+  </data>
+  <data name="&gt;&gt;LabelOutputField.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GroupDGColumn.Name" xml:space="preserve">
+    <value>GroupDGColumn</value>
+  </data>
+  <data name="&gt;&gt;LabelInputField.Name" xml:space="preserve">
+    <value>LabelInputField</value>
+  </data>
+  <data name="ComboBoxInputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;ButtonExecuteGrouping.Name" xml:space="preserve">
+    <value>ButtonExecuteGrouping</value>
+  </data>
+  <data name="ButtonExecuteGrouping.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelGroupName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 136</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="LabelAvailableValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 18</value>
+  </data>
+  <data name="GroupBoxEditGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 343</value>
+  </data>
+  <data name="&gt;&gt;LabelSelectedValues.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LabelAvailableValue.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxDefinedGroups.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LabelSelectedValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ButtonUseExistingGroups.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListBoxAvailableValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelGroupName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelInputField.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PickMapInfoTableControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="GroupBoxEditGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="LabelGroupName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBoxEditValues.Parent" xml:space="preserve">
+    <value>GroupBoxEditGroups</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGroupName.Name" xml:space="preserve">
+    <value>TextBoxGroupName</value>
+  </data>
+  <data name="ButtonAddGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;TextBoxOutputField.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TextBoxOutputField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 20</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewDefinedGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupDGColumn.HeaderText" xml:space="preserve">
+    <value>Groep</value>
+  </data>
+  <data name="ButtonExecuteGrouping.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ButtonAddToSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 75</value>
+  </data>
+  <data name="GroupBoxEditValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ComboBoxInputField.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGroupName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LabelSelectedValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListBoxAvailableValues.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExistingGroups.Name" xml:space="preserve">
+    <value>ButtonUseExistingGroups</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelAvailableValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.Text" xml:space="preserve">
+    <value>Gedefineerde groepen</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditGroups.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGroupName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonSaveGroups.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonUseExistingGroups.Text" xml:space="preserve">
+    <value>Gebruik bestaande omzettingstabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddToSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 189</value>
+  </data>
+  <data name="ButtonExecuteGrouping.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;LabelSelectedValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListBoxAvailableValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ValueDGColumn.HeaderText" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="LabelSelectedValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveGroups.Name" xml:space="preserve">
+    <value>ButtonSaveGroups</value>
+  </data>
+  <data name="ListBoxSelectedValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonUseExistingGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormCreateGroups</value>
+  </data>
+  <data name="TextBoxOutputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBoxDefinedGroups.Name" xml:space="preserve">
+    <value>GroupBoxDefinedGroups</value>
+  </data>
+  <data name="ComboBoxInputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonRemoveFromSelection.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddGroup.Name" xml:space="preserve">
+    <value>ButtonAddGroup</value>
+  </data>
+  <data name="GroupBoxEditGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LabelOutputField.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemoveFromSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxEditValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxInputField.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabelInputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ButtonShowGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 438</value>
+  </data>
+  <data name="ListBoxAvailableValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;ButtonShowGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;LabelInputField.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LabelOutputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ButtonAddToSelection.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="&gt;&gt;LabelSelectedValues.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="ButtonShowGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="TextBoxGroupName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 133</value>
+  </data>
+  <data name="ButtonAddGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddToSelection.Name" xml:space="preserve">
+    <value>ButtonAddToSelection</value>
+  </data>
+  <data name="&gt;&gt;PickMapInfoTableControl1.Name" xml:space="preserve">
+    <value>PickMapInfoTableControl1</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemoveFromSelection.Name" xml:space="preserve">
+    <value>ButtonRemoveFromSelection</value>
+  </data>
+  <data name="LabelOutputField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditGroups.Name" xml:space="preserve">
+    <value>GroupBoxEditGroups</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxEditValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 160</value>
+  </data>
+  <data name="ButtonAddGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 131</value>
+  </data>
+  <data name="ButtonSaveGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ButtonRemoveFromSelection.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="TextBoxGroupName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="LabelAvailableValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonAddToSelection.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ComboBoxInputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxSelectedValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 82</value>
+  </data>
+  <data name="ListBoxSelectedValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 43</value>
+  </data>
+  <data name="ButtonShowGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PickMapInfoTableControl1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelGroupName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddGroup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditValues.Name" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="LabelAvailableValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListBoxSelectedValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelSelectedValues.Name" xml:space="preserve">
+    <value>LabelSelectedValues</value>
+  </data>
+  <data name="TextBoxGroupName.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ButtonUseExistingGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 9</value>
+  </data>
+  <data name="ButtonAddGroup.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelAvailableValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonShowGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ButtonSaveGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonSaveGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxDefinedGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="GroupBoxEditValues.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LabelOutputField.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ListBoxSelectedValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PickMapInfoTableControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 6</value>
+  </data>
+  <data name="ListBoxSelectedValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;PickMapInfoTableControl1.Type" xml:space="preserve">
+    <value>Gim.PoliceGis.Core.PickMapInfoTableControl, PoliceGisCore, Version=3.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxDefinedGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelAvailableValue.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="LabelGroupName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelSelectedValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="LabelSelectedValues.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///87////pPDr4v/NvZz/uZ9t/7qfav/Sv5r/8uzh/////6v///9CAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///998u7n/8Gviv+liVL/polO/7WbZ//Fr4P/spFU/7eXWv/PuI7/9O/l////
+        /4MAAAAAAAAAAAAAAAD///945+HU/6OLWP+egkn/ooVM/6aJTv/WyKz/+/r3/7maY/+1lFb/t5VX/76f
+        ZP/s49H/////ggAAAAD///9F7+zk/6CKWP+afkb/noJJ/6KFTP+miU7/1MWn//j17/+5m2P/tZRW/7eV
+        V/+5l1j/waFm//Pt4f////9L+Pf0/7Khe/+ql2r/8Ozk/7+th/+0nG7/wKuB//bz7f////9/3tC3/8Oo
+        dv/Gq3n/59zH/+XXvv/QuIv/////tNTMuP+Od0D/pY9g/+fg0/////+o/v7+//7+/v////9M////A///
+        /2z+/v3/////y/r38v/byab/vptc//Do2v+4qon/jXU+/5R6Qv+af0f/5d7P/////1f///8CAAAAAAAA
+        AAAAAAAA////A////7TOton/vJlZ/72aWv/WwZr/saJ//411Pv+UekL/mn9G/7ahdv/+/v7/////AgAA
+        AAAAAAAAAAAAAP///1Ho3sn/uZdY/7yZWf+9mlr/yq97/7Gif/+NdT7/lHpC/5p+Rv++q4X/////qwAA
+        AAAAAAAAAAAAAAAAAAD///8/7eXV/7qZW/+8mVn/vZpa/8qve/+3qYj/jXU+/5R6Qv+ljFr/7+vi////
+        /0L///8bAAAAAAAAAAD///8J////KP///5LYxqL/vJlZ/72aWv/VwJf/0sm0/411Pv+um3D/+/r4//j2
+        8v/v6uD/9vLs/////33///8r/Pv5//Pu5P/18Of/////lujbxf++m1z/7ubW//b18f+wnnj/ooxb/9vR
+        vf+slWT/ooVM/6+VX//w6t//////lNLAnP+1k1b/uJZY/9nGo//ax6P/z7WH/////7r///9K7eng/56H
+        Vf+afkb/noJJ/6KFTP+miU7/0cGg//fz7f+1l13/tZRW/7eVV/+5l1j/v55h//Hq3f////9RAAAAAP//
+        /33i3M3/oYhV/56CSf+ihUz/polO/9XGqP/49vH/t5pi/7WUVv+3lVf/vZ1h/+rfy/////+JAAAAAAAA
+        AAAAAAAA////gu7q4f+7qID/o4ZO/6aJTv+vkVj/t5tk/7GRVP+1lFf/yrKE//Lr3/////+IAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///9J////suvk2P/ItpL/uqFw/7yhbv/OuZL/7eXW/////v////9RAAAAAAAA
+        AAAAAAAA4AdOLMADAACAAU4sAACgEwAAixMAAHUTAcBgEwHAShMDwDQTAYAfEwAACRMAAPQSAADeEoAB
+        yBLAA7MS4AedEg==
+</value>
+  </data>
+  <data name="LabelInputField.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ListBoxSelectedValues.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PickMapInfoTableControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelSelectedValues.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ButtonShowGroups.Name" xml:space="preserve">
+    <value>ButtonShowGroups</value>
+  </data>
+  <data name="ListBoxSelectedValues.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxAvailableValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExistingGroups.Parent" xml:space="preserve">
+    <value>GroupBoxEditGroups</value>
+  </data>
+  <data name="&gt;&gt;ValueDGColumn.Name" xml:space="preserve">
+    <value>ValueDGColumn</value>
+  </data>
+  <data name="ButtonUseExistingGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddToSelection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelInputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelInputField.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddToSelection.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBoxOutputField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 64</value>
+  </data>
+  <data name="LabelOutputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="LabelSelectedValues.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelInputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonUseExistingGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="ButtonAddToSelection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;PickMapInfoTableControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBoxGroupName.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="GroupBoxEditValues.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;FileSystemWatcher1.Name" xml:space="preserve">
+    <value>FileSystemWatcher1</value>
+  </data>
+  <data name="&gt;&gt;FileSystemWatcher1.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonShowGroups.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 144</value>
+  </data>
+  <data name="ButtonAddToSelection.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="PickMapInfoTableControl1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonExecuteGrouping.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelSelectedValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TextBoxGroupName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelGroupName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TextBoxOutputField.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ButtonAddGroup.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="ButtonExecuteGrouping.Text" xml:space="preserve">
+    <value>Groepen invullen</value>
+  </data>
+  <data name="ValueDGColumn.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxInputField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MyErrorProvider.Name" xml:space="preserve">
+    <value>MyErrorProvider</value>
+  </data>
+  <data name="TextBoxOutputField.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="LabelInputField.Text" xml:space="preserve">
+    <value>Veld voor waarden:</value>
+  </data>
+  <data name="TextBoxGroupName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 20</value>
+  </data>
+  <data name="&gt;&gt;ListBoxAvailableValues.Name" xml:space="preserve">
+    <value>ListBoxAvailableValues</value>
+  </data>
+  <data name="&gt;&gt;ListBoxSelectedValues.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="TextBoxGroupName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ListBoxAvailableValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PickMapInfoTableControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="LabelGroupName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonSaveGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LabelGroupName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="ComboBoxInputField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 21</value>
+  </data>
+  <data name="GroupBoxEditValues.Text" xml:space="preserve">
+    <value>Nieuw groep</value>
+  </data>
+  <data name="LabelSelectedValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonAddGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxDefinedGroups.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBoxEditGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 89</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemoveFromSelection.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelGroupName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ListBoxAvailableValues.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelInputField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonSaveGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="GroupBoxEditValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="ButtonExecuteGrouping.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelOutputField.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListBoxSelectedValues.Name" xml:space="preserve">
+    <value>ListBoxSelectedValues</value>
+  </data>
+  <data name="ButtonAddGroup.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ButtonSaveGroups.Text" xml:space="preserve">
+    <value>opslaan omzettingstabel </value>
+  </data>
+  <data name="&gt;&gt;DataGridViewDefinedGroups.Name" xml:space="preserve">
+    <value>DataGridViewDefinedGroups</value>
+  </data>
+  <data name="&gt;&gt;PickMapInfoTableControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelAvailableValue.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="ListBoxAvailableValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 82</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonSaveGroups.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelInputField.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxEditGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxInputField.Name" xml:space="preserve">
+    <value>ComboBoxInputField</value>
+  </data>
+  <data name="&gt;&gt;ListBoxAvailableValues.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PickMapInfoTableControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;LabelAvailableValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonUseExistingGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MyToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelOutputField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 67</value>
+  </data>
+  <data name="ButtonExecuteGrouping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 438</value>
+  </data>
+  <data name="&gt;&gt;LabelAvailableValue.Name" xml:space="preserve">
+    <value>LabelAvailableValue</value>
+  </data>
+  <data name="LabelInputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelGroupName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonAddGroup.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DataGridViewDefinedGroups.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ButtonUseExistingGroups.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabelOutputField.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabelInputField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 41</value>
+  </data>
+  <data name="&gt;&gt;ButtonExecuteGrouping.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MyErrorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelAvailableValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBoxDefinedGroups.Parent" xml:space="preserve">
+    <value>GroupBoxEditGroups</value>
+  </data>
+  <data name="ButtonShowGroups.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonRemoveFromSelection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelOutputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListBoxSelectedValues.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LabelSelectedValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 18</value>
+  </data>
+  <data name="LabelAvailableValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="&gt;&gt;ButtonExecuteGrouping.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ComboBoxInputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupDGColumn.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="LabelOutputField.Text" xml:space="preserve">
+    <value>Veld voor groep:</value>
+  </data>
+  <data name="LabelAvailableValue.Text" xml:space="preserve">
+    <value>Beschikbare waarden:</value>
+  </data>
+  <data name="ButtonAddToSelection.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddToSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelSelectedValues.Text" xml:space="preserve">
+    <value>Geselecteerde waarden:</value>
+  </data>
+  <data name="PickMapInfoTableControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 31</value>
+  </data>
+  <data name="LabelAvailableValue.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ButtonShowGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditGroups.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonUseExistingGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 23</value>
+  </data>
+  <data name="ComboBoxInputField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 38</value>
+  </data>
+  <data name="ButtonAddToSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 46</value>
+  </data>
+  <data name="&gt;&gt;MyToolTip.Name" xml:space="preserve">
+    <value>MyToolTip</value>
+  </data>
+  <data name="&gt;&gt;ButtonShowGroups.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabelGroupName.Text" xml:space="preserve">
+    <value>Naam:</value>
+  </data>
+  <data name="&gt;&gt;ButtonUseExistingGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxInputField.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabelAvailableValue.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TextBoxGroupName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonUseExistingGroups.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TextBoxOutputField.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonAddGroup.Text" xml:space="preserve">
+    <value>Aanmaken</value>
+  </data>
+  <data name="ButtonExecuteGrouping.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonSaveGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 23</value>
+  </data>
+  <data name="LabelGroupName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListBoxSelectedValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 31</value>
+  </data>
+  <data name="&gt;&gt;TextBoxOutputField.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>596, 470</value>
+  </data>
+  <data name="ButtonAddToSelection.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="ButtonExecuteGrouping.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Groepen maken</value>
+  </data>
+  <data name="GroupBoxEditGroups.Text" xml:space="preserve">
+    <value>Groepen editeren</value>
+  </data>
+  <data name="LabelOutputField.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonSaveGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 438</value>
+  </data>
+  <data name="DataGridViewDefinedGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ButtonShowGroups.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DataGridViewDefinedGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 92</value>
+  </data>
+  <data name="LabelGroupName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="LabelInputField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="ButtonAddToSelection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelOutputField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupDGColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxOutputField.Name" xml:space="preserve">
+    <value>TextBoxOutputField</value>
+  </data>
+  <data name="&gt;&gt;TextBoxOutputField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonRemoveFromSelection.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TextBoxOutputField.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelGroupName.Parent" xml:space="preserve">
+    <value>GroupBoxEditValues</value>
+  </data>
+  <data name="GroupBoxDefinedGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ValueDGColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonShowGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="ButtonAddGroup.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListBoxAvailableValues.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxEditValues.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListBoxAvailableValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewDefinedGroups.Parent" xml:space="preserve">
+    <value>GroupBoxDefinedGroups</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewDefinedGroups.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelGroupName.Name" xml:space="preserve">
+    <value>LabelGroupName</value>
+  </data>
+  <metadata name="GroupDGColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MyErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ValueDGColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MyToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>437, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>140, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>French (Belgium)</value>
+  </metadata>
+</root>

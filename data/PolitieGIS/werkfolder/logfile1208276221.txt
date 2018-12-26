@@ -1,0 +1,771 @@
+
+===================================================
+Log opened at time (dd/mm/yyyy hh:mm:ss) 15/04/2008 18:17:00
+===================================================
+
+Enter OnChangeRdgISLPFileOrTable
+Exit OnChangeRdgISLPFileOrTable
+In ProcessColumnNames
+
+In GIM_lib.TableIsOpen(test_tijd)
+Exit GIM_lib.TableIsOpen, result = T
+
+In SetConditionalTABColumnNames
+debugThresholdValue = 
+In NumValuesInColumn(test_tijd, COL1, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 4
+In NumValuesInColumn(test_tijd, COL1, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 1 = 4
+In NumValuesInColumn(test_tijd, COL2, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 197
+In NumValuesInColumn(test_tijd, COL2, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 197
+SetConditionalTABColumnNames: noUniqueColumnValues for column 2 = 197
+In NumValuesInColumn(test_tijd, COL3, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 308
+In NumValuesInColumn(test_tijd, COL3, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 308
+SetConditionalTABColumnNames: noUniqueColumnValues for column 3 = 308
+In NumValuesInColumn(test_tijd, COL4, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 169
+In NumValuesInColumn(test_tijd, COL4, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 169
+SetConditionalTABColumnNames: noUniqueColumnValues for column 4 = 169
+In NumValuesInColumn(test_tijd, COL5, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 244
+In NumValuesInColumn(test_tijd, COL5, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 244
+SetConditionalTABColumnNames: noUniqueColumnValues for column 5 = 244
+In NumValuesInColumn(test_tijd, COL6, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 125
+In NumValuesInColumn(test_tijd, COL6, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 125
+SetConditionalTABColumnNames: noUniqueColumnValues for column 6 = 125
+In NumValuesInColumn(test_tijd, COL7, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 70
+In NumValuesInColumn(test_tijd, COL7, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 70
+SetConditionalTABColumnNames: noUniqueColumnValues for column 7 = 70
+In NumValuesInColumn(test_tijd, COL8, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 143
+In NumValuesInColumn(test_tijd, COL8, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 143
+SetConditionalTABColumnNames: noUniqueColumnValues for column 8 = 143
+In NumValuesInColumn(test_tijd, COL9, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 84
+In NumValuesInColumn(test_tijd, COL9, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 84
+SetConditionalTABColumnNames: noUniqueColumnValues for column 9 = 84
+In NumValuesInColumn(test_tijd, COL10, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 11
+In NumValuesInColumn(test_tijd, COL10, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 11
+SetConditionalTABColumnNames: noUniqueColumnValues for column 10 = 11
+In NumValuesInColumn(test_tijd, COL11, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 7
+In NumValuesInColumn(test_tijd, COL11, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 7
+SetConditionalTABColumnNames: noUniqueColumnValues for column 11 = 7
+In NumValuesInColumn(test_tijd, COL12, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 3
+In NumValuesInColumn(test_tijd, COL12, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 12 = 3
+In NumValuesInColumn(test_tijd, COL13, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 9
+In NumValuesInColumn(test_tijd, COL13, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 9
+SetConditionalTABColumnNames: noUniqueColumnValues for column 13 = 9
+In NumValuesInColumn(test_tijd, COL14, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 7
+In NumValuesInColumn(test_tijd, COL14, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 7
+SetConditionalTABColumnNames: noUniqueColumnValues for column 14 = 7
+In NumValuesInColumn(test_tijd, COL15, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 3
+In NumValuesInColumn(test_tijd, COL15, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 15 = 3
+In NumValuesInColumn(test_tijd, COL16, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 4
+In NumValuesInColumn(test_tijd, COL16, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 16 = 4
+In NumValuesInColumn(test_tijd, COL17, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 4
+In NumValuesInColumn(test_tijd, COL17, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 4
+SetConditionalTABColumnNames: noUniqueColumnValues for column 17 = 4
+In NumValuesInColumn(test_tijd, COL18, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 2
+In NumValuesInColumn(test_tijd, COL18, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 2
+SetConditionalTABColumnNames: noUniqueColumnValues for column 18 = 2
+In NumValuesInColumn(test_tijd, COL19, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 1
+In NumValuesInColumn(test_tijd, COL19, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 19 = 1
+In NumValuesInColumn(test_tijd, COL20, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 1
+In NumValuesInColumn(test_tijd, COL20, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 20 = 1
+In NumValuesInColumn(test_tijd, COL21, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 1
+In NumValuesInColumn(test_tijd, COL21, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 1
+SetConditionalTABColumnNames: noUniqueColumnValues for column 21 = 1
+In NumValuesInColumn(test_tijd, COL22, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 26
+In NumValuesInColumn(test_tijd, COL22, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 26
+SetConditionalTABColumnNames: noUniqueColumnValues for column 22 = 26
+In NumValuesInColumn(test_tijd, COL23, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 16
+In NumValuesInColumn(test_tijd, COL23, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 16
+SetConditionalTABColumnNames: noUniqueColumnValues for column 23 = 16
+In NumValuesInColumn(test_tijd, COL24, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 3
+In NumValuesInColumn(test_tijd, COL24, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 3
+SetConditionalTABColumnNames: noUniqueColumnValues for column 24 = 3
+In NumValuesInColumn(test_tijd, COL25, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 301
+In NumValuesInColumn(test_tijd, COL25, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 301
+SetConditionalTABColumnNames: noUniqueColumnValues for column 25 = 301
+In NumValuesInColumn(test_tijd, COL28, TempNumValuesInColumn)
+Exit NumValuesInColumn, result = 401
+In NumValuesInColumn(test_tijd, COL28, GimTempUniqueColumnValues)
+Exit NumValuesInColumn, result = 401
+SetConditionalTABColumnNames: noUniqueColumnValues for column 28 = 401
+Exit SetConditionalTABColumnNames
+Exit ProcessColumnNames
+In ShowSelectionControls
+Exit ShowSelectionControls
+Weight field name = --- Kies een parameter ---
+In AllWeightsAreOne
+Exit AllWeightsAreOne, result = T
+
+In OpenTableChecked(test_tijd, C:\Politie-GIS\data\PolitieGIS\ISLP bestanden\test_tijd.TAB)
+
+In GIM_lib.TableIsOpen(test_tijd)
+Exit GIM_lib.TableIsOpen, result = T
+
+Exit OpenTableChecked
+
+In UseColumnForPieChart
+ReadControlValue(rdgThemFArea) = THEMF_COLUMN = F
+ReadControlValue(rdgThemFBlackPoints) = THEMF_COLUMN = F
+l_result = F
+Exit UseColumnForPieChart
+In UseColumnForPieChart
+ReadControlValue(rdgThemFArea) = THEMF_COLUMN = F
+ReadControlValue(rdgThemFBlackPoints) = THEMF_COLUMN = F
+l_result = F
+Exit UseColumnForPieChart
+
+========================== 
+In MapGenerator.InitMapGeneratorMessages: 
+========================== 
+Parameters:
+------------------------------------------
+si_analysisMode = 1
+s_IslpTable = test_tijd
+si_AreaMapType = 1
+l_UseColumnForPie = F
+UBound(as_uniqueColumnValuesForTheme)   = 401
+UBound(as_uniqueColumnValuesForWeights) = 0
+UBound(ai_weights) = 0
+s_weightFieldName  = --- Kies een parameter ---
+s_DateLowColumn  = 
+s_DateHighColumn = 
+s_TimeLowColumn  = 
+s_TimeHighColumn = 
+f_maxDistanceMeters  = 500
+i_maxTimeSpanMinutes = 720
+i_maxGapMinutes = 120
+mgArea  = Politiezone Noordoost Limburg
+mgAnalysis  = 4
+theFileSettings: 
+iniFile:      c:\Politie-GIS\config\config.ini
+dataFolder:   C:\Politie-GIS\data\PolitieGIS
+inputFolder:  C:\Politie-GIS\data\PolitieGIS\ISLP bestanden
+outputFolder: C:\Politie-GIS\data\PolitieGIS\resultaat
+workFolder:   C:\Politie-GIS\data\PolitieGIS\werkfolder
+exportFolder: C:\Politie-GIS\data\PolitieGIS\resultaat
+
+theAnalysisSettings: 
+enableModule: T
+defaultArea: Politiezone Noordoost Limburg
+selectedArea: Politiezone Noordoost Limburg
+analysisMethod: 4
+pointAnalysisThematicField: -1
+selectedAggregationLevel: -1
+areaThematicField: -1
+blackpointThematicField: -1
+lowestValueBrush: Brush (2, 65280, 16777215)
+highestValueBrush: Brush (2, 16711680, 16777215)
+streetIDField: ID
+useColumnForPie: F
+weightFieldName: --- Kies een parameter ---
+dateLowColumn: 
+dateHighColumn: 
+timeLowColumn: 
+timeHighColumn: 
+maxDistanceMeters: 500
+maxTimeSpanMinutes: 720
+maxGapMinutes: 120
+availableAreas: 
+   1: Politiezone Noordoost Limburg
+   2: Gemeente Bree
+   3: Gemeente Bocholt
+   4: Gemeente Kinrooi
+   5: Gemeente Meeuwen-Gruitrode
+aggregationLevels: 
+   1: Fusiegemeenten
+   2: Deelgemeenten
+   3: NIS-buurten
+ISLPcolNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Straat
+   4: Datum
+   5: Tijd_cleaned
+   6: Tijd
+   7: Nr_
+   8: Hecto
+   9: Kruispunt_met
+   10: Info
+   11: Best_1
+   12: Leeft_1
+   13: Gesl_1
+   14: Best_2
+   15: Leeft_2
+   16: Gesl_2
+   17: Best_3
+   18: Leeft_3
+   19: Gesl_3
+   20: Best_4
+   21: Leeft_4
+   22: Gesl_4
+   23: Ongevalsfactoren
+   24: Type_aanrijding
+   25: Gevolg
+   26: PV_nr_
+   27: adres
+conditionalColNames: 
+   1: --- Kies een parameter ---
+   2: Gemeente
+   3: Leeft_1
+   4: Gesl_1
+   5: Best_2
+   6: Leeft_2
+   7: Gesl_2
+   8: Best_3
+   9: Leeft_3
+   10: Gesl_3
+   11: Best_4
+   12: Leeft_4
+   13: Gesl_4
+   14: Gevolg
+copiedISLPcolIDs: 
+originalISLPColumnIDs: 
+   1: 
+   2: 1
+   3: 2
+   4: 3
+   5: 4
+   6: 5
+   7: 6
+   8: 7
+   9: 8
+   10: 9
+   11: 10
+   12: 11
+   13: 12
+   14: 13
+   15: 14
+   16: 15
+   17: 16
+   18: 17
+   19: 18
+   20: 19
+   21: 20
+   22: 21
+   23: 22
+   24: 23
+   25: 24
+   26: 25
+   27: 28
+uniqueColumnValuesForTheme: 
+   1: Arkstraat
+   2: Arkstraat 72
+   3: Beemdstraat
+   4: Beemdstraat 62
+   5: Betonweg 219
+   6: Blauwe-Keistraat 3
+   7: Boendersstraat
+   8: Bosstraat
+   9: Breekiezel 137
+   10: Breekiezel
+   11: Weg naar As
+   12: Breekiezel 21
+   13: Broekkantstraat 75
+   14: Dampstraat 32
+   15: Dampstraat
+   16: Dorpsstraat
+   17: Fietsroutenetwerk
+   18: Genitsstraat 46
+   19: Genkerbaan
+   20: Genkerbaan 48
+   21: Genkerbaan 14
+   22: Hoogstraat
+   23: Plockroy
+   24: Grote Baan
+   25: Heidestraat
+   26: Heikantstraat
+   27: Hoogstraat 48
+   28: Hoogstraat 13
+   29: Hoogstraat 57
+   30: Kabienstraat
+   31: Kerkplein 2
+   32: Kerkplein 10
+   33: Kiëstraat 9
+   34: Klein Gestel
+   35: Klein Heidestraat
+   36: Kruisstraat
+   37: Leemakkerstraat
+   38: Martinlaan 3
+   39: Muisvenstraat 128
+   40: Muisvenstraat
+   41: Muisvenstraat 148
+   42: Ophovenstraat
+   43: Ophovenstraat 8
+   44: Ophovenstraat 6
+   45: Ophovenstraat 171
+   46: Opstraat
+   47: Pastoriestraat 2
+   48: Peerderbaan 45
+   49: Peerderbaan 52
+   50: Peerderbaan 70
+   51: Peerderbaan 1
+   52: Populierenstraat
+   53: Roesstraat 1
+   54: Roesstraat 28
+   55: Roesstraat
+   56: Weg op Bree
+   57: Soetebeek 23
+   58: Soetebeek
+   59: Sparstraat
+   60: Taelstraat
+   61: Torenstraat
+   62: Turfstraat 13
+   63: Vliegeneinde 17
+   64: Weg naar As 112
+   65: Weg naar As 71
+   66: Weg naar As 122
+   67: Weg naar As 10
+   68: Weg naar As 31
+   69: Weg nr Ellikom
+   70: Weg nr Ellikom 219
+   71: Weg nr Helchteren 12
+   72: Weg nr Helchteren 34
+   73: Weg nr Helchteren
+   74: Weg nr Helchteren 61
+   75: Weg naar Opitter
+   76: Weg naar Opoeteren 21
+   77: Weg naar Opoeteren
+   78: Weg nr. Zwartberg
+   79: Weg op Bree 37
+   80: Weg op Bree 23
+   81: Weg op Bree 47
+   82: Weg op Bree 129
+   83: Weg op Bree 74
+   84: Wijshagerkiezel
+   85: Belestraat 66
+   86: Breeërsteenweg
+   87: Breeërsteenweg 306
+   88: Breeërsteenweg 268
+   89: Breivinstraat 4
+   90: De Belder
+   91: Dolenweg
+   92: Dorpsplein
+   93: Dorpsplein 4
+   94: Drietak
+   95: Dwarsstraat 10
+   96: Fosheistraat
+   97: Grootbroekstraat
+   98: Grote Kerkstraat
+   99: Grote Kerkstraat 6
+   100: Heggestraat
+   101: Heikempstraat
+   102: Hoogveldstraat
+   103: Hurkenstraat
+   104: Itterstraat 9
+   105: Kasteelstraat
+   106: Kasteelstraat 17
+   107: Kessenicherweg
+   108: Keyersstraat
+   109: Kloosterstraat 8
+   110: Lakerweg
+   111: Leustraat 47
+   112: Maasstraat
+   113: Maasstraat 14
+   114: Meierstraat
+   115: Merrenhofstraat 18
+   116: Neeroetersesteenweg
+   117: Neeroetersesteenweg 3
+   118: Oude Kerkstraat
+   119: Pastorijstraat 3
+   120: Pekstraatje
+   121: Raam
+   122: Raamdijk 1
+   123: Raamdijk
+   124: Rozenstraat
+   125: Schansstraat 7
+   126: Schoolstraat 24
+   127: Truyenstraat
+   128: Veldstraat
+   129: Veldstraat 39
+   130: Venderstraat 32
+   131: Venlosesteenweg
+   132: Venlosesteenweg 373
+   133: Venlosesteenweg 48
+   134: Venlosesteenweg 364
+   135: Venlosesteenweg 158
+   136: Venlosesteenweg 95
+   137: Venlosesteenweg 334
+   138: Venlosesteenweg 138
+   139: Venlosesteenweg 16
+   140: Venlosesteenweg 71
+   141: Venlosesteenweg 358
+   142: Venlosesteenweg 68
+   143: Venlosesteenweg 23
+   144: Venlosesteenweg 50
+   145: Vennerweg
+   146: Vroenhof 2
+   147: Vroenhof 23
+   148: Weertersteenweg 277
+   149: Weertersteenweg 260
+   150: Weertersteenweg 580
+   151: Weertersteenweg 259
+   152: Weertersteenweg 480
+   153: Weertersteenweg 320
+   154: Weertersteenweg 362
+   155: Weertersteenweg
+   156: Weertersteenweg 4
+   157: Weertersteenweg 106
+   158: Weertersteenweg 364
+   159: Weertersteenweg 22
+   160: Weertersteenweg 36
+   161: Weertersteenweg 370
+   162: Weertersteenweg 235
+   163: Weertersteenweg 1
+   164: Weertersteenweg 6
+   165: Zandveldstraat
+   166: Zandveldstraat 5
+   167: Abroxweg
+   168: Barrierstraat
+   169: Beerselerdijk
+   170: Bocholterkiezel 25a
+   171: Bocholterkiezel
+   172: Bocholterkiezel 87
+   173: Bocholterkiezel 77
+   174: Bocholterkiezel 45
+   175: Bocholterkiezel 142
+   176: Bocholterstraat 2
+   177: Boneputstraat
+   178: Boneputterveld
+   179: Boogschuttersstraat 58
+   180: Boogschuttersstraat
+   181: Boogschuttersstraat 40
+   182: Bosstraat 82
+   183: Conenstraat 4
+   184: fietspad langs kanaal
+   185: Fietspad Opitter
+   186: Filterstraat 10
+   187: Filterstraat
+   188: Genastraat
+   189: Gerdingerpoort 9
+   190: Gerdingerpoort
+   191: Gerkenbergstraat 7
+   192: Geussensstraat
+   193: Grauwe Torenwal
+   194: Grauwe Torenwal 16
+   195: Grauwe Torenwal 15
+   196: Gruitroderkiezel 227
+   197: Gruitroderkiezel 39
+   198: Gruitroderkiezel 41
+   199: Gruitroderkiezel
+   200: Gruitroderkiezel 173
+   201: Gruitroderkiezel 247
+   202: Gruitroderkiezel 223
+   203: Gruitroderkiezel 20
+   204: Hamonterweg
+   205: Heuvelstraat 4
+   206: Industrieterrein Kanaal-Noord 1126
+   207: Industrieterrein Kanaal-Noord
+   208: Industrieterrein Kanaal-Noord 1167
+   209: Itterplein
+   210: Jef Van Hoofstraat 4
+   211: Kanaallaan 54
+   212: Kanaallaan
+   213: Kanaallaan 33
+   214: Kempstraat 10
+   215: Kerkstraat 39
+   216: Kerkstraat
+   217: Keyartstraat
+   218: Kloosterpoort
+   219: Kloosterpoort 19
+   220: Kloosterstraat 13
+   221: Kloosterstraat
+   222: Kruittorenwal 9
+   223: Kruittorenwal 1
+   224: Kruittorenwal
+   225: Kuilenstraat
+   226: Leeuwerikstraat 34
+   227: Luytenstraat
+   228: Maaseikerbaan 79
+   229: Maaseikerbaan
+   230: Maaseikerbaan 47
+   231: Malta
+   232: Markt
+   233: Meeuwerkiezel
+   234: Meeuwerkiezel 118
+   235: Meeuwerkiezel 58
+   236: Meeuwerkiezel 76
+   237: Meeuwerkiezel 120
+   238: Meeuwerkiezel 207
+   239: Meeuwerkiezel 116
+   240: Meeuwerkiezel 77
+   241: Meeuwerkiezel 39
+   242: Millenstraat
+   243: Millenstraat 43
+   244: Nieuwstadstraat
+   245: Opitterkiezel 140
+   246: Opitterkiezel
+   247: Opitterkiezel 75
+   248: Opitterkiezel 78
+   249: Opitterkiezel 236
+   250: Opitterkiezel 122
+   251: Opitterkiezel 9
+   252: Opitterpoort 18
+   253: Opitterpoort
+   254: Opitterpoort 66
+   255: Oudestraat 36
+   256: Pater Coninxlaan
+   257: Pater Neyenslaan 1
+   258: Peerderbaan
+   259: Peerderbaan 115
+   260: Peerderbaan 1014
+   261: Peerderbaan 106
+   262: Peerderbaan 68
+   263: Regenboogstraat 12
+   264: Reppelerweg 7
+   265: Riekskensstraat 46
+   266: Rode Kruislaan
+   267: Rode Kruislaan 23
+   268: Rode Kruislaan 55
+   269: Rode Kruislaan 41
+   270: Rode Kruislaan 40
+   271: Roermonderstraat
+   272: Rorenweg
+   273: Schoolstraat 81
+   274: Schutterijstraat 14
+   275: Schutterijstraat
+   276: Sint-Jacobstraat
+   277: Solterweg 49
+   278: Sportlaan 3
+   279: Sportlaan
+   280: Sportlaan 25
+   281: Sportlaan 4
+   282: Stadsplein
+   283: Stationswal
+   284: Stationswal 3
+   285: Steyvenstraat 40
+   286: Stift 48
+   287: Stift
+   288: Stift 79
+   289: Stift 2
+   290: 't Hasseltkiezel 9
+   291: 't Hasseltkiezel
+   292: 't Hasseltkiezel 41
+   293: 't Hasseltkiezel 14
+   294: 't Hasseltkiezel 32
+   295: 't Hasseltkiezel 15
+   296: Teelestraat 10
+   297: Ter Rivierenwal
+   298: Toleikstraat 28
+   299: Toleikstraat
+   300: Toleikstraat 13
+   301: Tongerlostraat
+   302: Velkuilenstraat
+   303: Voortbemdenstraat
+   304: Vrijheidslaan
+   305: Wiekersbeekstraat
+   306: Wijshagerstraat 12
+   307: Witte Torenstraat 5
+   308: Witte Torenstraat
+   309: Witte Torenwal
+   310: Witte Torenwal 15
+   311: Witte Torenwal 37
+   312: Witte Torenwal 11
+   313: Achelsedijk
+   314: Achelsedijk 3
+   315: Bosheidestraat
+   316: Bosschelweg
+   317: Breeërweg 15
+   318: Breeërweg
+   319: Bremstraat 11
+   320: Brogelerweg 123
+   321: Brogelerweg
+   322: Brugstraat 41
+   323: Commandant Leroystraat 20
+   324: Damburgstraat
+   325: Donkelstraatje 24
+   326: Dorpsstraat 53
+   327: Dorpsstraat 29
+   328: Dorpsstraat 14
+   329: Fabriekstraat
+   330: Fabriekstraat 117
+   331: Fabriekstraat 90
+   332: Fabriekstraat 11
+   333: Fabriekstraat 38
+   334: Fabriekstraat 2
+   335: Galgenbergstraat 37
+   336: Galgenbergstraat
+   337: Groenstraat
+   338: Grote Baan 10
+   339: Hamonterweg 125
+   340: Hamonterweg 104
+   341: Hamonterweg 29
+   342: Hamonterweg 34
+   343: Heuvelstraat
+   344: Hoekstraat 15
+   345: Hoogstraat 47
+   346: Hoogstraat 52
+   347: Jasperslaan
+   348: Kallerstraat 9
+   349: Kapelstraat
+   350: kaulillerdorp 51
+   351: kaulillerdorp
+   352: Kaulillerdorp 75
+   353: kaulillerdorp 17
+   354: Kaulillerweg
+   355: Kaulillerweg 8
+   356: Kaulillerweg 99
+   357: Kaulillerweg 147
+   358: Kaulillerweg 93
+   359: Kaulillerweg 3
+   360: Kaulillerweg 65
+   361: Kaulillerweg 107
+   362: Kaulillerweg 156
+   363: Kerkhofstraat 38
+   364: Kerkhofstraat 62
+   365: Kerkplein
+   366: Kettingbrugweg
+   367: Kettingbrugweg 40
+   368: Kleine Marsestraat 7
+   369: Kloosterstraat 3
+   370: Lemmenskuilstraat
+   371: Lillerbaan
+   372: Lillerbaan 65
+   373: Lozerheide
+   374: Lozerplein
+   375: Lozerstraat 2
+   376: Lozerstraat 24
+   377: Lozerstraat
+   378: Lozerstraat 1
+   379: Luysenweg
+   380: Marsestraat
+   381: Molenstraat
+   382: Napoleonsdijk
+   383: Reppelerweg 208
+   384: Reppelerweg 225
+   385: Reppelerweg 195
+   386: Reppelerweg 62
+   387: Schoolstraat
+   388: Snellewindstraat
+   389: Steenweg op Kleine Brogel 73
+   390: Steenweg op Kleine Brogel
+   391: Steenweg op Kleine Brogel 70
+   392: Steenweg op Kleine Brogel 1
+   393: Stramproyerweg
+   394: Stramproyerweg 76
+   395: Weerterweg
+   396: Weerterweg 17
+   397: Weerterweg 70
+   398: Wilgenweg 18
+   399: Winterdijkweg
+   400: Zandstraat
+   401: Zavelstraat
+uniqueColumnValuesForWeights: 
+weights: 
+
+------------------------------------------
+
+In GIM_lib.TableIsOpen(NOL_a8)
+Exit GIM_lib.TableIsOpen, result = T
+
+
+In OpenTableChecked(NOL_a8, C:\Politie-GIS\data\PolitieGIS\basiskaarten\NOL_a8.TAB)
+
+In GIM_lib.TableIsOpen(NOL_a8)
+Exit GIM_lib.TableIsOpen, result = T
+
+Exit OpenTableChecked
+
+
+In GenerateBlackPointAnalysis
+UBound(as_uniqueColumnValuesForTheme) = 401
+UBound(as_uniqueColumnValuesForWeights) = 0
+UBound(ai_weights) = 0
+s_weightFieldName = --- Kies een parameter ---
+l_UseColumnForPie = F
+
+In OpenTableChecked(ong_nol_1208276245, C:\Politie-GIS\data\PolitieGIS\werkfolder\ong_nol_1208276245.TAB)
+
+In GIM_lib.TableIsOpen(ong_nol_1208276245)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+Exit GenerateBlackPointAnalysis
+
+Exit StartMapGenerator 
+
+In BlackPointToolHandler
+Exit BlackPointToolHandler
+
+In DrawPieChartsOnCrossRoads
+m_islpTable = ong_nol_1208276245
+m_crossRoadTableName = kruispunt_1208276245
+m_crossRoadBufferTableName = kruispuntbuffer_1208276245
+m_crossRoadBufferTableLocation = C:\Politie-GIS\data\PolitieGIS\werkfolder\kruispuntbuffer_1208276245.TAB
+m_numberOfBufferPoints = 1
+m_legendWindowHandle = 214560776
+m_mapWindowHandle = 187780184
+UBound(m_uniqueColumnValuesTheme) = 0
+
+In OpenTableChecked(kruispuntbuffer_1208276245, C:\Politie-GIS\data\PolitieGIS\werkfolder\kruispuntbuffer_1208276245.TAB)
+
+In GIM_lib.TableIsOpen(kruispuntbuffer_1208276245)
+Exit GIM_lib.TableIsOpen, result = F
+
+Exit OpenTableChecked
+
+
+Enter MapGenerator.ShadeMapWithGraduatedValues
+i_mapWindowHandle = 187780184
+s_thematicFieldName = number_incidents
+s_tableName = kruispuntbuffer_1208276245
+MapGenerator.ShadeMapWithGraduatedValues: table "kruispuntbuffer_1208276245" has 0 rows. Nothing to shade
+
+In UpdateLegend
+Running set legend command: 
+Set Legend Window 187780184 Layer Prev Display on  Shades on  Symbols on  Lines on  Count off Title "Ongevallen naar  number_incidents" Font ("Arial",0,9,0) Subtitle auto Font ("Arial",0,8,0) Ascending on 
+SET SHADE: Layer is not a thematic layer. 

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="configFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PoliceGISConfiguration.xml</Value>
+    </Setting>
+    <Setting Name="StartDateField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">StartDateTime</Value>
+    </Setting>
+    <Setting Name="EndDateField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EndDateTime</Value>
+    </Setting>
+    <Setting Name="AreaISLPTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AreaISLPTable</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

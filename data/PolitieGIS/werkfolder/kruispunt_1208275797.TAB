@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 11
+    id Integer ;
+    xcoord Float ;
+    ycoord Float ;
+    bufdist Float ;
+    CountOfColumnValues1 Integer ;
+    CountOfColumnValues2 Integer ;
+    CountOfColumnValues3 Integer ;
+    CountOfColumnValues4 Integer ;
+    CountOfColumnValues5 Integer ;
+    CountOfColumnValues6 Integer ;
+    CountOfColumnValues7 Integer ;

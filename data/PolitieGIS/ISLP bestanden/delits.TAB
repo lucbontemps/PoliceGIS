@@ -1,0 +1,28 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 16
+    Datum Char (10) ;
+    uur_van Char (10) ;
+    uur_tot Char (10) ;
+    type Char (4) ;
+    aard Char (10) ;
+    aard_lang Char (188) ;
+    poging Char (10) ;
+    straat Char (10) ;
+    straat_lang Char (33) ;
+    N_ Char (10) ;
+    bus Char (10) ;
+    post Char (10) ;
+    gemeente Char (8) ;
+    adres Char (36) ;
+    xcoord Float ;
+    ycoord Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "29d232c4-d2cd-47bf-9548-7ee24adb26b2"
+end_metadata

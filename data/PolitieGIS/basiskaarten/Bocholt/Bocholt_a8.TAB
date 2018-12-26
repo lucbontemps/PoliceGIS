@@ -1,0 +1,24 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 17
+    ID Decimal (15, 0) ;
+    FEATTYP Decimal (4, 0) ;
+    ORDER00 Char (3) Index 1 ;
+    ORDER01 Char (11) ;
+    ORDER02 Char (11) ;
+    ORDER03 Char (11) ;
+    ORDER04 Char (11) ;
+    ORDER05 Char (11) ;
+    ORDER06 Char (11) ;
+    ORDER07 Char (11) ;
+    ORDER08 Char (11) ;
+    FEATAREA Decimal (15, 0) ;
+    FEATPERIM Decimal (15, 0) ;
+    NAME Char (70) ;
+    NAMELC Char (3) ;
+    POPCLASS Decimal (1, 0) ;
+    POP Decimal (10, 0) ;
