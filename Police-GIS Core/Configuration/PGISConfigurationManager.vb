@@ -177,7 +177,7 @@ Public Class PGISConfigurationManager
             .Area = area.Naam
             .WerkFolder = String.Format("{0}\werkfolder\", m_fileSettings.DataFolder)
             .StartupWorkspace = String.Format("{0}\workspaces\{1}{2}.wor", m_fileSettings.DataFolder, .Area, m_geocodingSettings.Version)
-            .AreaBordersTable = String.Format("_{0}_a8", area.Naam)
+            .AreaBordersTable = String.Format("{0}_a8", area.Naam)
             .AreaBordersFile = String.Format("{0}\basiskaarten\{1}\{1}_a8.tab", m_fileSettings.DataFolder, .Area)
             .AreaIslpTable = My.Settings.AreaISLPTable
             .AreaIslpFile = String.Format("{0}{1}.TAB", .WerkFolder, .AreaIslpTable) ' File where s_areaIslpTable is stored
@@ -287,7 +287,8 @@ Public Class PGISConfigurationManager
     End Sub
 
     Private Function GetVersion() As String
-        Return String.Format("_{0}_{1}", ConfigDocument...<majorVersion>.Value, ConfigDocument...<minorVersion>.Value)
+        Return "" 'cancel version mention on data, in place of the following line
+        'Return String.Format("_{0}_{1}", ConfigDocument...<majorVersion>.Value, ConfigDocument...<minorVersion>.Value)
     End Function
 
 End Class

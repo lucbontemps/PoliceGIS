@@ -501,8 +501,11 @@ Public Class FormAnalysis
         Try
             Dim interessegebied = CType(AreasListBox.SelectedItem, InteresseGebied)
 
-            m_configManager.SetAreaSettings(interessegebied)
-            SetAggregationLevels(interessegebied.Level)
+            If interessegebied IsNot Nothing Then
+                m_configManager.SetAreaSettings(interessegebied)
+                SetAggregationLevels(interessegebied.Level)
+            End If
+
 
         Catch ex As Exception
             GenericExceptionHandlingForm.ShowException(ex)
